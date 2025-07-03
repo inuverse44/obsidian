@@ -1,7 +1,7 @@
 {
   "remoteURL": "git@github-inuverse44:inuverse44/obsidian.git",
   "gitLocation": "",
-  "syncinterval": 0,
+  "syncinterval": 60,
   "isSyncOnLoad": false,
   "checkStatusOnLoad": true
 }
