@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "運用ルール（考案中）.md",
+                "file": "コンテキストウィンドウを考えないとLLMの精度が落ちる話.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "運用ルール（考案中）"
+              "title": "コンテキストウィンドウを考えないとLLMの精度が落ちる話"
             }
           },
           {
@@ -200,8 +200,8 @@
             "state": {
               "type": "smart-connections-view",
               "state": {},
-              "icon": "smart-connections",
-              "title": "Smart Connections"
+              "icon": "lucide-file",
+              "title": "アクティブでなくなったプラグイン"
             }
           },
           {
@@ -210,8 +210,8 @@
             "state": {
               "type": "smart-connections-visualizer",
               "state": {},
-              "icon": "git-fork",
-              "title": "Smart connections visualizer"
+              "icon": "lucide-file",
+              "title": "アクティブでなくなったプラグイン"
             }
           }
         ],
@@ -242,19 +242,19 @@
   },
   "active": "60afce4b2d25111e",
   "lastOpenFiles": [
+    "10-inbox/連続な固有ベクトルの内積がデルタ関数になる.md",
+    "00-daily/2026-07-02.md",
     "00-daily/2025-07-03.md",
+    "運用ルール（考案中）.md",
     "コンテキストウィンドウを考えないとLLMの精度が落ちる話.md",
     "40-templates/daily.md",
     "40-templates/inbox.md",
     "10-inbox/K8sにおけるPostgreSQL接続エラーのトラブルシューティングプロセス.md",
-    "運用ルール（考案中）.md",
     "README.md",
     "Welcome.md",
     "無題のフォルダ",
     "test",
-    "00-daily/2026-07-02.md",
     "10-inbox/ランダムグラフに対する最小作用の原理.md",
-    "10-inbox/連続な固有ベクトルの内積がデルタ関数になる.md",
     "01-weekly/2025-W27 Weekly Review.md",
     "10-inbox/braket vectorについて.md",
     "30-projects/営業在庫MOC.md",

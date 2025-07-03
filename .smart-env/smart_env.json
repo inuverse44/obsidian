@@ -43,7 +43,9 @@
   },
   "smart_notices": {
     "muted": {
-      "embedding_complete": true
+      "embedding_complete": true,
+      "done_initial_scan": true,
+      "done_import": true
     }
   },
   "version": ""
