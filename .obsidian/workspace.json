@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "運用ルール（考案中）.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "運用ルール（考案中）"
+              "title": "README"
             }
           },
           {
@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "00-daily/2025-07-03.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "2025-07-03"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -283,16 +282,16 @@
       }
     ]
   },
-  "active": "e661eccd87f0153f",
+  "active": "c33b70dba0531db1",
   "lastOpenFiles": [
-    "無題のフォルダ",
-    "README.md",
-    "運用ルール（考案中）.md",
-    "test",
     "Welcome.md",
+    "運用ルール（考案中）.md",
+    "00-daily/2025-07-03.md",
+    "README.md",
+    "無題のフォルダ",
+    "test",
     "00-daily/2026-07-02.md",
     "10-inbox/ランダムグラフに対する最小作用の原理.md",
-    "00-daily/2025-07-03.md",
     "10-inbox/連続な固有ベクトルの内積がデルタ関数になる.md",
     "01-weekly/2025-W27 Weekly Review.md",
     "40-templates/inbox.md",
