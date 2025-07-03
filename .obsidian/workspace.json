@@ -36,20 +36,6 @@
             }
           },
           {
-            "id": "60afce4b2d25111e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "コンテキストウィンドウを考えないとLLMの精度が落ちる話.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "コンテキストウィンドウを考えないとLLMの精度が落ちる話"
-            }
-          },
-          {
             "id": "9a2662b0e8f0809f",
             "type": "leaf",
             "state": {
@@ -240,26 +226,28 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "60afce4b2d25111e",
+  "active": "9a2662b0e8f0809f",
   "lastOpenFiles": [
-    "10-inbox/連続な固有ベクトルの内積がデルタ関数になる.md",
+    "01-weekly/2025-W27 Weekly Review.md",
+    "20-permanent/Shiniseチームconfig.md",
+    "20-permanent/連続な固有ベクトルの内積がデルタ関数になる.md",
+    "10-inbox/コンテキストウィンドウを考えないとLLMの精度が落ちる話.md",
+    "10-inbox/ランダムグラフに対する最小作用の原理.md",
+    "運用ルール（考案中）.md",
+    "10-inbox/K8sにおけるPostgreSQL接続エラーのトラブルシューティングプロセス.md",
+    "40-templates/daily.md",
+    "README.md",
+    "無題のファイル.md",
+    "コンテキストウィンドウを考えないとLLMの精度が落ちる話.md",
     "00-daily/2026-07-02.md",
     "00-daily/2025-07-03.md",
-    "運用ルール（考案中）.md",
-    "コンテキストウィンドウを考えないとLLMの精度が落ちる話.md",
-    "40-templates/daily.md",
     "40-templates/inbox.md",
-    "10-inbox/K8sにおけるPostgreSQL接続エラーのトラブルシューティングプロセス.md",
-    "README.md",
     "Welcome.md",
     "無題のフォルダ",
     "test",
-    "10-inbox/ランダムグラフに対する最小作用の原理.md",
-    "01-weekly/2025-W27 Weekly Review.md",
     "10-inbox/braket vectorについて.md",
     "30-projects/営業在庫MOC.md",
     "30-projects/MOC.md",
-    "20-permanent/Shiniseチームconfig.md",
     "30-projects",
     "無題のファイル 1.md",
     "40-templates",
