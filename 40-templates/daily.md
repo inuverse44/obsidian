@@ -42,19 +42,19 @@ source:
 ---
 
 ## 📊 ウィジェット
-### Dataview
+### **Dataview**
 
-#### Daily
+#### *Daily*
 ```dataview
-TABLE date AS 日付, day_of_week AS 曜日, status AS ステータス, file.link AS リンク
+TABLE date AS 日付, day_of_week AS 曜日, status AS ステータス
 FROM "00-daily"
 WHERE template = "Daily" AND status = "pending"
 SORT date ASC
 ```
 
-#### Inbox
+#### *Inbox*
 ```dataview
-TABLE date AS 日付, day_of_week AS 曜日, status AS ステータス, file.link AS リンク
+TABLE date AS 日付, status AS ステータス
 FROM "10-inbox"
 WHERE status = "pending"
 SORT date ASC
