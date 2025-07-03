@@ -109,7 +109,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "testへのバックリンク"
+              "title": "バックリンク"
             }
           },
           {
@@ -157,13 +156,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "test.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "testのアウトライン"
+              "title": "アウトライン"
             }
           },
           {
@@ -247,13 +245,46 @@
         "height": 800,
         "maximize": false,
         "zoom": 0
+      },
+      {
+        "id": "4e22930e391a0e05",
+        "type": "window",
+        "children": [
+          {
+            "id": "e5653834db1912a2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5aebc86817c82467",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://github.com/kevinmkchin/Obsidian-GitHub-Sync/issues/2#issuecomment-2168384792",
+                    "title": "\"Vault is not a Git repo or git binary cannot be found.\" · Issue #2 · kevinmkchin/Obsidian-GitHub-Sync",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "\"Vault is not a Git repo or git binary cannot be found.\" · Issue #2 · kevinmkchin/Obsidian-GitHub-Sync"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 343,
+        "y": 100,
+        "width": 1024,
+        "height": 800,
+        "maximize": true,
+        "zoom": 0
       }
     ]
   },
-  "active": "e661eccd87f0153f",
+  "active": "5aebc86817c82467",
   "lastOpenFiles": [
-    "運用ルール（考案中）.md",
     "test.md",
+    "運用ルール（考案中）.md",
     "test",
     "Welcome.md",
     "00-daily/2026-07-02.md",
