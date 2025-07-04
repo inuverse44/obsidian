@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-daily/2026-07-02.md",
+                "file": "00-daily/2025-07-03.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-07-02"
+              "title": "2025-07-03"
             }
           }
         ]
@@ -220,11 +220,11 @@
   },
   "active": "7a37038614045631",
   "lastOpenFiles": [
-    "00-daily/2026-07-02.md",
+    "00-daily/2025-07-03.md",
     "00-daily/2025-07-04.md",
     "01-weekly/2025-W27 Weekly Review.md",
+    "00-daily/2026-07-02.md",
     "20-permanent/連続な固有ベクトルの内積がデルタ関数になる.md",
-    "00-daily/2025-07-03.md",
     "20-permanent/Shiniseチームconfig.md",
     "30-projects/量子力学MOC.md",
     "30-projects/MOC.md",
