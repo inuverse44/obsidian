@@ -6,8 +6,8 @@ source: ソースを入れてください
 tags:
   - Kubernates
   - トラブルシューティング
-status: pending
-priority: 低い
+status: archived
+priority: 低
 aliases:
   - k8s
 ---
