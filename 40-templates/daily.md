@@ -7,19 +7,11 @@ status: pending
 source:
 ---
 # 今日の予定 (Agenda)
-- [ ] 
+- 
 
 ---
 # 今日のタスク (Tasks)
 - [ ] 
-
----
-
-# 昨日の振り返り (Yesterday Review)
-## 達成したこと
-- 
-# 修正したいこと
-- 
 
 ---
 
