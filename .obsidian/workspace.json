@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10-inbox/生成消滅演算子とエネルギー準位.md",
+                "file": "10-inbox/インフレーションのクラス再考.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "生成消滅演算子とエネルギー準位"
+              "title": "インフレーションのクラス再考"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "運用ルール（考案中）.md",
+                "file": "10-inbox/インフレーションのクラス再考.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "運用ルール（考案中）へのバックリンク"
+              "title": "インフレーションのクラス再考へのバックリンク"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "10-inbox/インフレーションのクラス再考.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Welcomeからのアウトゴーイングリンク"
+              "title": "インフレーションのクラス再考からのアウトゴーイングリンク"
             }
           },
           {
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "運用ルール（考案中）.md",
+                "file": "10-inbox/インフレーションのクラス再考.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "運用ルール（考案中）のアウトライン"
+              "title": "インフレーションのクラス再考のアウトライン"
             }
           },
           {
@@ -187,12 +187,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 447.5,
-    "collapsed": true
+    "width": 220.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -215,18 +214,18 @@
   },
   "active": "f8287aced3eca5ce",
   "lastOpenFiles": [
-    "10-inbox/生成消滅演算子の導入.md",
-    "10-inbox/生成消滅演算子関連の公式集.md",
-    "40-templates/inbox.md",
-    "30-projects/MOC.md",
-    "10-inbox/コンテキストウィンドウを考えないとLLMの精度が落ちる話.md",
-    "README.md",
-    "10-inbox/インフレーションのクラス再考.md",
-    "10-inbox/生成消滅演算子とエネルギー準位.md",
-    "00-daily/2026-07-02.md",
     "10-inbox/ランダムグラフに対する最小作用の原理.md",
+    "10-inbox/コンテキストウィンドウを考えないとLLMの精度が落ちる話.md",
+    "10-inbox/生成消滅演算子関連の公式集.md",
+    "10-inbox/生成消滅演算子とエネルギー準位.md",
     "20-permanent/K8sにおけるPostgreSQL接続エラーのトラブルシューティングプロセス.md",
     "20-permanent/Shiniseチームconfig.md",
+    "20-permanent/生成消滅演算子の導入.md",
+    "10-inbox/インフレーションのクラス再考.md",
+    "40-templates/inbox.md",
+    "30-projects/MOC.md",
+    "README.md",
+    "00-daily/2026-07-02.md",
     "運用ルール（考案中）.md",
     "Welcome.md",
     "01-weekly/2025-W27 Weekly Review.md",
