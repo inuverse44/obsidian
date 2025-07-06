@@ -1,5 +1,5 @@
 ---
-template: Inbox
+template: permanent
 title: K8sにおけるPostgreSQL接続エラーのトラブルシューティングプロセス
 date: 2025-07-03
 source: ソースを入れてください

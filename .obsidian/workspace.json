@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "インフレーションのクラス再考"
             }
+          },
+          {
+            "id": "910f550899768fdf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "40-templates/idea-connection.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "idea-connection"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10-inbox/インフレーションのクラス再考.md",
+                "file": "40-templates/idea-connection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "インフレーションのクラス再考へのバックリンク"
+              "title": "idea-connectionへのバックリンク"
             }
           },
           {
@@ -128,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10-inbox/インフレーションのクラス再考.md",
+                "file": "40-templates/idea-connection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "インフレーションのクラス再考からのアウトゴーイングリンク"
+              "title": "idea-connectionからのアウトゴーイングリンク"
             }
           },
           {
@@ -157,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10-inbox/インフレーションのクラス再考.md",
+                "file": "40-templates/idea-connection.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "インフレーションのクラス再考のアウトライン"
+              "title": "idea-connectionのアウトライン"
             }
           },
           {
@@ -212,38 +226,40 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "f8287aced3eca5ce",
+  "active": "910f550899768fdf",
   "lastOpenFiles": [
+    "01-weekly/2025-W27 Weekly Review.md",
+    "00-daily/2025-07-03.md",
+    "30-projects/量子力学MOC.md",
+    "30-projects/MOC.md",
+    "20-permanent/生成消滅演算子の導入.md",
+    "20-permanent/連続な固有ベクトルの内積がデルタ関数になる.md",
+    "20-permanent/Shiniseチームconfig.md",
+    "20-permanent/K8sにおけるPostgreSQL接続エラーのトラブルシューティングプロセス.md",
+    "11-inbox-book/20世紀科学論文集　現代宇宙論の誕生.md",
+    "40-templates/reading.md",
+    "40-templates/idea-connection.md",
+    "10-inbox/インフレーションのクラス再考.md",
+    "無題のフォルダ",
+    "11-inbox-book",
+    "10-inbox/無題のファイル.md",
     "10-inbox/ランダムグラフに対する最小作用の原理.md",
     "10-inbox/コンテキストウィンドウを考えないとLLMの精度が落ちる話.md",
     "10-inbox/生成消滅演算子関連の公式集.md",
     "10-inbox/生成消滅演算子とエネルギー準位.md",
-    "20-permanent/K8sにおけるPostgreSQL接続エラーのトラブルシューティングプロセス.md",
-    "20-permanent/Shiniseチームconfig.md",
-    "20-permanent/生成消滅演算子の導入.md",
-    "10-inbox/インフレーションのクラス再考.md",
     "40-templates/inbox.md",
-    "30-projects/MOC.md",
     "README.md",
     "00-daily/2026-07-02.md",
     "運用ルール（考案中）.md",
     "Welcome.md",
-    "01-weekly/2025-W27 Weekly Review.md",
     "40-templates/daily.md",
     "50-resource/スクリーンショット 2025-07-04 16.20.25.png",
     "50-resource",
-    "20-permanent/連続な固有ベクトルの内積がデルタ関数になる.md",
-    "30-projects/量子力学MOC.md",
     "30-projects/営業在庫MOC.md",
     "30-projects/AI-MOC.md",
     "00-daily/2025-07-04.md",
-    "40-templates/idea-connection.md",
-    "コンテキストウィンドウを考えないとLLMの精度が落ちる話.md",
-    "00-daily/2025-07-03.md",
     "test",
-    "10-inbox/braket vectorについて.md",
     "30-projects",
-    "無題のファイル 1.md",
     "40-templates",
     "無題のファイル.canvas",
     "20-permanent",
