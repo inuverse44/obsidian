@@ -7,7 +7,7 @@ tags:
   - 天文学
   - アルベリオ
   - 天体物理学
-status: pending
+status: archived
 priority: 優先度
 aliases:
 ---
