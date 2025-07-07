@@ -1,11 +1,14 @@
 ---
 template: Inbox
-title: タイトルを入れてください
+title: Professional Cloud Architect問題解説
 date: 2025-07-07
 source: ソースを入れてください
-tags: 
+tags:
+  - GCP
+  - PCA
+  - Udemy
 status: pending
-priority: 優先度
+priority: 中
 aliases:
 ---
 
