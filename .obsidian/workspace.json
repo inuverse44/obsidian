@@ -4,39 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c4f6f7b30403584d",
+        "id": "876bdd34224acb52",
         "type": "tabs",
         "children": [
           {
-            "id": "1fd1c9a5e36978fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-daily/2025-07-03.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-07-03"
-            }
-          },
-          {
-            "id": "bcef6dcf9f24ee0d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GEMINI.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "GEMINI"
-            }
-          },
-          {
-            "id": "ea0e866dfe0752e3",
+            "id": "7678cc56ec0a61f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,21 +22,21 @@
             }
           },
           {
-            "id": "65ae5fb622369756",
+            "id": "8a08df06d2598a21",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "マイクロサービス負荷検証Geminiさんの見解.md",
+                "file": "無題のファイル.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "マイクロサービス負荷検証Geminiさんの見解"
+              "title": "無題のファイル"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,8 +55,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTime",
-                "autoReveal": false
+                "sortOrder": "alphabetical",
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "ファイルエクスプローラ"
@@ -137,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-daily/2025-07-04.md",
+                "file": "無題のファイル.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-07-04へのバックリンク"
+              "title": "無題のファイルへのバックリンク"
             }
           },
           {
@@ -156,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "無題のファイル.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Welcomeからのアウトゴーイングリンク"
+              "title": "無題のファイルからのアウトゴーイングリンク"
             }
           },
           {
@@ -185,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-daily/2025-07-04.md",
+                "file": "無題のファイル.md",
                 "followCursor": false,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-07-04のアウトライン"
+              "title": "無題のファイルのアウトライン"
             }
           },
           {
@@ -210,8 +182,8 @@
             "state": {
               "type": "smart-connections-visualizer",
               "state": {},
-              "icon": "git-fork",
-              "title": "Smart connections visualizer"
+              "icon": "lucide-file",
+              "title": "アクティブでなくなったプラグイン"
             }
           }
         ],
@@ -219,7 +191,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 447.5,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -237,47 +209,47 @@
       "smart-connections:Open: Smart Chat": false,
       "smart-connections:Open: View Smart Connections": false,
       "smart-connections-visualizer:Open smart connections visualizer": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "terminal:Open terminal": false
     }
   },
-  "active": "65ae5fb622369756",
+  "active": "8a08df06d2598a21",
   "lastOpenFiles": [
     "10-inbox/Professional Cloud Architect問題解説.md",
-    "マイクロサービス負荷検証Geminiさんの見解.md",
+    "無題のファイル.md",
     "10-inbox/Dockerのベストプラクティス翻訳.md",
     "00-daily/2025-07-07.md",
-    "無題のフォルダ",
-    "50-resource/スクリーンショット 2025-07-07 15.02.56.png",
-    "10-inbox/ランダムグラフに対する最小作用の原理.md",
-    "10-inbox/アルビレオAの視線速度変化から探る新たな伴星.md",
-    "10-inbox/連星アルビレオについて科学館で聞いた話.md",
     "GEMINI.md",
-    "運用ルール.md",
-    "README.md",
-    "20-permanent/Shiniseチームconfig.md",
-    "20-permanent/K8sにおけるPostgreSQL接続エラーのトラブルシューティングプロセス.md",
-    "00-daily/2026-07-02.md",
     "10-inbox/インフレーションのクラス再考.md",
-    "10-inbox/生成消滅演算子関連の公式集.md",
-    "10-inbox/生成消滅演算子とエネルギー準位.md",
-    "Welcome.md",
+    "連星アルビレオについて科学館で聞いた話.md",
+    "アルビレオAの視線速度変化から探る新たな伴星.md",
+    "運用ルール.md",
+    "マイクロサービス負荷検証Geminiさんの見解.md",
+    "50-resource/スクリーンショット 2025-07-07 15.02.56.png",
+    "10-inbox/連星アルビレオについて科学館で聞いた話.md",
+    "10-inbox/アルビレオAの視線速度変化から探る新たな伴星.md",
+    "10-inbox/ランダムグラフに対する最小作用の原理.md",
+    "30-projects/MOC.md",
     "00-daily/2025-07-04.md",
+    "10-inbox/コンテキストウィンドウを考えないとLLMの精度が落ちる話.md",
     "00-daily/2025-07-03.md",
-    "2025-07-07.md",
-    "11-inbox-book/20世紀科学論文集　現代宇宙論の誕生.md",
+    "10-inbox/生成消滅演算子とエネルギー準位.md",
+    "10-inbox/生成消滅演算子関連の公式集.md",
+    "40-templates/inbox.md",
+    "無題のファイル.canvas",
+    "20-permanent/連続な固有ベクトルの内積がデルタ関数になる.md",
+    "20-permanent/生成消滅演算子の導入.md",
+    "40-templates/idea-connection.md",
     "01-weekly/2025-W27 Weekly Review.md",
+    "30-projects/量子力学MOC.md",
+    "20-permanent/Shiniseチームconfig.md",
+    "無題のフォルダ",
+    "11-inbox-book",
     "50-resource/スクリーンショット 2025-07-04 16.20.25.png",
     "50-resource",
-    "40-templates/reading.md",
-    "スクリーンショット 2025-07-04 16.20.25.png",
-    "40-templates/idea-connection.md",
-    "20-permanent/生成消滅演算子の導入.md",
-    "11-inbox-book",
-    "20-permanent/連続な固有ベクトルの内積がデルタ関数になる.md",
     "test",
     "30-projects",
     "40-templates",
-    "無題のファイル.canvas",
     "20-permanent",
     "10-inbox",
     "01-weekly",
