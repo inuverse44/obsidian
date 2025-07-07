@@ -1,13 +1,13 @@
 ---
-template: Inbox
+template: permanent
 title: K8sにおけるPostgreSQL接続エラーのトラブルシューティングプロセス
 date: 2025-07-03
 source: ソースを入れてください
 tags:
   - Kubernates
   - トラブルシューティング
-status: pending
-priority: 低い
+status: archived
+priority: 低
 aliases:
   - k8s
 ---
@@ -208,3 +208,4 @@ api_pod -- "接続先: host.docker.internal:35432" --> HostPC
 これにより、`api-cluster`のPodから`db-cluster`のPostgreSQLへ、Host PCを経由して通信が確立されています。
 
 ## 🔗 関連
+- [[Shiniseチームconfig]]
