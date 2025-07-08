@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10-inbox/待ち行列理論で解き明かすGKEオートスケールの最適解.md",
+                "file": "10-inbox/待ち行列理論によるGKEオートスケールの最適化.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "待ち行列理論で解き明かすGKEオートスケールの最適解"
+              "title": "待ち行列理論によるGKEオートスケールの最適化"
             }
           }
         ],
@@ -165,9 +165,21 @@
               "icon": "globe-2",
               "title": "Google Kubernetes Engine（GKE） | Google Cloud"
             }
+          },
+          {
+            "id": "549de85f7109d98f",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://ja.wikipedia.org/wiki/%E7%A2%BA%E7%8E%87%E9%81%8E%E7%A8%8B"
+              },
+              "icon": "lucide-file",
+              "title": "確率過程 - Wikipedia"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -289,13 +301,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10-inbox/待ち行列理論で解き明かすGKEオートスケールの最適解.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "待ち行列理論で解き明かすGKEオートスケールの最適解のアウトライン"
+              "title": "アウトライン"
             }
           },
           {
@@ -344,9 +355,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d2d21053358e2213",
+  "active": "549de85f7109d98f",
   "lastOpenFiles": [
-    "10-inbox/待ち行列理論で解き明かすGKEオートスケールの最適解.md",
+    "10-inbox/待ち行列理論によるGKEオートスケールの最適化.md",
     "10-inbox/CPA関連の記事をZennへ3件.md",
     "10-inbox/GKEオートスケールのための待ち行列理論入門.md",
     "10-inbox/営業在庫負荷検証プロンプト.md",
