@@ -35,7 +35,8 @@
               "title": "2025-07-08"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "7b4a45a456f077bb",
@@ -273,10 +274,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0de4fe6f2a8dd677",
+  "active": "d7f64d337128d1e9",
   "lastOpenFiles": [
-    "00-daily/2025-07-08.md",
     "10-inbox/デルタ関数のフーリエ変換.md",
+    "00-daily/2025-07-08.md",
     "10-inbox/Fokker-Planck方程式をPINNの方法で解析的に.md",
     "10-inbox/Ornstein-Uhlenbeck過程とそのFokker-Planck方程式による解法まとめ.md",
     "40-templates/inbox.md",
