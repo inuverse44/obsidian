@@ -55,16 +55,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPA関連の記事をZennへ3件.md",
+                "file": "10-inbox/CPA関連の記事をZennへ3件.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "CPA関連の記事をZennへ3件"
             }
+          },
+          {
+            "id": "f97b2df93c11e9fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "待ち行列理論で解き明かすGKEオートスケールの最適解.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "待ち行列理論で解き明かすGKEオートスケールの最適解"
+            }
+          },
+          {
+            "id": "d2d21053358e2213",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "待ち行列理論で解き明かすGKEオートスケールの最適解.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "待ち行列理論で解き明かすGKEオートスケールの最適解"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       },
       {
         "id": "7b4a45a456f077bb",
@@ -125,9 +153,35 @@
               "icon": "lucide-file",
               "title": "Google Gemini"
             }
+          },
+          {
+            "id": "25eb05fd28bb32f8",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://ja.wikipedia.org/wiki/M/M/1_%E5%BE%85%E3%81%A1%E8%A1%8C%E5%88%97#cite_note-2"
+              },
+              "icon": "lucide-file",
+              "title": "M/M/1 待ち行列 - Wikipedia"
+            }
+          },
+          {
+            "id": "289303f69c99ed04",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://ja.wikipedia.org/wiki/M/M/1_%E5%BE%85%E3%81%A1%E8%A1%8C%E5%88%97#cite_note-2",
+                "title": "M/M/1 待ち行列 - Wikipedia",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "M/M/1 待ち行列 - Wikipedia"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -248,12 +302,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "待ち行列理論で解き明かすGKEオートスケールの最適解.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "アウトライン"
+              "title": "待ち行列理論で解き明かすGKEオートスケールの最適解のアウトライン"
             }
           },
           {
@@ -301,9 +356,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c14868a4da38565e",
+  "active": "d2d21053358e2213",
   "lastOpenFiles": [
-    "CPA関連の記事をZennへ3件.md",
+    "20-permanent/TRIAL Company　レガシーなIP構成を維持しつつ、Google Cloudでシステムをモダナイズ.md",
+    "待ち行列理論で解き明かすGKEオートスケールの最適解.md",
+    "10-inbox/CPA関連の記事をZennへ3件.md",
     "10-inbox/営業在庫負荷検証プロンプト.md",
     "00-daily/2025-07-08.md",
     "10-inbox/デルタ関数のフーリエ変換.md",
@@ -329,8 +386,6 @@
     "20-permanent/インフレーションのクラス再考.md",
     "20-permanent/アルビレオAの視線速度変化から探る新たな伴星.md",
     "50-resource/スクリーンショット 2025-07-07 15.02.56.png",
-    "10-inbox/ランダムグラフに対する最小作用の原理.md",
-    "10-inbox/アルビレオAの視線速度変化から探る新たな伴星.md",
     "50-resource/スクリーンショット 2025-07-04 16.20.25.png",
     "50-resource",
     "スクリーンショット 2025-07-04 16.20.25.png",
