@@ -105,7 +105,7 @@
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "https://gemini.google.com/app?hl=ja"
+                "url": "https://gemini.google.com/app/0d85c92de32b8701?hl=ja"
               },
               "pinned": true,
               "icon": "lucide-file",
