@@ -6,12 +6,11 @@ tags:
 status: pending
 source:
 ---
-# 今日の予定 (Agenda)
-- 
-
+# 今週の予定
 ---
 # 今日のタスク (Tasks)
-- [ ] 
+- [ ] PR
+- [ ] Postmanによる確認
 
 ---
 
