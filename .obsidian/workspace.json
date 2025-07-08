@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10-inbox/営業在庫負荷検証プロンプト.md",
+                "file": "00-daily/2025-07-08.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "営業在庫負荷検証プロンプト"
+              "title": "2025-07-08"
             }
           }
         ],
@@ -289,12 +289,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3fdc1102879eab0f",
+  "active": "3629ed1d8bdea528",
   "lastOpenFiles": [
     "10-inbox/営業在庫負荷検証プロンプト.md",
+    "10-inbox/デルタ関数のフーリエ変換.md",
     "00-daily/2025-07-08.md",
     "無題のフォルダ",
-    "10-inbox/デルタ関数のフーリエ変換.md",
     "10-inbox/Fokker-Planck方程式をPINNの方法で解析的に.md",
     "10-inbox/Ornstein-Uhlenbeck過程とそのFokker-Planck方程式による解法まとめ.md",
     "40-templates/inbox.md",
