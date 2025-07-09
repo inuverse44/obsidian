@@ -49,8 +49,7 @@
               "title": "2025-07-09"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "7b4a45a456f077bb",
@@ -111,7 +110,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -233,13 +232,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10-inbox/GKEオートスケールのための待ち行列理論入門.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "GKEオートスケールのための待ち行列理論入門のアウトライン"
+              "title": "アウトライン"
             }
           },
           {
@@ -288,11 +286,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d7f64d337128d1e9",
+  "active": "c047f35d4c1015e2",
   "lastOpenFiles": [
-    "00-daily/2025-07-09.md",
     "10-inbox/Zenn 待ち行列理論で見るGKEのポッド数最適化.md",
     "10-inbox/GKEオートスケールのための待ち行列理論入門.md",
+    "00-daily/2025-07-09.md",
     "00-daily/2025-07-08.md",
     "exponential_overlay.jpeg",
     "poisson_overlay.jpeg",
