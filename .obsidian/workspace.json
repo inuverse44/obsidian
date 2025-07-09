@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10-inbox/Zenn 待ち行列理論によるGKEオートスケールの最適化.md",
+                "file": "10-inbox/Zenn 待ち行列理論で見るGKEのポッド数最適化.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Zenn 待ち行列理論によるGKEオートスケールの最適化"
+              "title": "Zenn 待ち行列理論で見るGKEのポッド数最適化"
             }
           },
           {
@@ -110,7 +110,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -232,12 +232,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "10-inbox/Zenn 待ち行列理論で見るGKEのポッド数最適化.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "アウトライン"
+              "title": "Zenn 待ち行列理論で見るGKEのポッド数最適化のアウトライン"
             }
           },
           {
@@ -286,12 +287,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c047f35d4c1015e2",
+  "active": "0de4fe6f2a8dd677",
   "lastOpenFiles": [
-    "10-inbox/Zenn 待ち行列理論によるGKEオートスケールの最適化.md",
+    "10-inbox/GKEオートスケールのための待ち行列理論入門.md",
+    "10-inbox/Zenn 待ち行列理論で見るGKEのポッド数最適化.md",
     "00-daily/2025-07-08.md",
     "00-daily/2025-07-09.md",
-    "10-inbox/GKEオートスケールのための待ち行列理論入門.md",
     "exponential_overlay.jpeg",
     "poisson_overlay.jpeg",
     "10-inbox/デルタ関数のフーリエ変換.md",
