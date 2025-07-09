@@ -41,16 +41,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10-inbox/Zenn 待ち行列理論によるGKEオートスケールの最適化.md",
+                "file": "00-daily/2025-07-08.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Zenn 待ち行列理論によるGKEオートスケールの最適化"
+              "title": "2025-07-08"
+            }
+          },
+          {
+            "id": "99219bfb432e783d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-daily/2025-07-09.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-07-09"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "7b4a45a456f077bb",
@@ -111,7 +125,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -233,12 +247,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "00-daily/2025-07-09.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "アウトライン"
+              "title": "2025-07-09のアウトライン"
             }
           },
           {
@@ -287,11 +302,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c047f35d4c1015e2",
+  "active": "99219bfb432e783d",
   "lastOpenFiles": [
+    "00-daily/2025-07-08.md",
+    "00-daily/2025-07-09.md",
+    "40-templates/daily.md",
+    "40-templates/inbox.md",
     "10-inbox/Zenn 待ち行列理論によるGKEオートスケールの最適化.md",
-    "10-inbox/GKEオートスケールのための待ち行列理論入門.md",
     "10-inbox/営業在庫負荷検証プロンプト.md",
+    "10-inbox/GKEオートスケールのための待ち行列理論入門.md",
     "10-inbox/CPA関連の記事をZennへ3件.md",
     "10-inbox/デルタ関数のフーリエ変換.md",
     "10-inbox/生成消滅演算子関連の公式集.md",
@@ -305,17 +324,13 @@
     "10-inbox/Dockerのベストプラクティス翻訳.md",
     "10-inbox/待ち行列理論によるGKEサイジング実践ガイド.md",
     "20-permanent/TRIAL Company　レガシーなIP構成を維持しつつ、Google Cloudでシステムをモダナイズ.md",
-    "00-daily/2025-07-08.md",
     "10-inbox/Ornstein-Uhlenbeck過程とそのFokker-Planck方程式による解法まとめ.md",
     "無題のフォルダ",
-    "40-templates/inbox.md",
     "01-weekly/2025-W28 Weekly Review.md",
     "00-daily/2025-07-03.md",
     "20-permanent/Shiniseチームconfig.md",
     "GEMINI.md",
-    "40-templates/daily.md",
     "00-daily/2026-07-02.md",
-    "00-daily/2025-07-04.md",
     "50-resource/スクリーンショット 2025-07-07 15.02.56.png",
     "50-resource/スクリーンショット 2025-07-04 16.20.25.png",
     "50-resource",
