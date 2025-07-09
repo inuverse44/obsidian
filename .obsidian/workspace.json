@@ -49,7 +49,8 @@
               "title": "2025-07-09"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "7b4a45a456f077bb",
@@ -232,13 +233,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10-inbox/Zenn 待ち行列理論で見るGKEのポッド数最適化.md",
+                "file": "00-daily/2025-07-09.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Zenn 待ち行列理論で見るGKEのポッド数最適化のアウトライン"
+              "title": "2025-07-09のアウトライン"
             }
           },
           {
@@ -287,10 +288,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0de4fe6f2a8dd677",
+  "active": "99219bfb432e783d",
   "lastOpenFiles": [
-    "10-inbox/GKEオートスケールのための待ち行列理論入門.md",
     "10-inbox/Zenn 待ち行列理論で見るGKEのポッド数最適化.md",
+    "10-inbox/GKEオートスケールのための待ち行列理論入門.md",
     "00-daily/2025-07-08.md",
     "00-daily/2025-07-09.md",
     "exponential_overlay.jpeg",
