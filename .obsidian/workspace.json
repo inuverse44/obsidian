@@ -22,20 +22,6 @@
             }
           },
           {
-            "id": "d7f64d337128d1e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10-inbox/GKEオートスケールのための待ち行列理論入門.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "GKEオートスケールのための待ち行列理論入門"
-            }
-          },
-          {
             "id": "3629ed1d8bdea528",
             "type": "leaf",
             "state": {
@@ -55,16 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10-inbox/待ち行列理論によるGKEオートスケールの最適化.md",
+                "file": "10-inbox/Zenn 待ち行列理論によるGKEオートスケールの最適化.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "待ち行列理論によるGKEオートスケールの最適化"
+              "title": "Zenn 待ち行列理論によるGKEオートスケールの最適化"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "7b4a45a456f077bb",
@@ -85,35 +71,7 @@
             }
           },
           {
-            "id": "9eb13794d4483777",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://retailai.atlassian.net/jira/software/projects/BSW/boards/225/timeline?assignee=712020%3A79744d2e-9f04-40aa-9545-1d525b3105df"
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "業務基盤プロジェクト（ソフトウェア） - タイムライン - Jira"
-            }
-          },
-          {
-            "id": "837682d9e108160e",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://chatgpt.com/?hints=moonshine"
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "ChatGPT"
-            }
-          },
-          {
-            "id": "c14868a4da38565e",
+            "id": "c047f35d4c1015e2",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -127,59 +85,33 @@
             }
           },
           {
-            "id": "25eb05fd28bb32f8",
+            "id": "d7f64d337128d1e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10-inbox/GKEオートスケールのための待ち行列理論入門.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GKEオートスケールのための待ち行列理論入門"
+            }
+          },
+          {
+            "id": "455f0f2f50891bcd",
             "type": "leaf",
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "https://ja.wikipedia.org/wiki/M/M/1_%E5%BE%85%E3%81%A1%E8%A1%8C%E5%88%97#cite_note-2"
+                "url": "https://platform.twitter.com/embed/Tweet.html?dnt=false&embedId=twitter-widget-0&features=eyJ0ZndfdGltZWxpbmVfbGlzdCI6eyJidWNrZXQiOltdLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2ZvbGxvd2VyX2NvdW50X3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9iYWNrZW5kIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19yZWZzcmNfc2Vzc2lvbiI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfZm9zbnJfc29mdF9pbnRlcnZlbnRpb25zX2VuYWJsZWQiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X21peGVkX21lZGlhXzE1ODk3Ijp7ImJ1Y2tldCI6InRyZWF0bWVudCIsInZlcnNpb24iOm51bGx9LCJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3Nob3dfYmlyZHdhdGNoX3Bpdm90c19lbmFibGVkIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19kdXBsaWNhdGVfc2NyaWJlc190b19zZXR0aW5ncyI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdXNlX3Byb2ZpbGVfaW1hZ2Vfc2hhcGVfZW5hYmxlZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdmlkZW9faGxzX2R5bmFtaWNfbWFuaWZlc3RzXzE1MDgyIjp7ImJ1Y2tldCI6InRydWVfYml0cmF0ZSIsInZlcnNpb24iOm51bGx9LCJ0ZndfbGVnYWN5X3RpbWVsaW5lX3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9mcm9udGVuZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9fQ%3D%3D&frame=false&hideCard=false&hideThread=false&id=1667875088933474306&lang=ja&origin=https%3A%2F%2Fmanabitimes.jp%2Fmath%2F1006&sessionId=ca9831eddd88fa0349ca123897891471dfd4d536&theme=light&widgetsVersion=2615f7e52b7e0%3A1702314776716&width=550px"
               },
               "icon": "lucide-file",
-              "title": "M/M/1 待ち行列 - Wikipedia"
-            }
-          },
-          {
-            "id": "289303f69c99ed04",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://en.wikipedia.org/wiki/Queueing_theory",
-                "title": "Queueing theory - Wikipedia",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Queueing theory - Wikipedia"
-            }
-          },
-          {
-            "id": "b475070b24e05040",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://cloud.google.com/kubernetes-engine",
-                "title": "Google Kubernetes Engine（GKE） | Google Cloud",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Google Kubernetes Engine（GKE） | Google Cloud"
-            }
-          },
-          {
-            "id": "549de85f7109d98f",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://ja.wikipedia.org/wiki/%E7%A2%BA%E7%8E%87%E9%81%8E%E7%A8%8B"
-              },
-              "icon": "lucide-file",
-              "title": "確率過程 - Wikipedia"
+              "title": "指数分布の意味と具体例 | 高校数学の美しい物語"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -355,12 +287,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "549de85f7109d98f",
+  "active": "c047f35d4c1015e2",
   "lastOpenFiles": [
-    "10-inbox/待ち行列理論によるGKEオートスケールの最適化.md",
-    "10-inbox/CPA関連の記事をZennへ3件.md",
+    "10-inbox/Zenn 待ち行列理論によるGKEオートスケールの最適化.md",
     "10-inbox/GKEオートスケールのための待ち行列理論入門.md",
     "10-inbox/営業在庫負荷検証プロンプト.md",
+    "10-inbox/CPA関連の記事をZennへ3件.md",
     "10-inbox/デルタ関数のフーリエ変換.md",
     "10-inbox/生成消滅演算子関連の公式集.md",
     "10-inbox/Fokker-Planck方程式をPINNの方法で解析的に.md",
