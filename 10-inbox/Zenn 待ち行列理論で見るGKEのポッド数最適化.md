@@ -1,6 +1,6 @@
 ---
 template: Inbox
-title: 待ち行列理論によるGKEオートスケールの最適化
+title: Zenn 待ち行列理論で見るGKEのポッド数最適化
 date: 2025-07-08
 source: ソースを入れてください
 tags:
@@ -9,6 +9,7 @@ tags:
   - 待ち行列
   - キュー
   - Zenn
+  - Google
 status: pending
 priority: 最高
 aliases:

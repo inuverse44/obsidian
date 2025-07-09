@@ -62,11 +62,11 @@
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "https://contacts.google.com/widget/hovercard/v/2?hl=ja&origin=https%3A%2F%2Fcalendar.google.com&usegapi=1&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.gapi.en.EYOBbsN3I2A.O%2Fd%3D1%2Frs%3DAHpOoo_iiC5gORPbsAUenRY5t2mRSbS18A%2Fm%3D__features__#id=I__HC_94253229&_gfid=I__HC_94253229&parent=https%3A%2F%2Fcalendar.google.com&pfname=&rpctoken=39491141"
+                "url": "https://calendar.google.com/calendar/u/0/r/day"
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "株式会社トライアルカンパニー - カレンダー - 2025年 7月 9日 (水曜日)、今日"
+              "title": "株式会社トライアルカンパニー - カレンダー - 2025年 7月 10日 (木曜日)、今日"
             }
           },
           {
@@ -84,6 +84,20 @@
             }
           },
           {
+            "id": "7784e3e1634e2aaa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zenn GCPのVPCについて.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Zenn GCPのVPCについて"
+            }
+          },
+          {
             "id": "d7f64d337128d1e9",
             "type": "leaf",
             "state": {
@@ -98,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -155,8 +169,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "4fe5bf4a1136af91",
@@ -220,12 +233,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Zenn GCPのVPCについて.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "アウトライン"
+              "title": "Zenn GCPのVPCについてのアウトライン"
             }
           },
           {
@@ -274,10 +288,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c047f35d4c1015e2",
+  "active": "7784e3e1634e2aaa",
   "lastOpenFiles": [
-    "10-inbox/GKEオートスケールのための待ち行列理論入門.md",
     "10-inbox/Zenn 待ち行列理論で見るGKEのポッド数最適化.md",
+    "Zenn GCPのVPCについて.md",
+    "10-inbox/GKEオートスケールのための待ち行列理論入門.md",
     "00-daily/2025-07-09.md",
     "00-daily/2025-07-08.md",
     "exponential_overlay.jpeg",
