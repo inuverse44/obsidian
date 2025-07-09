@@ -62,7 +62,7 @@
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "https://calendar.google.com/calendar/u/0/r/day"
+                "url": "https://contacts.google.com/widget/hovercard/v/2?hl=ja&origin=https%3A%2F%2Fcalendar.google.com&usegapi=1&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.gapi.en.EYOBbsN3I2A.O%2Fd%3D1%2Frs%3DAHpOoo_iiC5gORPbsAUenRY5t2mRSbS18A%2Fm%3D__features__#id=I__HC_94253229&_gfid=I__HC_94253229&parent=https%3A%2F%2Fcalendar.google.com&pfname=&rpctoken=39491141"
               },
               "pinned": true,
               "icon": "lucide-file",
@@ -110,7 +110,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -232,13 +232,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10-inbox/Zenn 待ち行列理論によるGKEオートスケールの最適化.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Zenn 待ち行列理論によるGKEオートスケールの最適化のアウトライン"
+              "title": "アウトライン"
             }
           },
           {
@@ -287,16 +286,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0de4fe6f2a8dd677",
+  "active": "c047f35d4c1015e2",
   "lastOpenFiles": [
-    "exponential_overlay.jpeg",
-    "poisson_overlay.jpeg",
-    "10-inbox/GKEオートスケールのための待ち行列理論入門.md",
     "10-inbox/Zenn 待ち行列理論によるGKEオートスケールの最適化.md",
-    "10-inbox/デルタ関数のフーリエ変換.md",
-    "10-inbox/営業在庫負荷検証プロンプト.md",
     "00-daily/2025-07-08.md",
     "00-daily/2025-07-09.md",
+    "10-inbox/GKEオートスケールのための待ち行列理論入門.md",
+    "exponential_overlay.jpeg",
+    "poisson_overlay.jpeg",
+    "10-inbox/デルタ関数のフーリエ変換.md",
+    "10-inbox/営業在庫負荷検証プロンプト.md",
     "40-templates/daily.md",
     "40-templates/inbox.md",
     "10-inbox/CPA関連の記事をZennへ3件.md",
