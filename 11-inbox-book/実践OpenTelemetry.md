@@ -47,6 +47,18 @@ p95
 
 
 
+
+p103
+>親スパンと子スパンの関係は因果関係と依存関係であるべきです。親スパンで記述した操作が子スパンで記述した操作を引き起こし、親スパンはその結果にある程度依存します。
+
+つまりシーケンス図的には
+```mermaid
+sequenceDiagram 
+Parent->>Child: invoke
+Child->>Child: run task 
+Child->>Parent: return
+```
+の関係は満たしていて欲しい。
 # 感想・考察
 - 
 
