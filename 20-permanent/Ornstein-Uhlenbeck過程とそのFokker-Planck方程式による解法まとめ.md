@@ -6,7 +6,7 @@ source: ソースを入れてください
 tags:
   - Fokker-Planck
   - 確率微分方程式
-status: pending
+status: archived
 priority: 優先度
 aliases:
   - 金融工学
