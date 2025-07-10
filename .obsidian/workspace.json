@@ -37,17 +37,31 @@
             }
           },
           {
-            "id": "ca23da2296989421",
+            "id": "f7eb9c72ae79ba33",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11-inbox-book/実践OpenTelemetry.md",
+                "file": "10-inbox/Zenn 待ち行列理論で見るGKEのポッド数最適化.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "実践OpenTelemetry"
+              "title": "Zenn 待ち行列理論で見るGKEのポッド数最適化"
+            }
+          },
+          {
+            "id": "ea261145978f8d86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10-inbox/Zenn GCPのVPCについて.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Zenn GCPのVPCについて"
             }
           }
         ],
@@ -79,7 +93,7 @@
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "https://gemini.google.com/app/7131226913c1d285?hl=ja"
+                "url": "https://gemini.google.com/app/3a1244305c4479fe?hl=ja"
               },
               "pinned": true,
               "icon": "lucide-file",
@@ -123,18 +137,6 @@
             }
           },
           {
-            "id": "4251357d68164f9a",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://docs.gradle.org/current/userguide/version_catalogs.html#sec:accessing-catalog"
-              },
-              "icon": "lucide-file",
-              "title": "Version Catalogs"
-            }
-          },
-          {
             "id": "fbb1175d53e8994f",
             "type": "leaf",
             "state": {
@@ -144,18 +146,6 @@
               },
               "icon": "lucide-file",
               "title": "General Relativity and Quantum Cosmology"
-            }
-          },
-          {
-            "id": "52ce05b0639e51fe",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://duckduckgo.com/?q=VPC&ia=web"
-              },
-              "icon": "lucide-file",
-              "title": "VPC at DuckDuckGo"
             }
           },
           {
@@ -171,7 +161,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -346,12 +336,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e3a9256fbdc82bd2",
+  "active": "c047f35d4c1015e2",
   "lastOpenFiles": [
+    "10-inbox/Zenn 待ち行列理論で見るGKEのポッド数最適化.md",
+    "10-inbox/Zenn GCPのVPCについて.md",
     "11-inbox-book/実践OpenTelemetry.md",
     "11-inbox-book/20世紀科学論文集　現代宇宙論の誕生.md",
     "10-inbox/ランダムグラフに対する最小作用の原理.md",
-    "Zenn GCPのVPCについて.md",
     "20-permanent/Shiniseチームconfig.md",
     "00-daily/2025-07-10.md",
     "10-inbox/Gradleのバージョン管理方法ベストプラクティス.md",
@@ -360,7 +351,6 @@
     "10-inbox/コンテキストウィンドウを考えないとLLMの精度が落ちる話.md",
     "10-inbox/待ち行列理論によるGKEサイジング実践ガイド.md",
     "exponential_overlay.jpeg",
-    "10-inbox/Zenn 待ち行列理論で見るGKEのポッド数最適化.md",
     "10-inbox/デルタ関数のフーリエ変換.md",
     "10-inbox/営業在庫負荷検証プロンプト.md",
     "10-inbox/CPA関連の記事をZennへ3件.md",
