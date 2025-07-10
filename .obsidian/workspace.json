@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10-inbox/Gradleのバージョン管理方法ベストプラクティス.md",
+                "file": "Zenn GCPのVPCについて.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gradleのバージョン管理方法ベストプラクティス"
+              "title": "Zenn GCPのVPCについて"
             }
           }
         ],
@@ -133,9 +133,33 @@
               "icon": "lucide-file",
               "title": "Version Catalogs"
             }
+          },
+          {
+            "id": "fbb1175d53e8994f",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://arxiv.org/list/gr-qc/new"
+              },
+              "icon": "lucide-file",
+              "title": "General Relativity and Quantum Cosmology"
+            }
+          },
+          {
+            "id": "52ce05b0639e51fe",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://duckduckgo.com/?q=VPC&ia=web"
+              },
+              "icon": "lucide-file",
+              "title": "VPC at DuckDuckGo"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -167,7 +191,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#待ち行列  ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -310,14 +334,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4251357d68164f9a",
+  "active": "52ce05b0639e51fe",
   "lastOpenFiles": [
-    "10-inbox/Gradleのバージョン管理方法ベストプラクティス.md",
+    "Zenn GCPのVPCについて.md",
+    "20-permanent/Shiniseチームconfig.md",
     "00-daily/2025-07-10.md",
+    "10-inbox/Gradleのバージョン管理方法ベストプラクティス.md",
     "11-inbox-book/実践OpenTelemetry.md",
     "00-daily/2025-07-09.md",
     "00-daily/2025-07-08.md",
-    "Zenn GCPのVPCについて.md",
     "11-inbox-book/20世紀科学論文集　現代宇宙論の誕生.md",
     "10-inbox/コンテキストウィンドウを考えないとLLMの精度が落ちる話.md",
     "10-inbox/待ち行列理論によるGKEサイジング実践ガイド.md",
@@ -339,7 +364,6 @@
     "10-inbox/Professional Cloud Architect問題解説.md",
     "10-inbox/Dockerのベストプラクティス翻訳.md",
     "20-permanent/TRIAL Company　レガシーなIP構成を維持しつつ、Google Cloudでシステムをモダナイズ.md",
-    "10-inbox/Ornstein-Uhlenbeck過程とそのFokker-Planck方程式による解法まとめ.md",
     "無題のフォルダ",
     "50-resource/スクリーンショット 2025-07-07 15.02.56.png",
     "50-resource/スクリーンショット 2025-07-04 16.20.25.png",
