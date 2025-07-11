@@ -53,21 +53,8 @@
               "icon": "lucide-file",
               "title": "Cloud Trace API  |  Google Cloud"
             }
-          },
-          {
-            "id": "4e18a842992445d6",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://myaccount.google.com/?utm_source=sign_in_no_continue"
-              },
-              "icon": "lucide-file",
-              "title": "Google アカウント"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -242,9 +229,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4e18a842992445d6",
+  "active": "ddcb608b297f9d13",
   "lastOpenFiles": [
     "01-weekly/2025-W28 Weekly Review.md",
+    "Pasted image 20250711162954.png",
     "20-permanent/アルビレオAの視線速度変化から探る新たな伴星.md",
     "Pasted image 20250711152459.png",
     "Pasted image 20250711151923.png",
@@ -273,7 +261,6 @@
     "10-inbox/営業在庫負荷検証プロンプト.md",
     "20-permanent/生成消滅演算子とエネルギー準位.md",
     "10-inbox/CPA関連の記事をZennへ3件.md",
-    "10-inbox/GKEオートスケールのための待ち行列理論入門.md",
     "exponential_overlay.jpeg",
     "poisson_overlay.jpeg",
     "無題のフォルダ",
