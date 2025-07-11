@@ -6,7 +6,7 @@
       {
         "id": "af51bd412af29b47",
         "type": "tabs",
-        "dimension": 44.957983193277315,
+        "dimension": 49.57983193277311,
         "children": [
           {
             "id": "17aeb4e9acdcd631",
@@ -39,30 +39,18 @@
       {
         "id": "add68039d89b227d",
         "type": "tabs",
-        "dimension": 55.04201680672269,
+        "dimension": 50.42016806722689,
         "children": [
           {
-            "id": "9eb8cce23409c0db",
+            "id": "7adfc3b3172b2067",
             "type": "leaf",
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "https://console.cloud.google.com/networking/networks/details/my-vpc?project=inuverse-test-vpc&hl=ja&inv=1&invt=Ab2dRw&supportedpurview=project,folder&pageTab=SUBNETS"
+                "url": "https://cloud.google.com/vpc/docs/vpc?hl=ja"
               },
               "icon": "lucide-file",
-              "title": "my-vpc – VPC ネットワークの詳細 – VPC ネットワーク – inuverse-test-vpc – Google Cloud コンソール"
-            }
-          },
-          {
-            "id": "f712f87239466cb4",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://openai.com/ja-JP/chatgpt/overview/"
-              },
-              "icon": "lucide-file",
-              "title": "ChatGPT | OpenAI"
+              "title": "VPC ネットワーク  |  Google Cloud"
             }
           },
           {
@@ -76,9 +64,21 @@
               "icon": "lucide-file",
               "title": "VPC認定試験問題解説"
             }
+          },
+          {
+            "id": "8748c07ee8d73eea",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://console.cloud.google.com/net-security/firewall-manager/firewall-policies/list?hl=ja&inv=1&invt=Ab2eVg&project=inuverse-test-vpc"
+              },
+              "icon": "lucide-file",
+              "title": "ファイアウォール ポリシー – ネットワーク セキュリティ – inuverse-test-vpc – Google Cloud コンソール"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -257,6 +257,7 @@
   "active": "9dfafc144a6f72be",
   "lastOpenFiles": [
     "10-inbox/Zenn Compute Engineのプライベートサービスアクセス入門：CPA試験で問われるVPCとファイアウォールで遊ぶ.md",
+    "スクリーンショット 2025-07-11 23.18.55.png",
     "スクリーンショット 2025-07-11 18.44.04.png",
     "スクリーンショット 2025-07-11 18.15.16.png",
     "スクリーンショット 2025-07-11 18.13.10.png",
@@ -290,7 +291,6 @@
     "10-inbox/営業在庫負荷検証プロンプト.md",
     "20-permanent/生成消滅演算子とエネルギー準位.md",
     "exponential_overlay.jpeg",
-    "poisson_overlay.jpeg",
     "無題のフォルダ",
     "50-resource",
     "11-inbox-book",
