@@ -65,57 +65,9 @@
               "icon": "lucide-file",
               "title": "Google アカウント"
             }
-          },
-          {
-            "id": "637adb91084199d2",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://openai.com/ja-JP/chatgpt/overview/"
-              },
-              "icon": "lucide-file",
-              "title": "ChatGPT | OpenAI"
-            }
-          },
-          {
-            "id": "99163732499cb09d",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://chatgpt.com/c/68709563-1340-8012-938b-5d1e168aeac8"
-              },
-              "icon": "lucide-file",
-              "title": "Cloud Trace API v2"
-            }
-          },
-          {
-            "id": "48435a2b9dba01f2",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://cloud.google.com/trace/docs/release-notes?utm_source=chatgpt.com"
-              },
-              "icon": "lucide-file",
-              "title": "Trace release notes  |  Google Cloud"
-            }
-          },
-          {
-            "id": "08d934a5d56fa576",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://cloud.google.com/trace/docs/reference?utm_source=chatgpt.com#get_trace_details"
-              },
-              "icon": "lucide-file",
-              "title": "Cloud Trace API  |  Google Cloud"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -236,13 +188,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-weekly/2025-W28 Weekly Review.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-W28 Weekly Reviewのアウトライン"
+              "title": "アウトライン"
             }
           },
           {
@@ -291,11 +242,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e9bdd0cec712b877",
+  "active": "4e18a842992445d6",
   "lastOpenFiles": [
+    "01-weekly/2025-W28 Weekly Review.md",
+    "20-permanent/アルビレオAの視線速度変化から探る新たな伴星.md",
+    "Pasted image 20250711152459.png",
+    "Pasted image 20250711151923.png",
+    "10-inbox/連星アルビレオについて科学館で聞いた話.md",
     "hukuokjashikagakukan.jpg",
     "00-daily/2025-07-11.md",
-    "01-weekly/2025-W28 Weekly Review.md",
     "スクリーンショット 2025-07-11 14.21.26.png",
     "10-inbox/Zenn Compute Engineのプライベートサービスアクセス入門：CPA試験で問われるVPCとファイアウォールで遊ぶ.md",
     "11-inbox-book/20世紀科学論文集　現代宇宙論の誕生.md",
@@ -312,7 +267,6 @@
     "00-daily/2025-07-03.md",
     "00-daily/2026-07-02.md",
     "10-inbox/Gradleのバージョン管理方法ベストプラクティス.md",
-    "10-inbox/連星アルビレオについて科学館で聞いた話.md",
     "10-inbox/コンテキストウィンドウを考えないとLLMの精度が落ちる話.md",
     "10-inbox/Professional Cloud Architect問題解説.md",
     "10-inbox/Dockerのベストプラクティス翻訳.md",
