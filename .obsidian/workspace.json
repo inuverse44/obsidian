@@ -4,57 +4,69 @@
     "type": "split",
     "children": [
       {
-        "id": "01b93a5a9ae1925e",
+        "id": "8f40b877cdfb9076",
         "type": "tabs",
+        "dimension": 25.034106412005457,
         "children": [
           {
-            "id": "542b7490e66bfc6a",
+            "id": "178dddcfc319edb3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-daily/2025-07-11.md",
+                "file": "10-inbox/Zenn Compute Engineのプライベートサービスアクセス入門：CPA試験で問われるVPCとファイアウォールで遊ぶ.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-11"
-            }
-          },
-          {
-            "id": "e9bdd0cec712b877",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-weekly/2025-W28 Weekly Review.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-W28 Weekly Review"
+              "title": "Zenn Compute Engineのプライベートサービスアクセス入門：CPA試験で問われるVPCとファイアウォールで遊ぶ"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "1217988955477669",
+        "id": "af51bd412af29b47",
         "type": "tabs",
+        "dimension": 74.96589358799454,
         "children": [
           {
-            "id": "ddcb608b297f9d13",
+            "id": "9eb8cce23409c0db",
             "type": "leaf",
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "https://cloud.google.com/trace/docs/reference?utm_source=chatgpt.com"
+                "url": "https://console.cloud.google.com/cloud-hub/maintenance;board-filter=type:APP_HUB,key:application_name%2Btype:MAINTENANCE,key:Category%2Btype:MAINTENANCE,key:Location%2Btype:MAINTENANCE,key:ResourceType?hl=ja&inv=1&invt=Ab2dEg&project=inuverse-test-vpc&supportedpurview=project,folder"
               },
               "icon": "lucide-file",
-              "title": "Cloud Trace API  |  Google Cloud"
+              "title": "メンテナンス – Cloud Hub – inuverse-test-vpc – Google Cloud コンソール"
+            }
+          },
+          {
+            "id": "cb2c75607251e0aa",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://qiita.com/sekitaka_1214/items/e11287b78adf3f468d7f"
+              },
+              "icon": "lucide-file",
+              "title": "Google Cloud Platformのプロジェクトの削除方法 #GoogleCloud - Qiita"
+            }
+          },
+          {
+            "id": "95522629a525228b",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://chatgpt.com/c/6870854b-ff68-8012-82b4-145a54a5b1db"
+              },
+              "icon": "lucide-file",
+              "title": "VPC認定試験問題解説"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -111,7 +123,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "4fe5bf4a1136af91",
@@ -229,8 +242,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ddcb608b297f9d13",
+  "active": "95522629a525228b",
   "lastOpenFiles": [
+    "10-inbox/Zenn Compute Engineのプライベートサービスアクセス入門：CPA試験で問われるVPCとファイアウォールで遊ぶ.md",
+    "20-permanent/Zenn 待ち行列理論で見るGKEのポッド数最適化.md",
+    "00-daily/2025-07-10.md",
+    "01-weekly/2025-W27 Weekly Review.md",
     "01-weekly/2025-W28 Weekly Review.md",
     "Pasted image 20250711162954.png",
     "20-permanent/アルビレオAの視線速度変化から探る新たな伴星.md",
@@ -240,14 +257,11 @@
     "hukuokjashikagakukan.jpg",
     "00-daily/2025-07-11.md",
     "スクリーンショット 2025-07-11 14.21.26.png",
-    "10-inbox/Zenn Compute Engineのプライベートサービスアクセス入門：CPA試験で問われるVPCとファイアウォールで遊ぶ.md",
     "11-inbox-book/20世紀科学論文集　現代宇宙論の誕生.md",
     "11-inbox-book/実践OpenTelemetry.md",
     "10-inbox/デルタ関数のフーリエ変換.md",
     "10-inbox/出会ったgcloudコマンド.md",
-    "01-weekly/2025-W27 Weekly Review.md",
     "10-inbox/出会ったLinuxコマンド一覧.md",
-    "00-daily/2025-07-10.md",
     "00-daily/2025-07-08.md",
     "00-daily/2025-07-07.md",
     "10-inbox/GitHubで認証通らない時.md",
