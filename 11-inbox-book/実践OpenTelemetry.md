@@ -23,6 +23,22 @@ aliases:
 - 
 
 # 引用メモ
+
+p3
+> 一般用語でいうオブザーバビリティとは、外部出力の観測から内部状態をどの程度推測できるかを測るシステムの品質です。これは1960年に、Rudolf E. Ka'lma'nが制御システムの理論の概念として初めて説明したもので、論文「On the general theory of control system」の一部として、...（略）
+
+On the general theory of control systemはOpen Source
+https://www.sciencedirect.com/science/article/pii/S1474667017700948
+
+中身はかなり数学を使用している。定義は
+> Let $X^\ast$ be the dual vector space of the state space X, i.e. the space of all linear function on $X$. An element $\mathbf{z}^\ast$ or $\mathbf{x}^\ast$ of $X^\ast$ is called a *costate.*
+> 
+> 	A costate $\mathbf{z}^\ast$ of a plant is said to be 'observable' if its exact value $[\mathbf{z}^\ast, \mathbf{x}]$ at any state $\mathbf{x}$ at time $0$ can be determined from measurements of the output signal $y_1(t) = [\mathbf{b}^\ast,\mathbf{\phi}(t; \mathbf{x}, 0)]$ over the finite integral $0 \geq t \geq t_2$. The time $t_2$ will depend in general on $\mathbf{z}^\ast$. If every costate is observable, we say that the plant is 'completely observable'.
+
+ちょっと何を言っているか分からないが、わかる範囲で読み解くと、
+$X^\ast$という
+
+
 p90
 > （中略）
 > この構造化されたデータの単位をスパンと呼び、１つの分散トランザクションに属するすべての操作をリンクする論理的な概念をトレースと呼びます。

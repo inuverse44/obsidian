@@ -55,12 +55,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "出会ったLinuxコマンド一覧.md",
+                "file": "10-inbox/出会ったLinuxコマンド一覧.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "出会ったLinuxコマンド一覧"
+            }
+          },
+          {
+            "id": "79fa9f59914268ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "11-inbox-book/実践OpenTelemetry.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "実践OpenTelemetry"
             }
           },
           {
@@ -75,6 +89,61 @@
               },
               "icon": "lucide-file",
               "title": "Zenn GCPのVPCについて"
+            }
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "2685af560111e1f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f3d73c80cc0449eb",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://www.sciencedirect.com/science/article/pii/S1474667017700948"
+              },
+              "icon": "lucide-file",
+              "title": "On the general theory of control systems - ScienceDirect"
+            }
+          },
+          {
+            "id": "48b642b973fc39a6",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://pdf.sciencedirectassets.com/craft/capi/cfts/verify?s=1800&p=%2F314898%2F1-s2.0-S1474667060X75901%2F1-s2.0-S1474667017700948%2Fmain.pdf&q=X-Amz-Security-Token%3DIQoJb3JpZ2luX2VjEML%252F%252F%252F%252F%252F%252F%252F%252F%252F%252FwEaCXVzLWVhc3QtMSJGMEQCIDrRds13rK0PZCdBXd3Wqe%252F9q6SXfkapptljq8Ul2KWDAiAEMckBaje%252BTrvH7lC5IS%252BR0Ne4TYgXpymqBZGasUCJ0iq7BQjK%252F%252F%252F%252F%252F%252F%252F%252F%252F%252F8BEAUaDDA1OTAwMzU0Njg2NSIMDHmaBxyb3dKM%252BiuCKo8F5zez6iDWt%252Bif0HWfNNy5VonhzJk72axyc0KM6eXeFHp0Lu3o2ZWNBF1HEpwouE7H%252FOvXTgDjCG%252B3ZkaTEzKggBjDt8cWMHO7uv855f7NKoxn2fOdoeQUFUJcbGo5dJfdySkaSUUUam2MtfRrGZGiqarylsl7%252BiSSIsAHzAwIHapny91fL8q%252BnAGZla30DeQdb%252B6oZ8MXfgjp6txn%252FR9LT35EeT4L0IEzIdWemQ5Blnd1PVn6oMtVlQxDr%252BiQWcdnmTdxBMed6DSz%252B3DwmJgPuiY0IdeOD6%252BOZWpmIqmcdbltkkQ4a1CdNdZoWmI5PPA44cwE8cwoVpkRLRxJpWF7BEfnzULJfycn9%252BmbgDD%252BQmLrwzeVxL91yZW0jMZxFJ6LdWlyX2EWOaFIce5Ua4eAWrgq0MGp35Xe%252FKRWNkgGXf7U6UYxar6G%252BtnuLclYbXVJy93n5o2C2tAbD0e3F2mxhrdAUe1ApsX5fZt5R4hA6ahQVdNeAuAJC0VW0A9sUW1J4PRvMrzeU8O4FkPr8jUzfzw33zpo3sAoR6vlDiOfXG7Ic7YbLYGcPEngQF9ZnveBCPceZGKE0pmFkmJIHXWhTsiwMKA4Qb%252FlahXE6ouc3uS3zxXzIxYVh4yS%252FKKEYudgi5nw1XkdvZX%252FzNMgYpfaEQ0%252Fc9ddtLnVrELtQhHnh8rhvTOOEDYgrp2chWS9JuUB7ppCVQ5FzB86fqs0dE8ivoUNdgbcfWciWzcoeNeaNZZI0tD%252FosQUF8keb7o%252BT%252FpYiZE1k0uOitsh18%252BqzAJsKfkm1xLnydfCxGJzGPF8ENKyN4PIS57MWQzwB8mNUW6yOC2R0N98E3Y2Gza1Bfqyn%252BAMAmYN8Xosz00rerM1LTDszcHDBjqyAcxVoivQlN%252BUZ0S14bqI%252FIzjtBCCiI600%252FyzkaDGVuT06Il77vVO3j3v16gr%252FM6Gn%252BnGbXfEjlRzwwU3wZmU99IIDTKaILhbuSknTMlX4djS%252FeoYYShkknYiRp9MN%252FbHcbnBOpCQ4Y5uIZJEdZUq3NyUZPK%252B2B2x2s0Gg75rYIoTZj4uoXLBujXcpz67uXlAn5Z5NrHosJ3OXLpdpKRd4xtIQVySzjFzwh0vHwGfwhuy3fQ%253D%26X-Amz-Algorithm%3DAWS4-HMAC-SHA256%26X-Amz-Date%3D20250711T021421Z%26X-Amz-SignedHeaders%3Dhost%26X-Amz-Expires%3D300%26X-Amz-Credential%3DASIAQ3PHCVTY7IQ7WBD6%252F20250711%252Fus-east-1%252Fs3%252Faws4_request%26X-Amz-Signature%3Daef5881f3b102c5deaea318494641b125c6bf52d32cce6485678b77bba70c2e7%26hash%3Dc142424337c90cee8d30544d870d9c1181b8fc1ad07ae1283188afb01fdc47ca%26host%3D68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61%26pii%3DS1474667017700948%26tid%3Dspdf-6e9ba810-ef41-46e6-a604-e58027c0ac4b%26sid%3D3457edce1616424d941b8871093ce66ae3bdgxrqa%26type%3Dclient%26tsoh%3Dd3d3LnNjaWVuY2VkaXJlY3QuY29t%26rh%3Dd3d3LnNjaWVuY2VkaXJlY3QuY29t%26ua%3D0c105b53045b045b505c%26rr%3D95d4c969982f8347%26cc%3Djp&i=2025-07-11T02%3A14%3A21.645Z&c=low-bot-score&r=95d4c9712cdb006a&u=https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS1474667017700948&w=interactive&h=eyJrZXkiOiJkcS9OR0QvODlTTXVoVE9md1NHdlpoQ3N2TTQxYjhsaEMzbzczL1dIU1Mrd05HNjl0REZaNkNNaDFlc2t6VGE4dDVHeUZtSUM0eU1VdHR2TmdNNHFkcE9BczUybmc0b0dzOTRmRmx0Y2hrbz0iLCJpdiI6IjQ2YjlmZjBmNGRjMjQyMmZlYmUyNWUzODczNTEzMDI2In0%3D"
+              },
+              "icon": "lucide-file",
+              "title": "On the General Theory of Control Systems"
+            }
+          },
+          {
+            "id": "cf9e6d6ca72a7893",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://gemini.google.com/app/36bf47515a88d89e?hl=ja"
+              },
+              "icon": "lucide-file",
+              "title": "Google Gemini"
+            }
+          },
+          {
+            "id": "ebb0224fc746ef78",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://arxiv.org/list/astro-ph.CO/recent"
+              },
+              "icon": "lucide-file",
+              "title": "Cosmology and Nongalactic Astrophysics"
             }
           }
         ],
@@ -199,13 +268,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "出会ったLinuxコマンド一覧.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "出会ったLinuxコマンド一覧のアウトライン"
+              "title": "アウトライン"
             }
           },
           {
@@ -254,16 +322,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "96602266bc6cbb04",
+  "active": "ebb0224fc746ef78",
   "lastOpenFiles": [
+    "11-inbox-book/実践OpenTelemetry.md",
+    "10-inbox/Zenn GCPのVPCについて.md",
+    "10-inbox/出会ったgcloudコマンド.md",
+    "01-weekly/2025-W27 Weekly Review.md",
+    "10-inbox/出会ったLinuxコマンド一覧.md",
     "00-daily/2025-07-10.md",
-    "出会ったLinuxコマンド一覧.md",
     "00-daily/2025-07-11.md",
     "01-weekly/2025-W28 Weekly Review.md",
     "00-daily/2025-07-08.md",
     "00-daily/2025-07-07.md",
-    "01-weekly/2025-W27 Weekly Review.md",
-    "10-inbox/Zenn GCPのVPCについて.md",
     "10-inbox/GitHubで認証通らない時.md",
     "00-daily/2025-07-04.md",
     "00-daily/2025-07-03.md",
@@ -280,8 +350,6 @@
     "10-inbox/GKEオートスケールのための待ち行列理論入門.md",
     "10-inbox/待ち行列理論によるGKEサイジング実践ガイド.md",
     "20-permanent/Zenn 待ち行列理論で見るGKEのポッド数最適化.md",
-    "20-permanent/Ornstein-Uhlenbeck過程とそのFokker-Planck方程式による解法まとめ.md",
-    "20-permanent/インフレーションのクラス再考.md",
     "exponential_overlay.jpeg",
     "poisson_overlay.jpeg",
     "無題のフォルダ",
