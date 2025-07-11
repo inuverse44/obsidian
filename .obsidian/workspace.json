@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "8f40b877cdfb9076",
+        "id": "af51bd412af29b47",
         "type": "tabs",
-        "dimension": 25.034106412005457,
+        "dimension": 44.957983193277315,
         "children": [
           {
-            "id": "178dddcfc319edb3",
+            "id": "17aeb4e9acdcd631",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,25 +20,6 @@
               },
               "icon": "lucide-file",
               "title": "Zenn Compute Engineのプライベートサービスアクセス入門：CPA試験で問われるVPCとファイアウォールで遊ぶ"
-            }
-          }
-        ]
-      },
-      {
-        "id": "af51bd412af29b47",
-        "type": "tabs",
-        "dimension": 74.96589358799454,
-        "children": [
-          {
-            "id": "9eb8cce23409c0db",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://console.cloud.google.com/cloud-hub/maintenance;board-filter=type:APP_HUB,key:application_name%2Btype:MAINTENANCE,key:Category%2Btype:MAINTENANCE,key:Location%2Btype:MAINTENANCE,key:ResourceType?hl=ja&inv=1&invt=Ab2dEg&project=inuverse-test-vpc&supportedpurview=project,folder"
-              },
-              "icon": "lucide-file",
-              "title": "メンテナンス – Cloud Hub – inuverse-test-vpc – Google Cloud コンソール"
             }
           },
           {
@@ -52,9 +33,40 @@
               "icon": "lucide-file",
               "title": "Google Cloud Platformのプロジェクトの削除方法 #GoogleCloud - Qiita"
             }
+          }
+        ]
+      },
+      {
+        "id": "add68039d89b227d",
+        "type": "tabs",
+        "dimension": 55.04201680672269,
+        "children": [
+          {
+            "id": "9eb8cce23409c0db",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://console.cloud.google.com/networking/networks/details/my-vpc?project=inuverse-test-vpc&hl=ja&inv=1&invt=Ab2dRw&supportedpurview=project,folder&pageTab=SUBNETS"
+              },
+              "icon": "lucide-file",
+              "title": "my-vpc – VPC ネットワークの詳細 – VPC ネットワーク – inuverse-test-vpc – Google Cloud コンソール"
+            }
           },
           {
-            "id": "95522629a525228b",
+            "id": "f712f87239466cb4",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://openai.com/ja-JP/chatgpt/overview/"
+              },
+              "icon": "lucide-file",
+              "title": "ChatGPT | OpenAI"
+            }
+          },
+          {
+            "id": "9dfafc144a6f72be",
             "type": "leaf",
             "state": {
               "type": "surfing-view",
@@ -242,9 +254,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95522629a525228b",
+  "active": "9dfafc144a6f72be",
   "lastOpenFiles": [
     "10-inbox/Zenn Compute Engineのプライベートサービスアクセス入門：CPA試験で問われるVPCとファイアウォールで遊ぶ.md",
+    "スクリーンショット 2025-07-11 18.44.04.png",
+    "スクリーンショット 2025-07-11 18.15.16.png",
+    "スクリーンショット 2025-07-11 18.13.10.png",
     "20-permanent/Zenn 待ち行列理論で見るGKEのポッド数最適化.md",
     "00-daily/2025-07-10.md",
     "01-weekly/2025-W27 Weekly Review.md",
@@ -274,14 +289,10 @@
     "10-inbox/Dockerのベストプラクティス翻訳.md",
     "10-inbox/営業在庫負荷検証プロンプト.md",
     "20-permanent/生成消滅演算子とエネルギー準位.md",
-    "10-inbox/CPA関連の記事をZennへ3件.md",
     "exponential_overlay.jpeg",
     "poisson_overlay.jpeg",
     "無題のフォルダ",
-    "50-resource/スクリーンショット 2025-07-07 15.02.56.png",
-    "50-resource/スクリーンショット 2025-07-04 16.20.25.png",
     "50-resource",
-    "スクリーンショット 2025-07-04 16.20.25.png",
     "11-inbox-book",
     "test",
     "30-projects",
