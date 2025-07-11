@@ -6,7 +6,7 @@
       {
         "id": "f69f03efafde2c4b",
         "type": "tabs",
-        "dimension": 49.113233287858115,
+        "dimension": 50,
         "children": [
           {
             "id": "c6f595ed13ef2801",
@@ -37,17 +37,17 @@
             }
           },
           {
-            "id": "f7eb9c72ae79ba33",
+            "id": "2adc594359c67a2a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-07-11.md",
+                "file": "00-daily/2025-07-08.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-11"
+              "title": "2025-07-08"
             }
           },
           {
@@ -68,100 +68,25 @@
         "currentTab": 2
       },
       {
-        "id": "7b4a45a456f077bb",
+        "id": "41694489d65e8951",
         "type": "tabs",
-        "dimension": 50.886766712141885,
+        "dimension": 50,
         "children": [
           {
-            "id": "6ba797e1692ba454",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://calendar.google.com/calendar/u/0/r/day"
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "株式会社トライアルカンパニー - カレンダー - 2025年 7月 11日 (金曜日)、今日"
-            }
-          },
-          {
-            "id": "c047f35d4c1015e2",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://gemini.google.com/app/3a9161c283c83553?hl=ja"
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Google Gemini"
-            }
-          },
-          {
-            "id": "440e2ddc1d4d10a3",
+            "id": "f7eb9c72ae79ba33",
             "type": "leaf",
             "state": {
-              "type": "surfing-view",
+              "type": "markdown",
               "state": {
-                "url": "https://cloud.google.com/vpc/docs/using-firewalls?hl=ja"
+                "file": "01-weekly/2025-W28 Weekly Review.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "VPC ファイアウォール ルールを使用する  |  Cloud NGFW  |  Google Cloud"
-            }
-          },
-          {
-            "id": "42601e30c316edbd",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://cloud.google.com/learn/certification/cloud-architect?hl=ja"
-              },
-              "icon": "lucide-file",
-              "title": "Professional Cloud Architect 認定資格  |  Learn  |  Google Cloud"
-            }
-          },
-          {
-            "id": "949b20b2c814fe2d",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://cloud.google.com/architecture/framework?hl=ja"
-              },
-              "icon": "lucide-file",
-              "title": "Google Cloud Well-Architected Framework  |  Cloud Architecture Center"
-            }
-          },
-          {
-            "id": "fbb1175d53e8994f",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://arxiv.org/list/gr-qc/new"
-              },
-              "icon": "lucide-file",
-              "title": "General Relativity and Quantum Cosmology"
-            }
-          },
-          {
-            "id": "e3a9256fbdc82bd2",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://mermaid.js.org/syntax/sequenceDiagram.html"
-              },
-              "icon": "lucide-file",
-              "title": "Sequence diagrams | Mermaid"
+              "title": "2025-W28 Weekly Review"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -282,12 +207,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "01-weekly/2025-W28 Weekly Review.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "アウトライン"
+              "title": "2025-W28 Weekly Reviewのアウトライン"
             }
           },
           {
@@ -336,12 +262,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c047f35d4c1015e2",
+  "active": "f7eb9c72ae79ba33",
   "lastOpenFiles": [
-    "2025-07-11.md",
+    "00-daily/2025-07-08.md",
+    "00-daily/2025-07-07.md",
+    "00-daily/2025-07-11.md",
+    "01-weekly/2025-W28 Weekly Review.md",
+    "01-weekly/2025-W27 Weekly Review.md",
+    "10-inbox/Zenn GCPのVPCについて.md",
+    "10-inbox/GitHubで認証通らない時.md",
+    "00-daily/2025-07-04.md",
+    "00-daily/2025-07-03.md",
+    "00-daily/2026-07-02.md",
     "00-daily/2025-07-10.md",
     "10-inbox/Gradleのバージョン管理方法ベストプラクティス.md",
-    "10-inbox/Zenn GCPのVPCについて.md",
     "10-inbox/連星アルビレオについて科学館で聞いた話.md",
     "10-inbox/コンテキストウィンドウを考えないとLLMの精度が落ちる話.md",
     "10-inbox/Professional Cloud Architect問題解説.md",
@@ -356,14 +290,6 @@
     "20-permanent/Ornstein-Uhlenbeck過程とそのFokker-Planck方程式による解法まとめ.md",
     "20-permanent/インフレーションのクラス再考.md",
     "20-permanent/生成消滅演算子関連の公式集.md",
-    "10-inbox/Fokker-Planck方程式をPINNの方法で解析的に.md",
-    "10-inbox/マイクロサービス負荷検証Geminiさんの見解.md",
-    "11-inbox-book/実践OpenTelemetry.md",
-    "20-permanent/連続な固有ベクトルの内積がデルタ関数になる.md",
-    "20-permanent/ランダムグラフに対する最小作用の原理.md",
-    "00-daily/2025-07-08.md",
-    "11-inbox-book/20世紀科学論文集　現代宇宙論の誕生.md",
-    "20-permanent/Shiniseチームconfig.md",
     "exponential_overlay.jpeg",
     "poisson_overlay.jpeg",
     "無題のフォルダ",
