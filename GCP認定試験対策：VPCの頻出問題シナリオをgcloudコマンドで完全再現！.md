@@ -40,9 +40,7 @@ gcloud config set compute/zone $ZONE
 
 VPC、Compute Engine、Cloud Storageを操作するために、それぞれのAPIを有効化します。
 
-Bash
-
-```
+```bash
 gcloud services enable \
   compute.googleapis.com \
   storage.googleapis.com
@@ -60,9 +58,8 @@ gcloud services enable \
 
 まず、VMを配置するためのカスタムVPCとサブネットを作成します。
 
-Bash
 
-```
+```bash
 # カスタムモードでVPCを作成
 gcloud compute networks create my-vpc \
   --subnet-mode=custom
@@ -78,9 +75,7 @@ gcloud compute networks subnets create my-subnet-psa \
 
 問題の要件通り、`--no-address` オプションを指定して、内部IPアドレスのみを持つVMを作成します。
 
-Bash
-
-```
+```bash
 gcloud compute instances create gce-psa-test \
   --zone=$ZONE \
   --machine-type=e2-micro \
@@ -90,9 +85,6 @@ gcloud compute instances create gce-psa-test \
 ```
 
 作成後、`EXTERNAL_IP`が空欄であることを確認しましょう。
-
-Bash
-
 ```
 gcloud compute instances list
 # NAME          ZONE                 MACHINE_TYPE  INTERNAL_IP  EXTERNAL_IP  STATUS
@@ -103,14 +95,12 @@ gcloud compute instances list
 
 VMにインストールしたいソフトウェア（今回はダミーファイル）を配置するバケットを作成します。バケット名は世界で一意にする必要があります。
 
-Bash
-
 ```
 # バケット名はご自身のプロジェクトIDなどに変更してください
 gsutil mb -l $REGION gs://inuverse-test-vpc/
 ```
 
-### Step 4: 【最重要】限定公開のGoogleアクセスを有効化
+### Step 4: 限定公開のGoogleアクセスを有効化
 
 この設定により、サブネット内のVMは外部IPがなくても、Google CloudのAPI（Cloud Storageなど）にGoogleの内部ネットワーク経由でアクセスできるようになります。
 
@@ -126,7 +116,7 @@ gcloud compute networks subnets update my-subnet-psa \
 
 コード スニペット
 
-```
+```mermaid
 flowchart LR
   subgraph SUBNET["サブネット (外部IPなし / PGA 有効)"]
     VM["Compute Engine<br>no external IP"]
@@ -154,10 +144,7 @@ flowchart LR
 ### Step 1: Active Directoryへの通信を許可するルールを作成 (優先度 100)
 
 まず、宛先（Active Directoryサーバー）とポート（LDAP/LDAPS）を限定した許可ルールを、高い優先度 `100` で作成します。
-
-Bash
-
-```
+```bash
 gcloud compute firewall-rules create allow-ad-egress \
   --network=my-vpc \
   --direction=EGRESS \
@@ -168,15 +155,11 @@ gcloud compute firewall-rules create allow-ad-egress \
 ```
 
 - `destination-ranges=10.100.0.10/32`: `/32` はIPアドレス1つだけを指名するCIDR表記です。
-    
 - `rules=tcp:389,tcp:636`: Active Directoryが使用するLDAP/LDAPSプロトコルのポートです。
-    
 
 ### Step 2: その他すべての通信を拒否するルールを作成 (優先度 1000)
 
 次に、すべての宛先 (`0.0.0.0/0`) へのすべてのプロトコル (`all`) の通信を拒否するルールを、低い優先度 `1000` で作成します。
-
-Bash
 
 ```
 gcloud compute firewall-rules create deny-all-egress \
@@ -196,9 +179,7 @@ gcloud compute firewall-rules create deny-all-egress \
 
 今回のVMには外部IPがないため、直接SSH接続はできません。動作確認を行うには、**Identity-Aware Proxy (IAP)** を経由して接続するのが便利です。そのためのIngress許可ルールも追加しておきましょう。
 
-Bash
-
-```
+```bash
 gcloud compute firewall-rules create allow-ssh-iap \
   --network=my-vpc \
   --direction=INGRESS \
@@ -212,6 +193,6 @@ gcloud compute firewall-rules create allow-ssh-iap \
 
 Bash
 
-```
+```bash
 gcloud compute ssh gce-psa-test --zone=$ZONE
 ```

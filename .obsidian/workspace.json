@@ -65,6 +65,18 @@
               "icon": "lucide-file",
               "title": "Google Gemini"
             }
+          },
+          {
+            "id": "c36578b046118344",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://chatgpt.com/c/6871f271-702c-800b-87e2-4fab808f8fe7"
+              },
+              "icon": "lucide-file",
+              "title": "ネットワーク削除エラー対処法"
+            }
           }
         ],
         "currentTab": 1
