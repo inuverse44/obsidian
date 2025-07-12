@@ -23,6 +23,18 @@
             }
           },
           {
+            "id": "ede0012b1fa1aa91",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "50-resource/スクリーンショット 2025-07-11 18.15.16.png"
+              },
+              "icon": "lucide-image",
+              "title": "スクリーンショット 2025-07-11 18.15.16"
+            }
+          },
+          {
             "id": "acd9e719605501ce",
             "type": "leaf",
             "state": {
@@ -137,8 +149,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "4fe5bf4a1136af91",
@@ -258,6 +269,7 @@
   "active": "e4cf5eb6a238b20c",
   "lastOpenFiles": [
     "10-inbox/Zenn Compute Engineのプライベートサービスアクセス入門：CPA試験で問われるVPCとファイアウォールで遊ぶ.md",
+    "50-resource/スクリーンショット 2025-07-11 18.15.16.png",
     "GCP認定試験対策：VPCの頻出問題シナリオをgcloudコマンドで完全再現！.md",
     "20-permanent/TRIAL Company　レガシーなIP構成を維持しつつ、Google Cloudでシステムをモダナイズ.md",
     "20-permanent/Shiniseチームconfig.md",
@@ -281,7 +293,6 @@
     "50-resource/スクリーンショット 2025-07-11 23.18.55.png",
     "20-permanent/K8sにおけるPostgreSQL接続エラーのトラブルシューティングプロセス.md",
     "50-resource/スクリーンショット 2025-07-11 18.44.04.png",
-    "50-resource/スクリーンショット 2025-07-11 18.15.16.png",
     "Ornstein-Uhlenbeck過程とそのFokker-Planck方程式による解法まとめ.md",
     "50-resource/スクリーンショット 2025-07-11 18.13.10.png",
     "50-resource/Pasted image 20250711162954.png",
@@ -291,7 +302,6 @@
     "10-inbox/出会ったgcloudコマンド.md",
     "10-inbox/出会ったLinuxコマンド一覧.md",
     "10-inbox/デルタ関数のフーリエ変換.md",
-    "01-weekly/2025-W28 Weekly Review.md",
     "50-resource/スクリーンショット 2025-07-07 15.02.56.png",
     "無題のファイル.canvas",
     "無題のフォルダ",
