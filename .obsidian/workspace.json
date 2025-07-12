@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "da186bf899626ec9",
+        "id": "f54204baef92ce6f",
         "type": "tabs",
         "children": [
           {
-            "id": "95bc817f494e21f8",
+            "id": "251ad49ae12f2826",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10-inbox/Dockerのベストプラクティス翻訳.md",
+                "file": "20-permanent/TRIAL Company　レガシーなIP構成を維持しつつ、Google Cloudでシステムをモダナイズ.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dockerのベストプラクティス翻訳"
-            }
-          },
-          {
-            "id": "c97dcc8e355c27df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20-permanent/Zenn 待ち行列理論で見るGKEのポッド数最適化.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Zenn 待ち行列理論で見るGKEのポッド数最適化"
-            }
-          },
-          {
-            "id": "1e772ec19e4d0a71",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://www.arxiv.org/pdf/2507.01468",
-                "title": "The principle of least action for random graphs",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "The principle of least action for random graphs"
+              "title": "TRIAL Company　レガシーなIP構成を維持しつつ、Google Cloudでシステムをモダナイズ"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20-permanent/Zenn 待ち行列理論で見るGKEのポッド数最適化.md",
+                "file": "20-permanent/TRIAL Company　レガシーなIP構成を維持しつつ、Google Cloudでシステムをモダナイズ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Zenn 待ち行列理論で見るGKEのポッド数最適化へのバックリンク"
+              "title": "TRIAL Company　レガシーなIP構成を維持しつつ、Google Cloudでシステムをモダナイズへのバックリンク"
             }
           },
           {
@@ -142,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "20-permanent/Zenn 待ち行列理論で見るGKEのポッド数最適化.md",
+                "file": "20-permanent/TRIAL Company　レガシーなIP構成を維持しつつ、Google Cloudでシステムをモダナイズ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Zenn 待ち行列理論で見るGKEのポッド数最適化からのアウトゴーイングリンク"
+              "title": "TRIAL Company　レガシーなIP構成を維持しつつ、Google Cloudでシステムをモダナイズからのアウトゴーイングリンク"
             }
           },
           {
@@ -171,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20-permanent/Zenn 待ち行列理論で見るGKEのポッド数最適化.md",
+                "file": "20-permanent/TRIAL Company　レガシーなIP構成を維持しつつ、Google Cloudでシステムをモダナイズ.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Zenn 待ち行列理論で見るGKEのポッド数最適化のアウトライン"
+              "title": "TRIAL Company　レガシーなIP構成を維持しつつ、Google Cloudでシステムをモダナイズのアウトライン"
             }
           },
           {
@@ -227,28 +198,36 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "c97dcc8e355c27df",
+  "active": "251ad49ae12f2826",
   "lastOpenFiles": [
+    "20-permanent/TRIAL Company　レガシーなIP構成を維持しつつ、Google Cloudでシステムをモダナイズ.md",
+    "20-permanent/Shiniseチームconfig.md",
     "20-permanent/Zenn 待ち行列理論で見るGKEのポッド数最適化.md",
+    "20-permanent/アルビレオAの視線速度変化から探る新たな伴星.md",
+    "20-permanent/インフレーションのクラス再考.md",
     "20-permanent/ランダムグラフに対する最小作用の原理.md",
+    "20-permanent/生成消滅演算子とエネルギー準位.md",
+    "20-permanent/生成消滅演算子の導入.md",
+    "20-permanent/生成消滅演算子関連の公式集.md",
+    "運用ルール.md",
+    "README.md",
+    "GEMINI.md",
+    "50-resource/hukuokjashikagakukan.jpg",
+    "50-resource/スクリーンショット 2025-07-11 14.21.26.png",
+    "10-inbox/Dockerのベストプラクティス翻訳.md",
     "30-projects/MOC.md",
-    "Pasted image 20250711152459.png",
+    "50-resource/Pasted image 20250711152459.png",
     "10-inbox/Zenn Compute Engineのプライベートサービスアクセス入門：CPA試験で問われるVPCとファイアウォールで遊ぶ.md",
     "10-inbox/Gradleのバージョン管理方法ベストプラクティス.md",
     "10-inbox/GitHubで認証通らない時.md",
-    "スクリーンショット 2025-07-11 23.18.55.png",
+    "50-resource/スクリーンショット 2025-07-11 23.18.55.png",
     "20-permanent/K8sにおけるPostgreSQL接続エラーのトラブルシューティングプロセス.md",
-    "スクリーンショット 2025-07-11 18.44.04.png",
-    "スクリーンショット 2025-07-11 18.15.16.png",
+    "50-resource/スクリーンショット 2025-07-11 18.44.04.png",
+    "50-resource/スクリーンショット 2025-07-11 18.15.16.png",
     "Ornstein-Uhlenbeck過程とそのFokker-Planck方程式による解法まとめ.md",
-    "スクリーンショット 2025-07-11 18.13.10.png",
-    "スクリーンショット 2025-07-11 14.21.26.png",
-    "hukuokjashikagakukan.jpg",
-    "Pasted image 20250711162954.png",
-    "Pasted image 20250711151923.png",
-    "20-permanent/生成消滅演算子関連の公式集.md",
-    "20-permanent/生成消滅演算子とエネルギー準位.md",
-    "20-permanent/TRIAL Company　レガシーなIP構成を維持しつつ、Google Cloudでシステムをモダナイズ.md",
+    "50-resource/スクリーンショット 2025-07-11 18.13.10.png",
+    "50-resource/Pasted image 20250711162954.png",
+    "50-resource/Pasted image 20250711151923.png",
     "20-permanent/Ornstein-Uhlenbeck過程とそのFokker-Planck方程式による解法まとめ.md",
     "11-inbox-book/実践OpenTelemetry.md",
     "10-inbox/出会ったgcloudコマンド.md",
@@ -256,14 +235,6 @@
     "10-inbox/デルタ関数のフーリエ変換.md",
     "01-weekly/2025-W28 Weekly Review.md",
     "00-daily/2025-07-11.md",
-    "00-daily/2025-07-10.md",
-    "00-daily/2025-07-09.md",
-    "00-daily/2025-07-08.md",
-    "Fokker-Planck方程式をPINNの方法で解析的に.md",
-    "10-inbox/Dockerのベストプラクティス翻訳.md",
-    "20-permanent/インフレーションのクラス再考.md",
-    "00-daily/2025-07-04.md",
-    "10-inbox/コンテキストウィンドウを考えないとLLMの精度が落ちる話.md",
     "50-resource/スクリーンショット 2025-07-07 15.02.56.png",
     "無題のファイル.canvas",
     "無題のフォルダ",
