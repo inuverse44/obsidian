@@ -4,81 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "af51bd412af29b47",
+        "id": "da186bf899626ec9",
         "type": "tabs",
-        "dimension": 49.57983193277311,
         "children": [
           {
-            "id": "17aeb4e9acdcd631",
+            "id": "95bc817f494e21f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10-inbox/Zenn Compute Engineのプライベートサービスアクセス入門：CPA試験で問われるVPCとファイアウォールで遊ぶ.md",
+                "file": "10-inbox/Dockerのベストプラクティス翻訳.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Zenn Compute Engineのプライベートサービスアクセス入門：CPA試験で問われるVPCとファイアウォールで遊ぶ"
+              "title": "Dockerのベストプラクティス翻訳"
             }
           },
           {
-            "id": "cb2c75607251e0aa",
+            "id": "c97dcc8e355c27df",
             "type": "leaf",
             "state": {
-              "type": "surfing-view",
+              "type": "markdown",
               "state": {
-                "url": "https://qiita.com/sekitaka_1214/items/e11287b78adf3f468d7f"
+                "file": "20-permanent/K8sにおけるPostgreSQL接続エラーのトラブルシューティングプロセス.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Google Cloud Platformのプロジェクトの削除方法 #GoogleCloud - Qiita"
-            }
-          }
-        ]
-      },
-      {
-        "id": "add68039d89b227d",
-        "type": "tabs",
-        "dimension": 50.42016806722689,
-        "children": [
-          {
-            "id": "7adfc3b3172b2067",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://cloud.google.com/vpc/docs/vpc?hl=ja"
-              },
-              "icon": "lucide-file",
-              "title": "VPC ネットワーク  |  Google Cloud"
-            }
-          },
-          {
-            "id": "9dfafc144a6f72be",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://chatgpt.com/c/6870854b-ff68-8012-82b4-145a54a5b1db"
-              },
-              "icon": "lucide-file",
-              "title": "VPC認定試験問題解説"
-            }
-          },
-          {
-            "id": "b1f89086a556528c",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://gemini.google.com/app/530c3b7155a5f187?hl=ja"
-              },
-              "icon": "lucide-file",
-              "title": "Google Gemini"
+              "title": "K8sにおけるPostgreSQL接続エラーのトラブルシューティングプロセス"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,8 +55,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTime",
-                "autoReveal": false
+                "sortOrder": "alphabetical",
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "ファイルエクスプローラ"
@@ -131,12 +89,12 @@
               "title": "ブックマーク"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "4fe5bf4a1136af91",
@@ -152,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-daily/2025-07-04.md",
+                "file": "20-permanent/K8sにおけるPostgreSQL接続エラーのトラブルシューティングプロセス.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-07-04へのバックリンク"
+              "title": "K8sにおけるPostgreSQL接続エラーのトラブルシューティングプロセスへのバックリンク"
             }
           },
           {
@@ -171,12 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "20-permanent/K8sにおけるPostgreSQL接続エラーのトラブルシューティングプロセス.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Welcomeからのアウトゴーイングリンク"
+              "title": "K8sにおけるPostgreSQL接続エラーのトラブルシューティングプロセスからのアウトゴーイングリンク"
             }
           },
           {
@@ -200,12 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "20-permanent/K8sにおけるPostgreSQL接続エラーのトラブルシューティングプロセス.md",
                 "followCursor": false,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "アウトライン"
+              "title": "K8sにおけるPostgreSQL接続エラーのトラブルシューティングプロセスのアウトライン"
             }
           },
           {
@@ -224,16 +183,16 @@
             "state": {
               "type": "smart-connections-visualizer",
               "state": {},
-              "icon": "git-fork",
-              "title": "Smart connections visualizer"
+              "icon": "lucide-file",
+              "title": "アクティブでなくなったプラグイン"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 235.5,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -251,53 +210,55 @@
       "smart-connections:Open: Smart Chat": false,
       "smart-connections:Open: View Smart Connections": false,
       "smart-connections-visualizer:Open smart connections visualizer": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "terminal:Open terminal": false
     }
   },
-  "active": "b1f89086a556528c",
+  "active": "c97dcc8e355c27df",
   "lastOpenFiles": [
-    "10-inbox/Zenn Compute Engineのプライベートサービスアクセス入門：CPA試験で問われるVPCとファイアウォールで遊ぶ.md",
     "スクリーンショット 2025-07-11 23.18.55.png",
     "スクリーンショット 2025-07-11 18.44.04.png",
     "スクリーンショット 2025-07-11 18.15.16.png",
+    "Ornstein-Uhlenbeck過程とそのFokker-Planck方程式による解法まとめ.md",
     "スクリーンショット 2025-07-11 18.13.10.png",
-    "20-permanent/Zenn 待ち行列理論で見るGKEのポッド数最適化.md",
-    "00-daily/2025-07-10.md",
-    "01-weekly/2025-W27 Weekly Review.md",
-    "01-weekly/2025-W28 Weekly Review.md",
+    "スクリーンショット 2025-07-11 14.21.26.png",
+    "hukuokjashikagakukan.jpg",
     "Pasted image 20250711162954.png",
-    "20-permanent/アルビレオAの視線速度変化から探る新たな伴星.md",
     "Pasted image 20250711152459.png",
     "Pasted image 20250711151923.png",
-    "10-inbox/連星アルビレオについて科学館で聞いた話.md",
-    "hukuokjashikagakukan.jpg",
-    "00-daily/2025-07-11.md",
-    "スクリーンショット 2025-07-11 14.21.26.png",
-    "11-inbox-book/20世紀科学論文集　現代宇宙論の誕生.md",
+    "20-permanent/生成消滅演算子関連の公式集.md",
+    "20-permanent/生成消滅演算子とエネルギー準位.md",
+    "20-permanent/ランダムグラフに対する最小作用の原理.md",
+    "20-permanent/Zenn 待ち行列理論で見るGKEのポッド数最適化.md",
+    "20-permanent/TRIAL Company　レガシーなIP構成を維持しつつ、Google Cloudでシステムをモダナイズ.md",
+    "20-permanent/Ornstein-Uhlenbeck過程とそのFokker-Planck方程式による解法まとめ.md",
     "11-inbox-book/実践OpenTelemetry.md",
-    "10-inbox/デルタ関数のフーリエ変換.md",
     "10-inbox/出会ったgcloudコマンド.md",
     "10-inbox/出会ったLinuxコマンド一覧.md",
-    "00-daily/2025-07-08.md",
-    "00-daily/2025-07-07.md",
-    "10-inbox/GitHubで認証通らない時.md",
-    "00-daily/2025-07-04.md",
-    "00-daily/2025-07-03.md",
-    "00-daily/2026-07-02.md",
+    "10-inbox/デルタ関数のフーリエ変換.md",
+    "10-inbox/Zenn Compute Engineのプライベートサービスアクセス入門：CPA試験で問われるVPCとファイアウォールで遊ぶ.md",
     "10-inbox/Gradleのバージョン管理方法ベストプラクティス.md",
-    "10-inbox/コンテキストウィンドウを考えないとLLMの精度が落ちる話.md",
-    "10-inbox/Professional Cloud Architect問題解説.md",
+    "10-inbox/GitHubで認証通らない時.md",
+    "01-weekly/2025-W28 Weekly Review.md",
+    "00-daily/2025-07-11.md",
+    "00-daily/2025-07-10.md",
+    "00-daily/2025-07-09.md",
+    "00-daily/2025-07-08.md",
+    "20-permanent/K8sにおけるPostgreSQL接続エラーのトラブルシューティングプロセス.md",
+    "Fokker-Planck方程式をPINNの方法で解析的に.md",
     "10-inbox/Dockerのベストプラクティス翻訳.md",
-    "10-inbox/営業在庫負荷検証プロンプト.md",
-    "20-permanent/生成消滅演算子とエネルギー準位.md",
-    "exponential_overlay.jpeg",
+    "20-permanent/インフレーションのクラス再考.md",
+    "00-daily/2025-07-04.md",
+    "10-inbox/コンテキストウィンドウを考えないとLLMの精度が落ちる話.md",
+    "50-resource/スクリーンショット 2025-07-07 15.02.56.png",
+    "無題のファイル.canvas",
     "無題のフォルダ",
-    "50-resource",
     "11-inbox-book",
+    "50-resource/スクリーンショット 2025-07-04 16.20.25.png",
+    "50-resource",
     "test",
     "30-projects",
     "40-templates",
-    "無題のファイル.canvas",
     "20-permanent",
     "10-inbox",
     "01-weekly",
