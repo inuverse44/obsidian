@@ -40,15 +40,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GCP認定試験対策：VPCの頻出問題シナリオをgcloudコマンドで完全再現！.md",
+                "file": "aaa.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GCP認定試験対策：VPCの頻出問題シナリオをgcloudコマンドで完全再現！"
+              "title": "aaa"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "a81de609717cdc22",
@@ -165,6 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "aaa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +176,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "バックリンク"
+              "title": "aaaへのバックリンク"
             }
           },
           {
@@ -183,11 +185,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "aaa.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "アウトゴーイングリンク"
+              "title": "aaaからのアウトゴーイングリンク"
             }
           },
           {
@@ -211,12 +214,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "aaa.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "アウトライン"
+              "title": "aaaのアウトライン"
             }
           },
           {
@@ -266,11 +270,11 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "e4cf5eb6a238b20c",
+  "active": "acd9e719605501ce",
   "lastOpenFiles": [
     "10-inbox/Zenn Compute Engineのプライベートサービスアクセス入門：CPA試験で問われるVPCとファイアウォールで遊ぶ.md",
     "50-resource/スクリーンショット 2025-07-11 18.15.16.png",
-    "GCP認定試験対策：VPCの頻出問題シナリオをgcloudコマンドで完全再現！.md",
+    "aaa.md",
     "20-permanent/TRIAL Company　レガシーなIP構成を維持しつつ、Google Cloudでシステムをモダナイズ.md",
     "20-permanent/Shiniseチームconfig.md",
     "20-permanent/Zenn 待ち行列理論で見るGKEのポッド数最適化.md",
