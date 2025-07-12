@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-permanent/K8sにおけるPostgreSQL接続エラーのトラブルシューティングプロセス.md",
+                "file": "10-inbox/Zenn Compute Engineのプライベートサービスアクセス入門：CPA試験で問われるVPCとファイアウォールで遊ぶ.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "K8sにおけるPostgreSQL接続エラーのトラブルシューティングプロセス"
+              "title": "Zenn Compute Engineのプライベートサービスアクセス入門：CPA試験で問われるVPCとファイアウォールで遊ぶ"
             }
           }
         ],
@@ -89,8 +89,7 @@
               "title": "ブックマーク"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20-permanent/K8sにおけるPostgreSQL接続エラーのトラブルシューティングプロセス.md",
+                "file": "10-inbox/Zenn Compute Engineのプライベートサービスアクセス入門：CPA試験で問われるVPCとファイアウォールで遊ぶ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "K8sにおけるPostgreSQL接続エラーのトラブルシューティングプロセスへのバックリンク"
+              "title": "Zenn Compute Engineのプライベートサービスアクセス入門：CPA試験で問われるVPCとファイアウォールで遊ぶへのバックリンク"
             }
           },
           {
@@ -129,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "20-permanent/K8sにおけるPostgreSQL接続エラーのトラブルシューティングプロセス.md",
+                "file": "10-inbox/Zenn Compute Engineのプライベートサービスアクセス入門：CPA試験で問われるVPCとファイアウォールで遊ぶ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "K8sにおけるPostgreSQL接続エラーのトラブルシューティングプロセスからのアウトゴーイングリンク"
+              "title": "Zenn Compute Engineのプライベートサービスアクセス入門：CPA試験で問われるVPCとファイアウォールで遊ぶからのアウトゴーイングリンク"
             }
           },
           {
@@ -158,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20-permanent/K8sにおけるPostgreSQL接続エラーのトラブルシューティングプロセス.md",
+                "file": "10-inbox/Zenn Compute Engineのプライベートサービスアクセス入門：CPA試験で問われるVPCとファイアウォールで遊ぶ.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "K8sにおけるPostgreSQL接続エラーのトラブルシューティングプロセスのアウトライン"
+              "title": "Zenn Compute Engineのプライベートサービスアクセス入門：CPA試験で問われるVPCとファイアウォールで遊ぶのアウトライン"
             }
           },
           {
@@ -216,7 +215,11 @@
   },
   "active": "c97dcc8e355c27df",
   "lastOpenFiles": [
+    "10-inbox/Gradleのバージョン管理方法ベストプラクティス.md",
+    "10-inbox/GitHubで認証通らない時.md",
+    "20-permanent/ランダムグラフに対する最小作用の原理.md",
     "スクリーンショット 2025-07-11 23.18.55.png",
+    "20-permanent/K8sにおけるPostgreSQL接続エラーのトラブルシューティングプロセス.md",
     "スクリーンショット 2025-07-11 18.44.04.png",
     "スクリーンショット 2025-07-11 18.15.16.png",
     "Ornstein-Uhlenbeck過程とそのFokker-Planck方程式による解法まとめ.md",
@@ -228,7 +231,6 @@
     "Pasted image 20250711151923.png",
     "20-permanent/生成消滅演算子関連の公式集.md",
     "20-permanent/生成消滅演算子とエネルギー準位.md",
-    "20-permanent/ランダムグラフに対する最小作用の原理.md",
     "20-permanent/Zenn 待ち行列理論で見るGKEのポッド数最適化.md",
     "20-permanent/TRIAL Company　レガシーなIP構成を維持しつつ、Google Cloudでシステムをモダナイズ.md",
     "20-permanent/Ornstein-Uhlenbeck過程とそのFokker-Planck方程式による解法まとめ.md",
@@ -237,14 +239,11 @@
     "10-inbox/出会ったLinuxコマンド一覧.md",
     "10-inbox/デルタ関数のフーリエ変換.md",
     "10-inbox/Zenn Compute Engineのプライベートサービスアクセス入門：CPA試験で問われるVPCとファイアウォールで遊ぶ.md",
-    "10-inbox/Gradleのバージョン管理方法ベストプラクティス.md",
-    "10-inbox/GitHubで認証通らない時.md",
     "01-weekly/2025-W28 Weekly Review.md",
     "00-daily/2025-07-11.md",
     "00-daily/2025-07-10.md",
     "00-daily/2025-07-09.md",
     "00-daily/2025-07-08.md",
-    "20-permanent/K8sにおけるPostgreSQL接続エラーのトラブルシューティングプロセス.md",
     "Fokker-Planck方程式をPINNの方法で解析的に.md",
     "10-inbox/Dockerのベストプラクティス翻訳.md",
     "20-permanent/インフレーションのクラス再考.md",
@@ -254,7 +253,6 @@
     "無題のファイル.canvas",
     "無題のフォルダ",
     "11-inbox-book",
-    "50-resource/スクリーンショット 2025-07-04 16.20.25.png",
     "50-resource",
     "test",
     "30-projects",
