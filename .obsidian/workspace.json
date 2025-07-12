@@ -13,15 +13,61 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-permanent/TRIAL Company　レガシーなIP構成を維持しつつ、Google Cloudでシステムをモダナイズ.md",
+                "file": "10-inbox/Zenn Compute Engineのプライベートサービスアクセス入門：CPA試験で問われるVPCとファイアウォールで遊ぶ.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TRIAL Company　レガシーなIP構成を維持しつつ、Google Cloudでシステムをモダナイズ"
+              "title": "Zenn Compute Engineのプライベートサービスアクセス入門：CPA試験で問われるVPCとファイアウォールで遊ぶ"
+            }
+          },
+          {
+            "id": "acd9e719605501ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GCP認定試験対策：VPCの頻出問題シナリオをgcloudコマンドで完全再現！.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GCP認定試験対策：VPCの頻出問題シナリオをgcloudコマンドで完全再現！"
             }
           }
-        ]
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "a81de609717cdc22",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "22db3dadbec129c7",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://www.google.com/search?q=Google%20Cloud%20Platform&sei=OuRxaIWwMpTg2roPyJ7e2QY"
+              },
+              "icon": "lucide-file",
+              "title": "Google Cloud Platform - Google 検索"
+            }
+          },
+          {
+            "id": "e4cf5eb6a238b20c",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://gemini.google.com/app/ede661ebe7160933"
+              },
+              "icon": "lucide-file",
+              "title": "Google Gemini"
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +140,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20-permanent/TRIAL Company　レガシーなIP構成を維持しつつ、Google Cloudでシステムをモダナイズ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +149,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "TRIAL Company　レガシーなIP構成を維持しつつ、Google Cloudでシステムをモダナイズへのバックリンク"
+              "title": "バックリンク"
             }
           },
           {
@@ -113,12 +158,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "20-permanent/TRIAL Company　レガシーなIP構成を維持しつつ、Google Cloudでシステムをモダナイズ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "TRIAL Company　レガシーなIP構成を維持しつつ、Google Cloudでシステムをモダナイズからのアウトゴーイングリンク"
+              "title": "アウトゴーイングリンク"
             }
           },
           {
@@ -142,13 +186,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20-permanent/TRIAL Company　レガシーなIP構成を維持しつつ、Google Cloudでシステムをモダナイズ.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "TRIAL Company　レガシーなIP構成を維持しつつ、Google Cloudでシステムをモダナイズのアウトライン"
+              "title": "アウトライン"
             }
           },
           {
@@ -198,8 +241,10 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "251ad49ae12f2826",
+  "active": "e4cf5eb6a238b20c",
   "lastOpenFiles": [
+    "GCP認定試験対策：VPCの頻出問題シナリオをgcloudコマンドで完全再現！.md",
+    "10-inbox/Zenn Compute Engineのプライベートサービスアクセス入門：CPA試験で問われるVPCとファイアウォールで遊ぶ.md",
     "20-permanent/TRIAL Company　レガシーなIP構成を維持しつつ、Google Cloudでシステムをモダナイズ.md",
     "20-permanent/Shiniseチームconfig.md",
     "20-permanent/Zenn 待ち行列理論で見るGKEのポッド数最適化.md",
@@ -217,7 +262,6 @@
     "10-inbox/Dockerのベストプラクティス翻訳.md",
     "30-projects/MOC.md",
     "50-resource/Pasted image 20250711152459.png",
-    "10-inbox/Zenn Compute Engineのプライベートサービスアクセス入門：CPA試験で問われるVPCとファイアウォールで遊ぶ.md",
     "10-inbox/Gradleのバージョン管理方法ベストプラクティス.md",
     "10-inbox/GitHubで認証通らない時.md",
     "50-resource/スクリーンショット 2025-07-11 23.18.55.png",
@@ -234,7 +278,6 @@
     "10-inbox/出会ったLinuxコマンド一覧.md",
     "10-inbox/デルタ関数のフーリエ変換.md",
     "01-weekly/2025-W28 Weekly Review.md",
-    "00-daily/2025-07-11.md",
     "50-resource/スクリーンショット 2025-07-07 15.02.56.png",
     "無題のファイル.canvas",
     "無題のフォルダ",
