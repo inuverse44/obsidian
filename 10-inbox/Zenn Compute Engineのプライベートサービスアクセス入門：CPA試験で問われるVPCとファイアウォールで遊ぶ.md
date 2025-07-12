@@ -462,3 +462,94 @@ gcloud compute instances start gce-psa-test --zone=$ZONE
 =====================================
 
 
+```mermaid
+flowchart LR
+    %% サブグラフ定義
+    subgraph VPC ["VPC Network (my-secure-vpc)"]
+        subgraph Subnet ["Subnet (限定公開のGoogleアクセス有効)"]
+            VM["VM: gce-private-test<br/>(外部IPなし)"]
+        end
+        subgraph Firewall ["Egress Firewall"]
+            FW_ALLOW["<b>Priority 100</b><br/>ALLOW to AD"]
+            FW_DENY["<b>Priority 1000</b><br/>DENY ALL"]
+        end
+    end
+
+    subgraph External ["外部の宛先"]
+        AD["Active Directory<br/>(10.100.0.10)"]
+        GCS["Google Cloud Storage<br/>(Public IP)"]
+    end
+
+    %% エッジ定義（ラベルを上部に配置）
+    VM -->|ADへの通信 (tcp:389)| FW_ALLOW
+    FW_ALLOW -->|✅ 許可 (OK)| AD
+
+    VM -->|GCSへの通信 (tcp:443)<br/>gsutil ls gs://...| FW_DENY
+    FW_DENY -->|❌ 拒否 (BLOCK!)| GCS
+
+    %% エッジのスタイル指定（0: 最初のエッジ, 2: 3番目のエッジ）
+    linkStyle 0 stroke:green,stroke-width:2px;
+    linkStyle 2 stroke:red,stroke-width:2px,stroke-dasharray:5,5;
+```
+
+
+```mermaid
+%%{init: {'flowchart': {'htmlLabels': true, 'diagramPadding': 20, 'nodeSpacing': 50, 'rankSpacing': 60}}}%%
+flowchart LR
+    %% 管理者
+    subgraph User["管理者"]
+        Admin[<br>💻<br>Your PC]
+    end
+
+    subgraph GoogleCloud["Google Cloud"]
+        %% VPCネットワーク
+        subgraph VPC_NW["VPC Network (my-secure-vpc)"]
+            direction TB
+            subgraph Subnet["Subnet (my-private-subnet)<br><b>PGA: 無効</b>"]
+                VM["<b>VM: gce-private-test</b><br>(外部IPなし)"]
+            end
+
+            subgraph Firewall["Firewall Rules"]
+                direction LR
+                subgraph Ingress["<b>INGRESS (内向き)</b>"]
+                    FW_IAP["<b>allow-ssh-via-iap</b><br>ALLOW tcp:22<br>from IAP"]
+                end
+                subgraph Egress["<b>EGRESS (外向き)</b>"]
+                    FW_ALLOW["<b>Priority 100</b><br>ALLOW to AD"]
+                    FW_DENY["<b>Priority 1000</b><br>DENY ALL"]
+                end
+            end
+        end
+
+        %% IAPと宛先サービス
+        IAP["IAP Service<br>(35.235.240.0/20)"]
+        AD["Active Directory<br>(10.100.0.10)"]
+        GCS["Google Cloud Storage API"]
+    end
+
+    %% --- 通信フロー ---
+
+    %% 1. SSH接続 (成功)
+    Admin -- "1. gcloud compute ssh" --> IAP
+    IAP -- "2. ✅ SSHトンネル" --> FW_IAP
+    FW_IAP --> VM
+
+    %% 2. GCSアクセス (失敗)
+    VM -- "3. gsutil ls gs://...<br>(Google APIへの通信)" --> FW_DENY
+    FW_DENY -- "❌ 拒否" --> GCS
+
+    %% 3. ADアクセス (成功)
+    VM -- "4. ADへの通信" --> FW_ALLOW
+    FW_ALLOW -- "✅ 許可" --> AD
+
+    %% --- スタイル指定 ---
+    linkStyle 0 stroke:blue,stroke-width:2px,stroke-dasharray:5,5
+    linkStyle 1 stroke:blue,stroke-width:2px,stroke-dasharray:5,5
+    linkStyle 2 stroke:blue,stroke-width:2px,stroke-dasharray:5,5
+
+    linkStyle 3 stroke:red,stroke-width:2px,stroke-dasharray:2,2
+    linkStyle 4 stroke:red,stroke-width:2px,stroke-dasharray:2,2
+
+    linkStyle 5 stroke:green,stroke-width:2px
+    linkStyle 6 stroke:green,stroke-width:2px
+```
