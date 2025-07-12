@@ -359,10 +359,99 @@ gce-psa-test  asia-northeast1-a  e2-micro      true         10.8.0.2            
 ```
 
 
+# 4.5 GCS
+
+```
+gsutil mb -l $REGION gs://my-private-bucket/
+```
+
+```
+Creating gs://my-private-bucket/...
+ServiceException: 409 A Cloud Storage bucket named 'my-private-bucket' already exists. Try another name. Bucket names must be globally unique across all Google Cloud projects, including those outside of your organization.
+```
+名前が被りました
+
+あらためて、
+```
+gsutil mb -l $REGION gs://inuverse-test-vpc/
+```
+
+```
+Creating gs://inuverse-test-vpc/...
+```
+
+PGA (Private Google Access)
+```
+gcloud compute networks subnets update my-subnet-psa \
+  --region=$REGION \
+  --enable-private-ip-google-access
+```
+
+```
+Updated [https://www.googleapis.com/compute/v1/projects/inuverse-test-vpc/regions/asia-northeast1/subnetworks/my-subnet-psa].
+```
+
+
+```mermaid
+flowchart LR
+  subgraph SUBNET["サブネット (外部IPなし / PGA 有効)"]
+    VM["Compute Engine<br>no external IP"]
+  end
+
+  subgraph GOOGLE["Google ネットワーク"]
+    PGA_IP["199.36.153.4 他<br>(Private Google Access VIP)"]
+    GCS["storage.googleapis.com"]
+    BUCKET["GCS バケット"]
+  end
+
+  VM -->|HTTPS to storage.googleapis.com| PGA_IP
+  PGA_IP -->|Google バックボーン| GCS
+  GCS -->|API 呼び出し| BUCKET
+```
+
 
 # 5. 動作確認
 
 SSH
 ```
 gcloud compute ssh gce-psa-test
+```
+
+
+```mermaid
+flowchart TB
+  subgraph IAP["IAP TCP トンネル<br>ソース: 35.235.240.0/20"]
+  end
+
+  subgraph VPC["VPC ネットワーク: my-vpc"]
+    subgraph Subnet["サブネット: my-subnet-psa<br>CIDR: 10.8.0.0/28"]
+    end
+    subgraph Connector["VPC Access Connector<br>(psa-connector)"]
+      C1["e2-micro VM ×2 (min)"]
+    end
+    subgraph Firewall["ファイアウォールルール"]
+      F1["allow-ssh-iap<br>(INGRESS tcp:22 from IAP)"]
+      F2["allow-ad-egress<br>(EGRESS tcp:389,636 to AD)"]
+      F3["deny-all-egress<br>(EGRESS all to 0.0.0.0/0)"]
+    end
+    subgraph Instances["Compute Engine"]
+      I1["gce-psa-test<br>e2-micro, preemptible, no external IP"]
+    end
+  end
+
+  AD["Active Directory サーバー<br>10.100.0.10/32"]
+
+  IAP --> F1 --> I1
+  I1 --> F2 --> AD
+  I1 --> F3
+```
+
+
+
+その他
+
+キャッシュ
+```
+gcloud compute instances stop gce-psa-test --zone=$ZONE
+gcloud compute instances start gce-psa-test --zone=$ZONE
 ```

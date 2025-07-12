@@ -66,19 +66,19 @@
             }
           },
           {
-            "id": "8748c07ee8d73eea",
+            "id": "b1f89086a556528c",
             "type": "leaf",
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "https://console.cloud.google.com/net-security/firewall-manager/firewall-policies/list?hl=ja&inv=1&invt=Ab2eVg&project=inuverse-test-vpc"
+                "url": "https://gemini.google.com/app/530c3b7155a5f187?hl=ja"
               },
               "icon": "lucide-file",
-              "title": "ファイアウォール ポリシー – ネットワーク セキュリティ – inuverse-test-vpc – Google Cloud コンソール"
+              "title": "Google Gemini"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -254,7 +254,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9dfafc144a6f72be",
+  "active": "b1f89086a556528c",
   "lastOpenFiles": [
     "10-inbox/Zenn Compute Engineのプライベートサービスアクセス入門：CPA試験で問われるVPCとファイアウォールで遊ぶ.md",
     "スクリーンショット 2025-07-11 23.18.55.png",
