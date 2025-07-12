@@ -6,6 +6,7 @@
       {
         "id": "f54204baef92ce6f",
         "type": "tabs",
+        "dimension": 44.743276283618584,
         "children": [
           {
             "id": "251ad49ae12f2826",
@@ -35,12 +36,12 @@
               "title": "GCP認定試験対策：VPCの頻出問題シナリオをgcloudコマンドで完全再現！"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "a81de609717cdc22",
         "type": "tabs",
+        "dimension": 55.256723716381416,
         "children": [
           {
             "id": "22db3dadbec129c7",
@@ -136,7 +137,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "4fe5bf4a1136af91",
@@ -255,8 +257,8 @@
   },
   "active": "e4cf5eb6a238b20c",
   "lastOpenFiles": [
-    "GCP認定試験対策：VPCの頻出問題シナリオをgcloudコマンドで完全再現！.md",
     "10-inbox/Zenn Compute Engineのプライベートサービスアクセス入門：CPA試験で問われるVPCとファイアウォールで遊ぶ.md",
+    "GCP認定試験対策：VPCの頻出問題シナリオをgcloudコマンドで完全再現！.md",
     "20-permanent/TRIAL Company　レガシーなIP構成を維持しつつ、Google Cloudでシステムをモダナイズ.md",
     "20-permanent/Shiniseチームconfig.md",
     "20-permanent/Zenn 待ち行列理論で見るGKEのポッド数最適化.md",

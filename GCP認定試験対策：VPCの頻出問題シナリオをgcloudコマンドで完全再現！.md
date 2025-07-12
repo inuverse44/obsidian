@@ -77,12 +77,16 @@ gcloud compute networks subnets create my-subnet-psa \
 
 ```bash
 gcloud compute instances create gce-psa-test \
-  --zone=$ZONE \
-  --machine-type=e2-micro \
-  --network=my-vpc \
-  --subnet=my-subnet-psa \
-  --no-address
+	--zone=$ZONE \
+	--machine-type=e2-micro \
+	--network=my-vpc \
+	--subnet=my-subnet-psa \
+	--no-address \
+	--provisioning-model=SPOT \
+	--boot-disk-type=pd-standard
 ```
+※ 以前は `--preemptible` というフラグが使われていましたが、現在は `--provisioning-model=SPOT` が推奨されています。
+
 
 作成後、`EXTERNAL_IP`が空欄であることを確認しましょう。
 ```
@@ -104,17 +108,14 @@ gsutil mb -l $REGION gs://inuverse-test-vpc/
 
 この設定により、サブネット内のVMは外部IPがなくても、Google CloudのAPI（Cloud Storageなど）にGoogleの内部ネットワーク経由でアクセスできるようになります。
 
-Bash
-
 ```
 gcloud compute networks subnets update my-subnet-psa \
   --region=$REGION \
   --enable-private-ip-google-access
 ```
 
-これで、Q34の正解構成が完成しました！VMにSSH接続して `gsutil ls gs://inuverse-test-vpc/` を実行するとバケットにアクセスでき、`ping 8.8.8.8` を実行すると失敗することから、インターネットには接続できないことが確認できます。
+これで、Q34の正解構成が完成しました！~~VMにSSH接続して `gsutil ls gs://inuverse-test-vpc/` を実行するとバケットにアクセスでき、`ping 8.8.8.8` を実行すると失敗することから、インターネットには接続できないことが確認できます。~~
 
-コード スニペット
 
 ```mermaid
 flowchart LR
