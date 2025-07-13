@@ -1,5 +1,5 @@
 ---
-template: zenn-article
+template: article
 title: GCPの沼：限定公開のGoogleアクセス(PGA)とEgress全拒否ファイアウォールが引き起こすタイムアウト地獄
 date: 2025-07-12
 source: Google Cloud Documentation
@@ -9,7 +9,7 @@ tags:
   - CloudStorage
   - Firewall
   - PrivateGoogleAccess
-status: pending
+status: archived
 aliases:
 ---
 # はじめに
