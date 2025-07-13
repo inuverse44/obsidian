@@ -294,30 +294,30 @@ echo "Waiting for 30 seconds for system to stabilize before SSH..."
 sleep 30
 
 gcloud compute ssh $INSTANCE_NAME --command \
-'
-	# 重要: これにより storage.googleapis.com が 199.36.153.8 に解決される
-	echo "199.36.153.8 storage.googleapis.com" | sudo tee -a /etc/hosts
-	
-	echo -e "\n--- Test 1: Accessing GCS bucket (Should SUCCEED) ---"
-	gsutil ls gs://${BUCKET_NAME}/
-	GCS_ACCESS_STATUS=$?
+'\
+	# 重要: これにより storage.googleapis.com が 199.36.153.8 に解決される\
+	echo "199.36.153.8 storage.googleapis.com" | sudo tee -a /etc/hosts\
+	\
+	echo -e "\n--- Test 1: Accessing GCS bucket (Should SUCCEED) ---"\
+	gsutil ls gs://${BUCKET_NAME}/\
+	GCS_ACCESS_STATUS=$?\
 
-	echo -e "\n--- Test 2: Accessing external internet (Should FAIL) ---"
-	ping -c 3 8.8.8.8
-	PING_STATUS=$?
+	echo -e "\n--- Test 2: Accessing external internet (Should FAIL) ---"\
+	ping -c 3 8.8.8.8\
+	PING_STATUS=$?\
 
-	echo -e "\n--- Verification Summary ---"
-	if [ $GCS_ACCESS_STATUS -eq 0 ]; then
-		echo "✅ SUCCESS: GCS bucket is accessible via Private Google Access."
-	else
-		echo "❌ FAILED: Could not access GCS bucket."
-	fi
+	echo -e "\n--- Verification Summary ---"\
+	if [ $GCS_ACCESS_STATUS -eq 0 ]; then\
+		echo "✅ SUCCESS: GCS bucket is accessible via Private Google Access."\
+	else\
+		echo "❌ FAILED: Could not access GCS bucket."\
+	fi\
 
-	if [ $PING_STATUS -ne 0 ]; then
-		echo "✅ SUCCESS: External internet is NOT accessible due to egress firewall rules."
-	else
-		echo "❌ FAILED: External internet is accessible."
-	fi
+	if [ $PING_STATUS -ne 0 ]; then\
+		echo "✅ SUCCESS: External internet is NOT accessible due to egress firewall rules."\
+	else\
+		echo "❌ FAILED: External internet is accessible."\
+	fi\
 '
 
 echo -e "\n✅ Verification process complete."
@@ -352,3 +352,8 @@ fi
 
 echo "✅ Cleanup complete."
 ```
+
+# 🔗 関連
+- [[【PCA認定試験】Cloud SQLとSpanner、BigtableとCAP定理と]]
+- [[K8sにおけるPostgreSQL接続エラーのトラブルシューティングプロセス]]
+- [[TRIAL Company　レガシーなIP構成を維持しつつ、Google Cloudでシステムをモダナイズ]]

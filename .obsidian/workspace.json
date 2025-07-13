@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-permanent/待ち行列理論で見るGKEのポッド数最適化.md",
+                "file": "10-inbox/GitHubで認証通らない時.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "待ち行列理論で見るGKEのポッド数最適化"
+              "title": "GitHubで認証通らない時"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20-permanent/待ち行列理論で見るGKEのポッド数最適化.md",
+                "file": "10-inbox/GitHubで認証通らない時.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "待ち行列理論で見るGKEのポッド数最適化へのバックリンク"
+              "title": "GitHubで認証通らない時へのバックリンク"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "20-permanent/待ち行列理論で見るGKEのポッド数最適化.md",
+                "file": "10-inbox/GitHubで認証通らない時.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "待ち行列理論で見るGKEのポッド数最適化からのアウトゴーイングリンク"
+              "title": "GitHubで認証通らない時からのアウトゴーイングリンク"
             }
           },
           {
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20-permanent/待ち行列理論で見るGKEのポッド数最適化.md",
+                "file": "10-inbox/GitHubで認証通らない時.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "待ち行列理論で見るGKEのポッド数最適化のアウトライン"
+              "title": "GitHubで認証通らない時のアウトライン"
             }
           },
           {
@@ -214,9 +214,10 @@
   },
   "active": "8d2ca3d19fe3468d",
   "lastOpenFiles": [
-    "20-permanent/【PCA認定試験】Cloud SQLとSpanner、BigtableとCAP定理と.md",
-    "00-daily/2025-07-11.md",
     "10-inbox/Dockerのベストプラクティス翻訳.md",
+    "00-daily/2025-07-11.md",
+    "20-permanent/待ち行列理論で見るGKEのポッド数最適化.md",
+    "20-permanent/【PCA認定試験】Cloud SQLとSpanner、BigtableとCAP定理と.md",
     "無題のファイル.canvas",
     "00-daily/2025-07-08.md",
     "00-daily/2025-07-07.md",
@@ -237,7 +238,6 @@
     "20-permanent/Ornstein-Uhlenbeck過程とそのFokker-Planck方程式による解法まとめ.md",
     "10-inbox/連星アルビレオについて科学館で聞いた話.md",
     "10-inbox/Zenn Compute Engineのプライベートサービスアクセス入門：CPA試験で問われるVPCとファイアウォールで遊ぶ.md",
-    "20-permanent/待ち行列理論で見るGKEのポッド数最適化.md",
     "20-permanent/アルビレオAの視線速度変化から探る新たな伴星.md",
     "20-permanent/インフレーションのクラス再考.md",
     "20-permanent/ランダムグラフに対する最小作用の原理.md",

@@ -153,3 +153,5 @@ $$
 -   C. W. Gardiner, "Handbook of Stochastic Methods for Physics, Chemistry and the Natural Sciences"
 -   N. G. van Kampen, "Stochastic Processes in Physics and Chemistry"
 # 🔗 関連
+- [[ランダムグラフに対する最小作用の原理]]
+- [[インフレーションのクラス再考]]

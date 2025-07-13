@@ -192,5 +192,10 @@ CAP定理を理解すると、GCPのDBを以下の様なフローで考えられ
 ![](https://storage.googleapis.com/zenn-user-upload/1a8197c7cdbc-20250713.png)
 
 
+# 🔗 関連
+- [[GCPの沼：限定公開のGoogleアクセス(PGA)とEgress全拒否ファイアウォールが引き起こすタイムアウト地獄]]
+- [[待ち行列理論で見るGKEのポッド数最適化]]
+
+
 
 

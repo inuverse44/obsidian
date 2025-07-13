@@ -209,3 +209,5 @@ api_pod -- "接続先: host.docker.internal:35432" --> HostPC
 
 ## 🔗 関連
 - [[Shiniseチームconfig]]
+- [[GCPの沼：限定公開のGoogleアクセス(PGA)とEgress全拒否ファイアウォールが引き起こすタイムアウト地獄]]
+- [[待ち行列理論で見るGKEのポッド数最適化]]
