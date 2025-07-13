@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -135,8 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "4fe5bf4a1136af91",
@@ -254,7 +253,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b1f89086a556528c",
+  "active": "9dfafc144a6f72be",
   "lastOpenFiles": [
     "10-inbox/Zenn Compute Engineのプライベートサービスアクセス入門：CPA試験で問われるVPCとファイアウォールで遊ぶ.md",
     "スクリーンショット 2025-07-11 23.18.55.png",
