@@ -11,10 +11,14 @@
             "id": "8daf14ca8ff21dd3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "00-daily/2025-07-11.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新規タブ"
+              "title": "2025-07-11"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "00-daily/2025-07-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "バックリンク"
+              "title": "2025-07-11へのバックリンク"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "00-daily/2025-07-11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "アウトゴーイングリンク"
+              "title": "2025-07-11からのアウトゴーイングリンク"
             }
           },
           {
@@ -136,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "00-daily/2025-07-11.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "アウトライン"
+              "title": "2025-07-11のアウトライン"
             }
           },
           {
@@ -192,6 +199,7 @@
   },
   "active": "8daf14ca8ff21dd3",
   "lastOpenFiles": [
+    "10-inbox/Dockerのベストプラクティス翻訳.md",
     "無題のファイル.canvas",
     "00-daily/2025-07-08.md",
     "00-daily/2025-07-07.md",
@@ -201,7 +209,6 @@
     "20-permanent/K8sにおけるPostgreSQL接続エラーのトラブルシューティングプロセス.md",
     "01-weekly/2025-W28 Weekly Review.md",
     "10-inbox/Gradleのバージョン管理方法ベストプラクティス.md",
-    "10-inbox/Dockerのベストプラクティス翻訳.md",
     "00-daily/2025-07-09.md",
     "10-inbox/Professional Cloud Architect問題解説.md",
     "20-permanent/生成消滅演算子とエネルギー準位.md",
