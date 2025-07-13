@@ -1,6 +1,6 @@
 ---
 template: permanent
-title: Zenn 待ち行列理論で見るGKEのポッド数最適化
+title: 待ち行列理論で見るGKEのポッド数最適化
 date: 2025-07-08
 source: ソースを入れてください
 tags:
