@@ -103,7 +103,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "4fe5bf4a1136af91",
@@ -224,18 +225,19 @@
   },
   "active": "fe2e1ad52463b889",
   "lastOpenFiles": [
-    "00-daily/2025-07-11.md",
+    "12-inbox-kindle-highlight/吉積礼敏-GCPの教科書.md",
+    "12-inbox-kindle-highlight/裕介-［改訂新版］プロになるためのWeb技術入門.md",
+    "12-inbox-kindle-highlight/Swift-Gullivers Travels.md",
+    "12-inbox-kindle-highlight/山本義隆-重力と力学的世界　上　――古典としての古典力学.md",
+    "20-permanent/Shiniseチームconfig.md",
     "00-daily/2025-07-14.md",
+    "00-daily/2025-07-11.md",
     "00-daily/2025-07-10.md",
     "無題のファイル.md",
     "11-inbox-book/20世紀科学論文集　現代宇宙論の誕生.md",
     "11-inbox-book/実践OpenTelemetry.md",
     "12-inbox-kindle-highlight/Carroll-The Bullet Journal Method.md",
-    "12-inbox-kindle-highlight/吉積礼敏-GCPの教科書.md",
     "12-inbox-kindle-highlight/Georgi-Lie Algebras In Particle Physics.md",
-    "12-inbox-kindle-highlight/裕介-［改訂新版］プロになるためのWeb技術入門.md",
-    "12-inbox-kindle-highlight/山本義隆-重力と力学的世界　上　――古典としての古典力学.md",
-    "12-inbox-kindle-highlight/Swift-Gullivers Travels.md",
     "50-resource/スクリーンショット 2025-07-11 23.18.55.png",
     "50-resource/スクリーンショット 2025-07-11 18.44.04.png",
     "50-resource/スクリーンショット 2025-07-11 18.15.16.png",
@@ -260,7 +262,6 @@
     "10-inbox/出会ったgcloudコマンド.md",
     "10-inbox/出会ったLinuxコマンド一覧.md",
     "00-daily/2025-07-08.md",
-    "00-daily/2025-07-07.md",
     "無題のフォルダ",
     "50-resource",
     "11-inbox-book",
