@@ -1,6 +1,6 @@
 ---
 template: permanent
-title: Zenn 待ち行列理論で見るGKEのポッド数最適化
+title: 待ち行列理論で見るGKEのポッド数最適化
 date: 2025-07-08
 source: ソースを入れてください
 tags:
@@ -343,6 +343,10 @@ $$
 - https://queue.acm.org/detail.cfm?id=2898444
 - https://cloud.google.com/kubernetes-engine?hl=ja#deploying-and-running-applications
 
+# 🔗 関連
+- [[【PCA認定試験】Cloud SQLとSpanner、BigtableとCAP定理と]]
+- [[K8sにおけるPostgreSQL接続エラーのトラブルシューティングプロセス]]
+- [[GCPの沼：限定公開のGoogleアクセス(PGA)とEgress全拒否ファイアウォールが引き起こすタイムアウト地獄]]
 
 # 付録
 
