@@ -6,7 +6,7 @@
       {
         "id": "7f8a12a0b27dbb99",
         "type": "tabs",
-        "dimension": 45.70259208731242,
+        "dimension": 42.016806722689076,
         "children": [
           {
             "id": "9c2872fcb4406932",
@@ -49,14 +49,50 @@
               "icon": "lucide-file",
               "title": "実践OpenTelemetry"
             }
+          },
+          {
+            "id": "8e9378e26a962e12",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://embed.zenn.studio/card#zenn-embedded__72a04b2266b4e"
+              },
+              "icon": "lucide-file",
+              "title": "マイクロサービスにおけるオブザーバビリティに入門してみた（Prometheus + Grafana ハンズオン付き）"
+            }
+          },
+          {
+            "id": "e61363f16b384347",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "http://localhost:3000/dashboard/new?orgId=1&from=now-1h&to=now&editPanel=1&tab=query"
+              },
+              "icon": "lucide-file",
+              "title": "Edit panel - New dashboard - Dashboards - Grafana"
+            }
+          },
+          {
+            "id": "788c793467d31b16",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "http://localhost:9090/targets?search="
+              },
+              "icon": "lucide-file",
+              "title": "Prometheus Time Series Collection and Processing Server"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       },
       {
         "id": "a082f7a88a6b5534",
         "type": "tabs",
-        "dimension": 54.29740791268759,
+        "dimension": 57.98319327731093,
         "children": [
           {
             "id": "e2023f076094512d",
@@ -71,7 +107,19 @@
             }
           },
           {
-            "id": "f218006160478ec5",
+            "id": "197b23bc6054da28",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://www.google.com/search?q=grafana%20prometheus%20%E9%80%A3%E6%90%BA"
+              },
+              "icon": "lucide-file",
+              "title": "grafana prometheus 連携 - Google 検索"
+            }
+          },
+          {
+            "id": "f3ba9ea3abf55f45",
             "type": "leaf",
             "state": {
               "type": "surfing-view",
@@ -83,7 +131,7 @@
             }
           },
           {
-            "id": "ea7687aa9e6255aa",
+            "id": "d494644ef7f9d1e4",
             "type": "leaf",
             "state": {
               "type": "surfing-view",
@@ -93,21 +141,9 @@
               "icon": "lucide-file",
               "title": "Google Gemini"
             }
-          },
-          {
-            "id": "c2daada1ef5c2064",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://www.google.com/search?q=charity+majors+observability+book&sca_esv=4c094f9ab0275748&sxsrf=AE3TifN2BXgXC1_071DllEUfL14vLu_FAw%3A1752483919092&ei=T8h0aIWyBcuzvr0Pr_nPwQc&oq=Charity+Majors+observability&gs_lp=Egxnd3Mtd2l6LXNlcnAiHENoYXJpdHkgTWFqb3JzIG9ic2VydmFiaWxpdHkqAggAMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHSKAxUABYAHABeAGQAQCYAQCgAQCqAQC4AQHIAQCYAgGgAgaYAwCIBgGQBgqSBwExoAcAsgcAuAcAwgcDMi0xyAcF&sclient=gws-wiz-serp"
-              },
-              "icon": "lucide-file",
-              "title": "charity majors observability book - Google 検索"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -164,7 +200,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "4fe5bf4a1136af91",
@@ -284,7 +321,7 @@
       "obsidian-kindle-plugin:Sync your Kindle highlights": false
     }
   },
-  "active": "ea7687aa9e6255aa",
+  "active": "788c793467d31b16",
   "lastOpenFiles": [
     "11-inbox-book/実践OpenTelemetry.md",
     "10-inbox/Observability.md",
