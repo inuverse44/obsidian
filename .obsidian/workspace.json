@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-daily/2025-07-14.md",
+                "file": "12-inbox-kindle-highlight/山本義隆-重力と力学的世界　上　――古典としての古典力学.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-14"
+              "title": "山本義隆-重力と力学的世界　上　――古典としての古典力学"
             }
           }
         ]
@@ -175,8 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "4fe5bf4a1136af91",
@@ -240,13 +239,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-daily/2025-07-14.md",
+                "file": "12-inbox-kindle-highlight/山本義隆-重力と力学的世界　上　――古典としての古典力学.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-07-14のアウトライン"
+              "title": "山本義隆-重力と力学的世界　上　――古典としての古典力学のアウトライン"
             }
           },
           {
@@ -297,6 +296,18 @@
   },
   "active": "9c2872fcb4406932",
   "lastOpenFiles": [
+    "12-inbox-kindle-highlight/吉積礼敏-GCPの教科書.md",
+    "12-inbox-kindle-highlight/山本義隆-重力と力学的世界　上　――古典としての古典力学.md",
+    "12-inbox-kindle-highlight/Swift-Gullivers Travels.md",
+    "10-inbox/出会ったgcloudコマンド.md",
+    "10-inbox/出会ったLinuxコマンド一覧.md",
+    "10-inbox/GitHubで認証通らない時.md",
+    "10-inbox/Gradleのバージョン管理方法ベストプラクティス.md",
+    "10-inbox/デルタ関数のフーリエ変換.md",
+    "10-inbox/Dockerのベストプラクティス翻訳.md",
+    "10-inbox/連星アルビレオについて科学館で聞いた話.md",
+    "10-inbox/Professional Cloud Architect問題解説.md",
+    "10-inbox/コンテキストウィンドウを考えないとLLMの精度が落ちる話.md",
     "00-daily/2025-07-14.md",
     "00-daily/2025-07-10.md",
     "00-daily/2025-07-11.md",
@@ -304,10 +315,7 @@
     "00-daily/2025-07-08.md",
     "00-daily/2025-07-07.md",
     "GEMINI.md",
-    "12-inbox-kindle-highlight/吉積礼敏-GCPの教科書.md",
     "12-inbox-kindle-highlight/裕介-［改訂新版］プロになるためのWeb技術入門.md",
-    "12-inbox-kindle-highlight/Swift-Gullivers Travels.md",
-    "12-inbox-kindle-highlight/山本義隆-重力と力学的世界　上　――古典としての古典力学.md",
     "20-permanent/Shiniseチームconfig.md",
     "無題のファイル.md",
     "11-inbox-book/20世紀科学論文集　現代宇宙論の誕生.md",
@@ -323,17 +331,8 @@
     "50-resource/Pasted image 20250711162954.png",
     "50-resource/Pasted image 20250711152459.png",
     "50-resource/Pasted image 20250711151923.png",
-    "20-permanent/待ち行列理論で見るGKEのポッド数最適化.md",
-    "20-permanent/【PCA認定試験】Cloud SQLとSpanner、BigtableとCAP定理と.md",
-    "20-permanent/GCPの沼：限定公開のGoogleアクセス(PGA)とEgress全拒否ファイアウォールが引き起こすタイムアウト地獄.md",
     "12-inbox-kindle-highlight",
-    "10-inbox/Zenn Compute Engineのプライベートサービスアクセス入門：CPA試験で問われるVPCとファイアウォールで遊ぶ.md",
     "スクリーンショット 2025-07-11 23.18.55.png",
-    "20-permanent/Zenn 待ち行列理論で見るGKEのポッド数最適化.md",
-    "01-weekly/2025-W27 Weekly Review.md",
-    "01-weekly/2025-W28 Weekly Review.md",
-    "20-permanent/アルビレオAの視線速度変化から探る新たな伴星.md",
-    "10-inbox/連星アルビレオについて科学館で聞いた話.md",
     "無題のフォルダ",
     "50-resource",
     "11-inbox-book",
