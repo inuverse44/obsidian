@@ -6,7 +6,6 @@
       {
         "id": "7f8a12a0b27dbb99",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
             "id": "9c2872fcb4406932",
@@ -38,50 +37,6 @@
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "add68039d89b227d",
-        "type": "tabs",
-        "dimension": 50,
-        "children": [
-          {
-            "id": "b1f89086a556528c",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://gemini.google.com/app/530c3b7155a5f187?hl=ja"
-              },
-              "icon": "lucide-file",
-              "title": "Google Gemini"
-            }
-          },
-          {
-            "id": "68e57839fb011e34",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://www.google.com/search?q=InteliJ%20IDEA%E3%80%80%E3%83%87%E3%83%90%E3%83%83%E3%82%B0"
-              },
-              "icon": "lucide-file",
-              "title": "InteliJ IDEA　デバッグ - Google 検索"
-            }
-          },
-          {
-            "id": "aa3444e5185723d7",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://gemini.google.com/app/817dfdac527ccdc1?hl=ja"
-              },
-              "icon": "lucide-file",
-              "title": "Google Gemini"
-            }
-          }
-        ],
-        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -202,12 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "00-daily/2025-07-14.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "アウトライン"
+              "title": "2025-07-14のアウトライン"
             }
           },
           {
@@ -257,7 +213,7 @@
       "obsidian-kindle-plugin:Sync your Kindle highlights": false
     }
   },
-  "active": "aa3444e5185723d7",
+  "active": "ca24aebfca51efa9",
   "lastOpenFiles": [
     "00-daily/2025-07-14.md",
     "12-inbox-kindle-highlight/山本義隆-重力と力学的世界　上　――古典としての古典力学.md",
