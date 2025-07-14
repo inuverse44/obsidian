@@ -68,6 +68,18 @@
               "icon": "lucide-file",
               "title": "TORA三"
             }
+          },
+          {
+            "id": "c63eab12b64e7543",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://www.google.com/search?q=osascript"
+              },
+              "icon": "lucide-file",
+              "title": "osascript - Google 検索"
+            }
           }
         ],
         "currentTab": 3
