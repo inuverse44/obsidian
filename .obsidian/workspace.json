@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-daily/2025-07-14.md",
+                "file": "GEMINI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-14"
+              "title": "GEMINI"
             }
           },
           {
@@ -44,9 +44,33 @@
               "icon": "lucide-file",
               "title": "Google Gemini"
             }
+          },
+          {
+            "id": "9c2872fcb4406932",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://gemini.google.com/app/9eeaa4bee6508359?hl=ja"
+              },
+              "icon": "lucide-file",
+              "title": "Google Gemini"
+            }
+          },
+          {
+            "id": "1b776a8a5984fb99",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://tr3.trial-net.co.jp/#/app/TOPReport/load"
+              },
+              "icon": "lucide-file",
+              "title": "TORA三"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -99,7 +123,8 @@
               "title": "ブックマーク"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -168,13 +193,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-daily/2025-07-14.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-07-14のアウトライン"
+              "title": "アウトライン"
             }
           },
           {
@@ -223,15 +247,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fe2e1ad52463b889",
+  "active": "9c2872fcb4406932",
   "lastOpenFiles": [
+    "GEMINI.md",
+    "00-daily/2025-07-11.md",
+    "00-daily/2025-07-08.md",
+    "00-daily/2025-07-09.md",
+    "00-daily/2025-07-07.md",
+    "00-daily/2025-07-14.md",
     "12-inbox-kindle-highlight/吉積礼敏-GCPの教科書.md",
     "12-inbox-kindle-highlight/裕介-［改訂新版］プロになるためのWeb技術入門.md",
     "12-inbox-kindle-highlight/Swift-Gullivers Travels.md",
     "12-inbox-kindle-highlight/山本義隆-重力と力学的世界　上　――古典としての古典力学.md",
     "20-permanent/Shiniseチームconfig.md",
-    "00-daily/2025-07-14.md",
-    "00-daily/2025-07-11.md",
     "00-daily/2025-07-10.md",
     "無題のファイル.md",
     "11-inbox-book/20世紀科学論文集　現代宇宙論の誕生.md",
@@ -258,10 +286,6 @@
     "01-weekly/2025-W28 Weekly Review.md",
     "20-permanent/アルビレオAの視線速度変化から探る新たな伴星.md",
     "10-inbox/連星アルビレオについて科学館で聞いた話.md",
-    "10-inbox/デルタ関数のフーリエ変換.md",
-    "10-inbox/出会ったgcloudコマンド.md",
-    "10-inbox/出会ったLinuxコマンド一覧.md",
-    "00-daily/2025-07-08.md",
     "無題のフォルダ",
     "50-resource",
     "11-inbox-book",
