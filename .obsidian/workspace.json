@@ -6,7 +6,7 @@
       {
         "id": "7f8a12a0b27dbb99",
         "type": "tabs",
-        "dimension": 39.19567827130852,
+        "dimension": 43.519781718963166,
         "children": [
           {
             "id": "9c2872fcb4406932",
@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "12-inbox-kindle-highlight/山本義隆-重力と力学的世界　上　――古典としての古典力学.md",
+                "file": "12-inbox-kindle-highlight/吉積礼敏-GCPの教科書.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "山本義隆-重力と力学的世界　上　――古典としての古典力学"
+              "title": "吉積礼敏-GCPの教科書"
             }
           }
         ]
@@ -27,7 +27,7 @@
       {
         "id": "add68039d89b227d",
         "type": "tabs",
-        "dimension": 60.80432172869148,
+        "dimension": 56.480218281036834,
         "children": [
           {
             "id": "7adfc3b3172b2067",
@@ -80,18 +80,6 @@
             }
           },
           {
-            "id": "c63eab12b64e7543",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://www.google.com/search?q=osascript"
-              },
-              "icon": "lucide-file",
-              "title": "osascript - Google 検索"
-            }
-          },
-          {
             "id": "ca24aebfca51efa9",
             "type": "leaf",
             "state": {
@@ -104,21 +92,31 @@
             }
           },
           {
-            "id": "d497ee96252cd291",
+            "id": "68e57839fb011e34",
             "type": "leaf",
             "state": {
-              "type": "webviewer",
+              "type": "surfing-view",
               "state": {
-                "url": "https://retailai.atlassian.net/issues/BSW-2688?filter=-9&jql=statusCategory%20%3D%20Done%20AND%20assignee%20%3D%20currentUser%28%29%20ORDER%20BY%20updated%20DESC",
-                "title": "[BSW-2688] podへの手動負荷検証 - Jira",
-                "mode": "webview"
+                "url": "https://www.google.com/search?q=InteliJ%20IDEA%E3%80%80%E3%83%87%E3%83%90%E3%83%83%E3%82%B0"
               },
-              "icon": "globe-2",
-              "title": "[BSW-2688] podへの手動負荷検証 - Jira"
+              "icon": "lucide-file",
+              "title": "InteliJ IDEA　デバッグ - Google 検索"
+            }
+          },
+          {
+            "id": "aa3444e5185723d7",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://gemini.google.com/app/817dfdac527ccdc1?hl=ja"
+              },
+              "icon": "lucide-file",
+              "title": "Google Gemini"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -239,13 +237,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "12-inbox-kindle-highlight/山本義隆-重力と力学的世界　上　――古典としての古典力学.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "山本義隆-重力と力学的世界　上　――古典としての古典力学のアウトライン"
+              "title": "アウトライン"
             }
           },
           {
@@ -291,10 +288,11 @@
       "smart-connections:Open: Smart Chat": false,
       "smart-connections:Open: View Smart Connections": false,
       "smart-connections-visualizer:Open smart connections visualizer": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-kindle-plugin:Sync your Kindle highlights": false
     }
   },
-  "active": "9c2872fcb4406932",
+  "active": "aa3444e5185723d7",
   "lastOpenFiles": [
     "12-inbox-kindle-highlight/吉積礼敏-GCPの教科書.md",
     "12-inbox-kindle-highlight/山本義隆-重力と力学的世界　上　――古典としての古典力学.md",
