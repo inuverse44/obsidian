@@ -50,8 +50,7 @@
               "title": "Site Reliability Engineering - HOW GOOGLE RUNS PRODUCTION SYSTEMS -"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "a082f7a88a6b5534",
@@ -176,7 +175,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "4fe5bf4a1136af91",
@@ -296,11 +296,11 @@
       "obsidian-kindle-plugin:Sync your Kindle highlights": false
     }
   },
-  "active": "3578a01588fb577b",
+  "active": "0b69843b804cec75",
   "lastOpenFiles": [
+    "2025-07-15.md",
     "11-inbox-book/Site Reliability Engineering - HOW GOOGLE RUNS PRODUCTION SYSTEMS -.md",
     "11-inbox-book/実践OpenTelemetry.md",
-    "2025-07-15.md",
     "10-inbox/出会ったgcloudコマンド.md",
     "00-daily/2025-07-14.md",
     "12-inbox-kindle-highlight/山本義隆-重力と力学的世界　上　――古典としての古典力学.md",
