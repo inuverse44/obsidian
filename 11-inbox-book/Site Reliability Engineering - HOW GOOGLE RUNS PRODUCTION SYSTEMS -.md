@@ -34,8 +34,12 @@ aliases:
 補助サイトは上記URL参照
 
 
-# 感想・考察
-- 
+# 単語
+>Ben Treynor Sloss, the senior VP overseeing technical operations at Google—and the originator of the term “Site Reliability Engineering”—provides his view on what SRE means, how it works, and how it compares to other ways of doing things in the industry, in Chapter 1.
+
+overseeing 監督する
+originator 発案者
+
 
 # アクション・次のステップ
 - 例：関連ノートにリンクする  
