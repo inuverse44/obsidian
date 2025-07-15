@@ -33,12 +33,19 @@ aliases:
 
 補助サイトは上記URL参照
 
+>Because the sysadmin role requires a markedly different skill set than that required of a product’s developers, developers and sysadmins are divided into discrete teams: “development” and “operations” or “ops.”
+
+開発チームと運用チームは通常確かに分かれているね。
+
+
 
 # 単語
 >Ben Treynor Sloss, the senior VP overseeing technical operations at Google—and the originator of the term “Site Reliability Engineering”—provides his view on what SRE means, how it works, and how it compares to other ways of doing things in the industry, in Chapter 1.
 
 overseeing 監督する
 originator 発案者
+
+
 
 
 # アクション・次のステップ
