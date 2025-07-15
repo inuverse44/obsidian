@@ -401,6 +401,10 @@ function deep_merge_no_overwrite(target, source2, path = []) {
           if (!has_same_fn) {
             target[key].push(item);
           }
+        } else if (item === null || ["string", "number", "boolean", "undefined"].includes(typeof item)) {
+          if (!target[key].includes(item)) {
+            target[key].push(item);
+          }
         } else {
           target[key].push(item);
         }
@@ -457,7 +461,19 @@ function merge_env_config(target, incoming) {
       continue;
     }
     if (Array.isArray(value)) {
-      target[key] = [...target[key] || [], ...value];
+      if (Array.isArray(target[key])) {
+        if (value.length > 0 && (typeof value[0] === "string" || typeof value[0] === "number" || typeof value[0] === "boolean")) {
+          target[key] = Array.from(/* @__PURE__ */ new Set([...target[key], ...value]));
+        } else {
+          target[key] = [...target[key], ...value];
+        }
+      } else {
+        if (value.length > 0 && (typeof value[0] === "string" || typeof value[0] === "number" || typeof value[0] === "boolean")) {
+          target[key] = Array.from(new Set(value));
+        } else {
+          target[key] = [...value];
+        }
+      }
     } else if (value && typeof value === "object") {
       if (!target[key]) target[key] = {};
       deep_merge_no_overwrite(target[key], value);
@@ -476,7 +492,7 @@ var SmartEnv = class {
    * If a newer version is loaded into a runtime that already has an older environment,
    * an automatic reload of all existing mains will occur.
    */
-  static version = 2.139242;
+  static version = 2.139243;
   scope_name = "smart_env";
   static global_ref = ROOT_SCOPE;
   global_ref = this.constructor.global_ref;
@@ -2748,6 +2764,9 @@ var CollectionItem = class _CollectionItem {
    * @param {string} [filter_opts.exclude_key_starts_with] - Exclude keys starting with this string.
    * @param {string[]} [filter_opts.exclude_key_starts_with_any] - Exclude keys starting with any of these strings.
    * @param {string} [filter_opts.exclude_key_includes] - Exclude keys that include this string.
+   * @param {string[]} [filter_opts.exclude_key_includes_any] - Exclude keys that include any of these strings.
+   * @param {string} [filter_opts.exclude_key_ends_with] - Exclude keys ending with this string.
+   * @param {string[]} [filter_opts.exclude_key_ends_with_any] - Exclude keys ending with any of these strings.
    * @param {string} [filter_opts.key_ends_with] - Include only keys ending with this string.
    * @param {string} [filter_opts.key_starts_with] - Include only keys starting with this string.
    * @param {string[]} [filter_opts.key_starts_with_any] - Include only keys starting with any of these strings.
@@ -2763,6 +2782,7 @@ var CollectionItem = class _CollectionItem {
       exclude_key_includes,
       exclude_key_includes_any,
       exclude_key_ends_with,
+      exclude_key_ends_with_any,
       key_ends_with,
       key_starts_with,
       key_starts_with_any,
@@ -2775,6 +2795,7 @@ var CollectionItem = class _CollectionItem {
     if (exclude_key_includes && this.key.includes(exclude_key_includes)) return false;
     if (exclude_key_includes_any && exclude_key_includes_any.some((include) => this.key.includes(include))) return false;
     if (exclude_key_ends_with && this.key.endsWith(exclude_key_ends_with)) return false;
+    if (exclude_key_ends_with_any && exclude_key_ends_with_any.some((suffix) => this.key.endsWith(suffix))) return false;
     if (key_ends_with && !this.key.endsWith(key_ends_with)) return false;
     if (key_starts_with && !this.key.startsWith(key_starts_with)) return false;
     if (key_starts_with_any && !key_starts_with_any.some((prefix) => this.key.startsWith(prefix))) return false;
@@ -13726,7 +13747,7 @@ var ActionCompletionAdapter = class extends SmartCompletionAdapter {
     const action_key = this.data.action_key;
     if (!action_key) return;
     const thread = this.item.thread;
-    if (thread.current_completion !== this.item) return console.log("ActionCompletionAdapter: skipping tools, not the current completion");
+    if (thread && thread.current_completion !== this.item) return console.log("ActionCompletionAdapter: skipping tools, not the current completion");
     const action_opts = this.data.action_opts;
     const action_collection = this.item.env.smart_actions;
     if (!action_collection) {
@@ -17871,7 +17892,8 @@ async function post_process13(entity, container, opts = {}) {
     const results = await entity.find_connections({
       exclude_source_connections: entity.env.smart_blocks.settings.embed_blocks,
       exclude_key_ends_with: "---frontmatter---",
-      exclude_keys
+      exclude_keys,
+      ...opts.filter || {}
     });
     const results_frag = await entity.env.render_component(
       "connections_results",
@@ -17964,7 +17986,11 @@ async function post_process14(collection, frag, opts = {}) {
   const query_input = frag.querySelector("#query");
   const results_container = frag.querySelector(".sc-list");
   const render_lookup = async (query, results_container2) => {
-    const results = await collection.lookup({ hypotheticals: [query] });
+    const lookup_params = {
+      hypotheticals: [query],
+      filter: opts.filter
+    };
+    const results = await collection.lookup(lookup_params);
     this.empty(results_container2);
     const results_frag = await collection.env.render_component("connections_results", results, opts);
     Array.from(results_frag.children).forEach((elm) => results_container2.appendChild(elm));
@@ -21936,6 +21962,9 @@ var CollectionItem2 = class _CollectionItem {
    * @param {string} [filter_opts.exclude_key_starts_with] - Exclude keys starting with this string.
    * @param {string[]} [filter_opts.exclude_key_starts_with_any] - Exclude keys starting with any of these strings.
    * @param {string} [filter_opts.exclude_key_includes] - Exclude keys that include this string.
+   * @param {string[]} [filter_opts.exclude_key_includes_any] - Exclude keys that include any of these strings.
+   * @param {string} [filter_opts.exclude_key_ends_with] - Exclude keys ending with this string.
+   * @param {string[]} [filter_opts.exclude_key_ends_with_any] - Exclude keys ending with any of these strings.
    * @param {string} [filter_opts.key_ends_with] - Include only keys ending with this string.
    * @param {string} [filter_opts.key_starts_with] - Include only keys starting with this string.
    * @param {string[]} [filter_opts.key_starts_with_any] - Include only keys starting with any of these strings.
@@ -21951,6 +21980,7 @@ var CollectionItem2 = class _CollectionItem {
       exclude_key_includes,
       exclude_key_includes_any,
       exclude_key_ends_with,
+      exclude_key_ends_with_any,
       key_ends_with,
       key_starts_with,
       key_starts_with_any,
@@ -21963,6 +21993,7 @@ var CollectionItem2 = class _CollectionItem {
     if (exclude_key_includes && this.key.includes(exclude_key_includes)) return false;
     if (exclude_key_includes_any && exclude_key_includes_any.some((include) => this.key.includes(include))) return false;
     if (exclude_key_ends_with && this.key.endsWith(exclude_key_ends_with)) return false;
+    if (exclude_key_ends_with_any && exclude_key_ends_with_any.some((suffix) => this.key.endsWith(suffix))) return false;
     if (key_ends_with && !this.key.endsWith(key_ends_with)) return false;
     if (key_starts_with && !this.key.startsWith(key_starts_with)) return false;
     if (key_starts_with_any && !key_starts_with_any.some((prefix) => this.key.startsWith(prefix))) return false;
@@ -29147,6 +29178,9 @@ var CollectionItem3 = class _CollectionItem {
    * @param {string} [filter_opts.exclude_key_starts_with] - Exclude keys starting with this string.
    * @param {string[]} [filter_opts.exclude_key_starts_with_any] - Exclude keys starting with any of these strings.
    * @param {string} [filter_opts.exclude_key_includes] - Exclude keys that include this string.
+   * @param {string[]} [filter_opts.exclude_key_includes_any] - Exclude keys that include any of these strings.
+   * @param {string} [filter_opts.exclude_key_ends_with] - Exclude keys ending with this string.
+   * @param {string[]} [filter_opts.exclude_key_ends_with_any] - Exclude keys ending with any of these strings.
    * @param {string} [filter_opts.key_ends_with] - Include only keys ending with this string.
    * @param {string} [filter_opts.key_starts_with] - Include only keys starting with this string.
    * @param {string[]} [filter_opts.key_starts_with_any] - Include only keys starting with any of these strings.
@@ -29162,6 +29196,7 @@ var CollectionItem3 = class _CollectionItem {
       exclude_key_includes,
       exclude_key_includes_any,
       exclude_key_ends_with,
+      exclude_key_ends_with_any,
       key_ends_with,
       key_starts_with,
       key_starts_with_any,
@@ -29174,6 +29209,7 @@ var CollectionItem3 = class _CollectionItem {
     if (exclude_key_includes && this.key.includes(exclude_key_includes)) return false;
     if (exclude_key_includes_any && exclude_key_includes_any.some((include) => this.key.includes(include))) return false;
     if (exclude_key_ends_with && this.key.endsWith(exclude_key_ends_with)) return false;
+    if (exclude_key_ends_with_any && exclude_key_ends_with_any.some((suffix) => this.key.endsWith(suffix))) return false;
     if (key_ends_with && !this.key.endsWith(key_ends_with)) return false;
     if (key_starts_with && !this.key.startsWith(key_starts_with)) return false;
     if (key_starts_with_any && !key_starts_with_any.some((prefix) => this.key.startsWith(prefix))) return false;
@@ -30538,6 +30574,7 @@ var smart_actions_default = {
 var lookup_context_exports = {};
 __export(lookup_context_exports, {
   lookup_context: () => lookup_context,
+  render_output: () => render_output,
   tool: () => tool
 });
 async function lookup_context(params = {}) {
@@ -30640,6 +30677,13 @@ var tool = {
     }
   }
 };
+async function render_output(env, output, params) {
+  const context = env.smart_contexts.get(output);
+  if (!context) {
+    return `No context found for key: ${output}`;
+  }
+  return await env.render_component("context_builder", context);
+}
 
 // node_modules/smart-chat-obsidian/src/collections/smart_actions.js
 smart_actions_default.default_actions = {
@@ -30826,7 +30870,7 @@ var SmartChatThread = class extends CollectionItem3 {
   }
   get current_completion() {
     if (!this._current_completion || this._current_completion && this._current_completion.data.completion.responses.length !== 0) {
-      this._current_completion = null;
+      this._current_completion = this.init_completion();
     }
     return this._current_completion;
   }
@@ -31737,7 +31781,7 @@ var ActionCompletionAdapter2 = class extends SmartCompletionAdapter2 {
     const action_key = this.data.action_key;
     if (!action_key) return;
     const thread = this.item.thread;
-    if (thread.current_completion !== this.item) return console.log("ActionCompletionAdapter: skipping tools, not the current completion");
+    if (thread && thread.current_completion !== this.item) return console.log("ActionCompletionAdapter: skipping tools, not the current completion");
     const action_opts = this.data.action_opts;
     const action_collection = this.item.env.smart_actions;
     if (!action_collection) {
@@ -35615,9 +35659,6 @@ async function post_process36(chat_thread, thread_container, opts = {}) {
     this.safe_inner_html(message_container, `
       <div class="smart-chat-default-message">${initial_message}</div>
     `);
-    if (!chat_thread.current_completion) {
-      chat_thread.current_completion = chat_thread.init_completion();
-    }
     if (!chat_thread.current_completion.container) {
       const completion_container = await env.render_component("completion", chat_thread.current_completion);
       message_container.appendChild(completion_container);
@@ -37489,7 +37530,7 @@ var import_obsidian53 = require("obsidian");
 var import_obsidian54 = require("obsidian");
 
 // releases/3.0.0.md
-var __default = '# Smart Connections `v3`\n## New Features\n\n### Smart Chat v1\n- Effectively utilizes the Smart Environment architecture to facilitate deeper integration and new features.\n#### Improved Smart Chat UI\n- New context builder\n	- makes managing conversation context easier\n- Drag images and notes into the chat window to add as context\n- Separate settings tab specifically for chat features\n#### *Improved Smart Chat compatibility with Local Models*\n- Note lookup (RAG) now compatible with models that don\'t support tool calling\n	- Disable tool calling in the settings\n### Ollama embedding adapter\n- use Ollama to create embeddings\n\n## Fixed\n- renders content in connections results when all result items are expanded by default\n## Housekeeping\n- Updated README\n	- Improved Getting Started section\n	- Removed extraneous details\n- Improved version release process\n- Smart Chat `v0` (legacy)\n	- Smart Chat `v0` will continue to be available for a short time and will be removed in `v3.1` unless unforeseen issues arise in which case it will be removed sooner.\n	- Smart Chat `v0` code was moved from `brianpetro/jsbrains` to the Smart Connections repo\n\n## patch `v3.0.1`\n\nImproved Mobile UX and cleaned up extraneous code.\n\n## patch `v3.0.3`\n\nFixed issue where connections results would not render if expand-all results was toggled on.\n\n## patch `v3.0.4`\n\nPrevented frontmatter blocks from being included in connections results. Fixed toggle-fold-all logic.\n\n## patch `v3.0.5`\n\nFixes Ollama Embedding model loading issue in the settings.\n\n## patch `v3.0.6`\n\nFixed release notes should only show once after update.\n\n## patch `v3.0.7`\n\nAdded "current/dynamic" option in bases connection score modal to add score based on current file. Fixed issue causing Ollama to seemingly embed at 0 tokens/sec. Fixed bases integration modal failing on new bases.\n\n## patch `v3.0.8`\n\n- Improved bases integration UX\n	- prevent throwing error on erroroneous input in `cos_sim` base function\n	- gracefully handle when smart_env is not loaded yet\n- Reduced max size of markdown file that will be imported from 1MB to 300KB (prevent long initial import)\n	- advanced configuration available via `smart_sources.obsidian_markdown_source_content_adapter.max_import_size` in `smart_env.json`\n- Removed deprecated Smart Search API registered to window since `smart_env` object is now globally accessible\n- Fixed bug causing expanded connections results to render twice\n\n## patch `v3.0.9`\n\n- Reworked the context builder UX in Smart Chat to prevent confusion\n	- Context is now added to the chat regardless of how the context selector modal is closed\n	- Removed "Back" button in favor of "Back" suggestion item\n- Fixed using `@` to open context selector in Smart Chat\n	- "Done" button now appears in the context selector modal when it is opened from the keyboard\n\n## patch `v3.0.10`\n\nFixed Google Gemini integration in the new Smart Chat\n\n## patch `v3.0.11`\n\nFixes unexpected scroll issue when dragging file from connections view (issue #1073)\n\n## patch `v3.0.12`\n\nFixes pasted text: should paste lines in correct order (no longer reversed)\n\n## patch `v3.0.13`\n\n- Prevents trying to process embed queue if embed model is not loaded\n	- Particularly for Ollama which may not be turned on when Obsidian starts\n	- Re-checks for Ollama server in intervals of a minute\n	- Embed queue can be restarted by clicking "Reload sources" in the Smart Environment settings\n\n## patch `v3.0.14`\n\n- Improved hover popover for blocks in connections results and context builder\n- Refactored `context_builder` component to extract `context_tree` component and prevent passing UI components\n  - these components are frequently re-used, the updated architecture should make it easier to maintain and extend\n- Fixed: should not embed blocks with size less than `min_chars`\n- Fixed: Smart Chat completion requests should have a properly ordered `messages` array\n\n## patch `v3.0.15`\n\n- Fixed: some Ollama embedding models triggering re-embedding every restart\n\n## patch `v3.0.16`\n\n- Fixed: no models available in Ollama should no longer cause issues in the settings\n\n## patch `v3.0.17`\n\n- Improved embedding processing UX\n	- show notification immediately to allow pausing sooner\n	- show notification every 30 seconds in addition to every 100 embeddings\n- Fixed: Smart Environment settings tab should be visible during "loading" state\n	- prevents "Loading Obsidian Smart Environment..." message from appearing indefinitely in instances where the environment fails to load from errors related to specific embedding models\n\n## patch `v3.0.18`\n\n- Fixed: Smart Connections view rendering on mobile\n	- should render when opening the view from the sidebar\n	- should update the results to the currently active file\n\n## patch `v3.0.19`\n\n- Added: model info to Smart Chat view\n	- shows before the first message and anytime the model changes since the last message\n- Fixed: ChatGPT sign-in with Google account\n	- should now work as expected\n	- will require re-signing in to ChatGPT after update\n- Fixed: Smart Chat thread adapter should better handle past completions to prevent unexpected behavior\n	- prevented `build_request` from outputting certain request content unless the completion is the current completion\n		- logic is specific to completion adapters (actions, actions_xml, thread)\n\n## patch `v3.0.20`\n\n- Fixed: Smart Environment settings tab should be visible during "loading" and "loaded" states\n- Fixed: Open URL externally should use window.open with "_external" if webviewer plugin is installed\n\n## patch `v3.0.21`\n\n- Implemented Smart Completions fallback to Smart Chat configuration\n	- WHY: enables use via global `smart_env` instance without requiring `chat_model` parameters in every request\n\n## patch `v3.0.22`\n\n- Improved connections view event handling\n	- prevent throwing error when no view container is present on iOS\n\n## patch `v3.0.23`\n\n- Added Getting Started guide\n	- opens automatically for new users\n	- can be opened manually via command `Show getting started`\n	- can be opened from the connections view "Help" icon\n	- can be opened from the main settings "Open getting started guide" button\n\n## patch `v3.0.24`\n\nFix Lookup tab not displaying.\n\n## patch `v3.0.25`\n\nFixed connections view help button failing to open\n\n## patch `v3.0.26`\n\nTemp disable bases integration since Obsidian changed how the integration works and there is currently no clear path to updating.\n\n## patch `v3.0.27`\n\n- Added: Smart Chat lookup now supports folder-based filtering\n	- mention a folder when requesting a lookup using self-referential pronoun (no special folder syntax required)\n		- ex. "Summarize my thoughts on this topic based on notes in my Content folder"\n- Added: Smart Chat system prompt now allows `{{folder_tree}}` variable\n	- this variable will be replaced with the folder tree of the current vault\n	- useful for providing context about the vault structure to the model\n- Improved: Smart Chat system message UI\n	- now collapses when longer than 10 lines\n\n## patch `v3.0.28`\n\nFixed: Getting Started slideshow UX on mobile.\n\n## patch `v3.0.29`\n\n- Fixed: prevented regex special characters from throwing error when excluded file/folder contains them\n- Fixed: Smart Chat should return lookup context results when Smart Blocks are disabled\n\n## patch `v3.0.30`\n\n- Added: Drag multiple files into the Smart Chat window to add as context\n- Fixed: Smart Connections results remain stable when dragging connection from bottom of the list\n\n## patch `v3.0.31`\n\n- Added: Smart Chat: "Retrieve more" button in lookup results\n	- allows retrieving more results from the lookup\n	- includes retrieved context in subsequent lookup to provide more context to the model\n- Improved: Smart Chat: prior message handling in subsequent completions\n\n## patch `v3.0.32`\n\n- Added: Anthropic Claude Sonnet 4 & Opus 4 to Smart Chat\n- Improved: Smart Chat new note button no longer automatically addes open notes as context \n	- Added: "Add visible" and "Add open" notes options to Smart Context selector \n	- Added: "Add context" button above chat input on new chat for quick access to context selector\n- Fixed: Removing an item in the context selector updates the stats\n- Fixed: Smart Chat system message should render no more than once per turn\n\n## patch `v3.0.33`\n\n- Improved: Context Tree styles improved by samhiatt (PR #1091)\n- Improved: Smart Chat message should be full width if container is less than 600px\n- Fixed: Smart Chat model selection should handle when Ollama is available but no models are installed\n\n## patch `v3.0.34`\n\n- Added: Multi-modal support (images as context) using Ollama models\n	- requires Ollama models that support multi-modal input like `gemma3:4b`\n\n\n## patch `v3.0.37`\n\n- Fixed: Ollama `max_tokens` parameter should accurately reflect the model\'s max tokens\n- Fixed: Getting Started slideshow should only show automatically for new users\n\n## patch `v3.0.38`\n\n- Fixed: Smart Chat LM Studio models handling of `tool_choice` parameter\n\n## patch `v3.0.39`\n\n- Improved: Release notes user experience to use the same as the native Obsidian release notes\n	- Now uses new tab instead of modal to display the release notes\n- Fixed: Reduced vector length OpenAI embedding models should be selectable in the settings\n\n## patch `v3.0.40`\n\n- Added: Smart Chat: Support for PDFs as context in compatible models\n	- Currently works with Anthropic, Google Gemini, and OpenAI models\n	- PDFs must be manually added to the chat context. The context lookup action will not surface the PDFs because they are not embedded.\n- Improved: Smart Chat: LM Studio settings\n	- Added: Instructions for setting up LM Studio (CORS)\n	- Removed: Unecessary API key setting\n\n## patch `v3.0.41`\n\n- Fix: Bug in outlinks parsing was preventing embedding processing in some cases\n\n## patch `v3.0.42`\n\n- Added: `re_import_wait_time` setting to Smart Environment settings\n	- allows setting the time to wait before re-importing and embedding a note after it has been modified\n	- WHY: improves real-time nature of the connections\n- Improved: Connections view: Handling when current note hasn\'t been imported\n	- removed notification\n	- added refresh instructions to the connections view\n- Improved: Connections view when no results are found\n - added "No connections found" message\n - added instructions for reloading sources from the settings\n- Reduced size of bundled plugin from ~6.5MB to ~1MB (>80% reduction)\n - removed tokenizer that\'s only used by OpenAI embedding models\n - removed sourcemap since it\'s removed by Obsidian anyway\n - WHY: make the code easier to read (trust through transparency)\n- Fixed: Embeddings should update when file is changed\n\n## patch `v3.0.43`\n\n- Fixed: Smart Chat: Context tree connections icon should show connections in the suggestions when clicked\n\n## patch `v3.0.44`\n\n- Improved: Settings descriptions for the Connections view\n- Changed: Moved "muted notices" settings to the obsidian-smart-env module\n\n## patch `v3.0.45`\n\n- Added: Status element for indicating embedding queue for changed notes\n	- click to begin embedding otherwise waits until `re_import_wait_time` has passed\n- Fixed: Smart Environment: only changed blocks should re-embed when the note is modified\n	- Adds block has check to parse_blocks to prevent `queue_embed` from being called on blocks that haven\'t changed\n- Fixed: Release notes should open in a new tab instead of relpacing the current tab\n- Moved: Smart Plugins access to the obsidian-smart-env module\n\n## patch `v3.0.46`\n\n- Added: Smart Chat: Include relevance score for item in context tree if retrieved from a lookup\n	- allows users to see how relevant the item is to the current chat context\n- Added: Snowflake Arctic Embed models to the built-in embedding adapter (transformers)\n	- Snowflake/snowflake-arctic-embed-xs\n	- Snowflake/snowflake-arctic-embed-s\n	- Snowflake/snowflake-arctic-embed-m\n- Added: Report a bug and Request a feature buttons to the settings\n- Fixed: Smart Context: Tree should not split paths with slashes or hashtags within wikilinks\n	- ex. `[[some/path.md#subpath]]` should not be split into `some/path.md` and `subpath`\n- Improved: Smart Chat: Prevent trying to use folder scope in lookup when the folder provided by the AI does not exist\n\n## patch `v3.0.47`\n\n- Added: Hide connections in connections view\n	- Right-click on a connection result to open the new context menu\n	- Select "Hide" to hide the connection result\n	- Select "Unhide All" to unhide all hidden connections for the current item\n- Updated: Smart Contexts to use new ContextItem architecture\n	- The new architecture allows for more flexibility and better performance\n\n## patch `v3.0.50`\n\n- Added: Smart Chat: Latest OpenAI chat models (removed incompatible models)\n	- o3 and o4 class models now available in the settingsa\n\n## patch `v3.0.51`\n\n- Fixed: Connections view: Include/Exclude filters should allow multiple comma-separated values\n\n## patch `v3.0.52`\n\n- Fixed: Initial import should not embed blocks where `should_embed` is false\n  - see #1077 for details\n	- improves performance and decreases embedding time by reducing total number of blocks\n	- may require "Clear sources data" and "Reload sources" to be run in the settings to take effect\n\n## patch `v3.0.53`\n\n- Improved: Smart Chat: opening logic (prevent splitting sidebar)\n	- now opens in new tab in main workspace by default\n	- tab may still be dragged to the sidebar\n- Fixed: Smart Chat: Context selector should open when Smart Context plugin is not installed\n	- should now open the context selector modal instead of throwing an error\n\n## patch `v3.0.54`\n\n- Fixed: Smart Chat: Context selector: "Done" button should not cause crash\n- Added discussion template for Smart Connections workflows and button to open it\n	- encourages users to share their workflows with the community\n	- button opens the discussion template in a new tab\n	- discussion template includes instructions for sharing workflows\n\n## patch `v3.0.55`\n\n- Fixed: Smart Chat `@` should open context selector modal on subsequent messages\n\n## patch `v3.0.56`\n\n- Added: Smart Chat: Improved message link interactions\n  - hover-preview: hold cmd/ctrl while hovering to preview the link\n	- drag: click and hold the link, dragging it to create a link in the active note, or dragging to the chat window to add as context\n	- click: hold cmd/ctrl while clicking to open the link in a new tab, cmd/ctrl+alt click to open in split view\n- Fixed: Smart Chat: new threads should save after the first message\n\n## patch `v3.0.57`\n\n- Improved: Smart Chat: date format in default thread name\n- Fixed: Smart Chat: message copy button should copy message to the clipboard';
+var __default = '# Smart Connections `v3`\r\n## New Features\r\n\r\n### Smart Chat v1\r\n- Effectively utilizes the Smart Environment architecture to facilitate deeper integration and new features.\r\n#### Improved Smart Chat UI\r\n- New context builder\r\n	- makes managing conversation context easier\r\n- Drag images and notes into the chat window to add as context\r\n- Separate settings tab specifically for chat features\r\n#### *Improved Smart Chat compatibility with Local Models*\r\n- Note lookup (RAG) now compatible with models that don\'t support tool calling\r\n	- Disable tool calling in the settings\r\n### Ollama embedding adapter\r\n- use Ollama to create embeddings\r\n\r\n## Fixed\r\n- renders content in connections results when all result items are expanded by default\r\n## Housekeeping\r\n- Updated README\r\n	- Improved Getting Started section\r\n	- Removed extraneous details\r\n- Improved version release process\r\n- Smart Chat `v0` (legacy)\r\n	- Smart Chat `v0` will continue to be available for a short time and will be removed in `v3.1` unless unforeseen issues arise in which case it will be removed sooner.\r\n	- Smart Chat `v0` code was moved from `brianpetro/jsbrains` to the Smart Connections repo\r\n\r\n## patch `v3.0.1`\r\n\r\nImproved Mobile UX and cleaned up extraneous code.\r\n\r\n## patch `v3.0.3`\r\n\r\nFixed issue where connections results would not render if expand-all results was toggled on.\r\n\r\n## patch `v3.0.4`\r\n\r\nPrevented frontmatter blocks from being included in connections results. Fixed toggle-fold-all logic.\r\n\r\n## patch `v3.0.5`\r\n\r\nFixes Ollama Embedding model loading issue in the settings.\r\n\r\n## patch `v3.0.6`\r\n\r\nFixed release notes should only show once after update.\r\n\r\n## patch `v3.0.7`\r\n\r\nAdded "current/dynamic" option in bases connection score modal to add score based on current file. Fixed issue causing Ollama to seemingly embed at 0 tokens/sec. Fixed bases integration modal failing on new bases.\r\n\r\n## patch `v3.0.8`\r\n\r\n- Improved bases integration UX\r\n	- prevent throwing error on erroroneous input in `cos_sim` base function\r\n	- gracefully handle when smart_env is not loaded yet\r\n- Reduced max size of markdown file that will be imported from 1MB to 300KB (prevent long initial import)\r\n	- advanced configuration available via `smart_sources.obsidian_markdown_source_content_adapter.max_import_size` in `smart_env.json`\r\n- Removed deprecated Smart Search API registered to window since `smart_env` object is now globally accessible\r\n- Fixed bug causing expanded connections results to render twice\r\n\r\n## patch `v3.0.9`\r\n\r\n- Reworked the context builder UX in Smart Chat to prevent confusion\r\n	- Context is now added to the chat regardless of how the context selector modal is closed\r\n	- Removed "Back" button in favor of "Back" suggestion item\r\n- Fixed using `@` to open context selector in Smart Chat\r\n	- "Done" button now appears in the context selector modal when it is opened from the keyboard\r\n\r\n## patch `v3.0.10`\r\n\r\nFixed Google Gemini integration in the new Smart Chat\r\n\r\n## patch `v3.0.11`\r\n\r\nFixes unexpected scroll issue when dragging file from connections view (issue #1073)\r\n\r\n## patch `v3.0.12`\r\n\r\nFixes pasted text: should paste lines in correct order (no longer reversed)\r\n\r\n## patch `v3.0.13`\r\n\r\n- Prevents trying to process embed queue if embed model is not loaded\r\n	- Particularly for Ollama which may not be turned on when Obsidian starts\r\n	- Re-checks for Ollama server in intervals of a minute\r\n	- Embed queue can be restarted by clicking "Reload sources" in the Smart Environment settings\r\n\r\n## patch `v3.0.14`\r\n\r\n- Improved hover popover for blocks in connections results and context builder\r\n- Refactored `context_builder` component to extract `context_tree` component and prevent passing UI components\r\n  - these components are frequently re-used, the updated architecture should make it easier to maintain and extend\r\n- Fixed: should not embed blocks with size less than `min_chars`\r\n- Fixed: Smart Chat completion requests should have a properly ordered `messages` array\r\n\r\n## patch `v3.0.15`\r\n\r\n- Fixed: some Ollama embedding models triggering re-embedding every restart\r\n\r\n## patch `v3.0.16`\r\n\r\n- Fixed: no models available in Ollama should no longer cause issues in the settings\r\n\r\n## patch `v3.0.17`\r\n\r\n- Improved embedding processing UX\r\n	- show notification immediately to allow pausing sooner\r\n	- show notification every 30 seconds in addition to every 100 embeddings\r\n- Fixed: Smart Environment settings tab should be visible during "loading" state\r\n	- prevents "Loading Obsidian Smart Environment..." message from appearing indefinitely in instances where the environment fails to load from errors related to specific embedding models\r\n\r\n## patch `v3.0.18`\r\n\r\n- Fixed: Smart Connections view rendering on mobile\r\n	- should render when opening the view from the sidebar\r\n	- should update the results to the currently active file\r\n\r\n## patch `v3.0.19`\r\n\r\n- Added: model info to Smart Chat view\r\n	- shows before the first message and anytime the model changes since the last message\r\n- Fixed: ChatGPT sign-in with Google account\r\n	- should now work as expected\r\n	- will require re-signing in to ChatGPT after update\r\n- Fixed: Smart Chat thread adapter should better handle past completions to prevent unexpected behavior\r\n	- prevented `build_request` from outputting certain request content unless the completion is the current completion\r\n		- logic is specific to completion adapters (actions, actions_xml, thread)\r\n\r\n## patch `v3.0.20`\r\n\r\n- Fixed: Smart Environment settings tab should be visible during "loading" and "loaded" states\r\n- Fixed: Open URL externally should use window.open with "_external" if webviewer plugin is installed\r\n\r\n## patch `v3.0.21`\r\n\r\n- Implemented Smart Completions fallback to Smart Chat configuration\r\n	- WHY: enables use via global `smart_env` instance without requiring `chat_model` parameters in every request\r\n\r\n## patch `v3.0.22`\r\n\r\n- Improved connections view event handling\r\n	- prevent throwing error when no view container is present on iOS\r\n\r\n## patch `v3.0.23`\r\n\r\n- Added Getting Started guide\r\n	- opens automatically for new users\r\n	- can be opened manually via command `Show getting started`\r\n	- can be opened from the connections view "Help" icon\r\n	- can be opened from the main settings "Open getting started guide" button\r\n\r\n## patch `v3.0.24`\r\n\r\nFix Lookup tab not displaying.\r\n\r\n## patch `v3.0.25`\r\n\r\nFixed connections view help button failing to open\r\n\r\n## patch `v3.0.26`\r\n\r\nTemp disable bases integration since Obsidian changed how the integration works and there is currently no clear path to updating.\r\n\r\n## patch `v3.0.27`\r\n\r\n- Added: Smart Chat lookup now supports folder-based filtering\r\n	- mention a folder when requesting a lookup using self-referential pronoun (no special folder syntax required)\r\n		- ex. "Summarize my thoughts on this topic based on notes in my Content folder"\r\n- Added: Smart Chat system prompt now allows `{{folder_tree}}` variable\r\n	- this variable will be replaced with the folder tree of the current vault\r\n	- useful for providing context about the vault structure to the model\r\n- Improved: Smart Chat system message UI\r\n	- now collapses when longer than 10 lines\r\n\r\n## patch `v3.0.28`\r\n\r\nFixed: Getting Started slideshow UX on mobile.\r\n\r\n## patch `v3.0.29`\r\n\r\n- Fixed: prevented regex special characters from throwing error when excluded file/folder contains them\r\n- Fixed: Smart Chat should return lookup context results when Smart Blocks are disabled\r\n\r\n## patch `v3.0.30`\r\n\r\n- Added: Drag multiple files into the Smart Chat window to add as context\r\n- Fixed: Smart Connections results remain stable when dragging connection from bottom of the list\r\n\r\n## patch `v3.0.31`\r\n\r\n- Added: Smart Chat: "Retrieve more" button in lookup results\r\n	- allows retrieving more results from the lookup\r\n	- includes retrieved context in subsequent lookup to provide more context to the model\r\n- Improved: Smart Chat: prior message handling in subsequent completions\r\n\r\n## patch `v3.0.32`\r\n\r\n- Added: Anthropic Claude Sonnet 4 & Opus 4 to Smart Chat\r\n- Improved: Smart Chat new note button no longer automatically addes open notes as context \r\n	- Added: "Add visible" and "Add open" notes options to Smart Context selector \r\n	- Added: "Add context" button above chat input on new chat for quick access to context selector\r\n- Fixed: Removing an item in the context selector updates the stats\r\n- Fixed: Smart Chat system message should render no more than once per turn\r\n\r\n## patch `v3.0.33`\r\n\r\n- Improved: Context Tree styles improved by samhiatt (PR #1091)\r\n- Improved: Smart Chat message should be full width if container is less than 600px\r\n- Fixed: Smart Chat model selection should handle when Ollama is available but no models are installed\r\n\r\n## patch `v3.0.34`\r\n\r\n- Added: Multi-modal support (images as context) using Ollama models\r\n	- requires Ollama models that support multi-modal input like `gemma3:4b`\r\n\r\n\r\n## patch `v3.0.37`\r\n\r\n- Fixed: Ollama `max_tokens` parameter should accurately reflect the model\'s max tokens\r\n- Fixed: Getting Started slideshow should only show automatically for new users\r\n\r\n## patch `v3.0.38`\r\n\r\n- Fixed: Smart Chat LM Studio models handling of `tool_choice` parameter\r\n\r\n## patch `v3.0.39`\r\n\r\n- Improved: Release notes user experience to use the same as the native Obsidian release notes\r\n	- Now uses new tab instead of modal to display the release notes\r\n- Fixed: Reduced vector length OpenAI embedding models should be selectable in the settings\r\n\r\n## patch `v3.0.40`\r\n\r\n- Added: Smart Chat: Support for PDFs as context in compatible models\r\n	- Currently works with Anthropic, Google Gemini, and OpenAI models\r\n	- PDFs must be manually added to the chat context. The context lookup action will not surface the PDFs because they are not embedded.\r\n- Improved: Smart Chat: LM Studio settings\r\n	- Added: Instructions for setting up LM Studio (CORS)\r\n	- Removed: Unecessary API key setting\r\n\r\n## patch `v3.0.41`\r\n\r\n- Fix: Bug in outlinks parsing was preventing embedding processing in some cases\r\n\r\n## patch `v3.0.42`\r\n\r\n- Added: `re_import_wait_time` setting to Smart Environment settings\r\n	- allows setting the time to wait before re-importing and embedding a note after it has been modified\r\n	- WHY: improves real-time nature of the connections\r\n- Improved: Connections view: Handling when current note hasn\'t been imported\r\n	- removed notification\r\n	- added refresh instructions to the connections view\r\n- Improved: Connections view when no results are found\r\n - added "No connections found" message\r\n - added instructions for reloading sources from the settings\r\n- Reduced size of bundled plugin from ~6.5MB to ~1MB (>80% reduction)\r\n - removed tokenizer that\'s only used by OpenAI embedding models\r\n - removed sourcemap since it\'s removed by Obsidian anyway\r\n - WHY: make the code easier to read (trust through transparency)\r\n- Fixed: Embeddings should update when file is changed\r\n\r\n## patch `v3.0.43`\r\n\r\n- Fixed: Smart Chat: Context tree connections icon should show connections in the suggestions when clicked\r\n\r\n## patch `v3.0.44`\r\n\r\n- Improved: Settings descriptions for the Connections view\r\n- Changed: Moved "muted notices" settings to the obsidian-smart-env module\r\n\r\n## patch `v3.0.45`\r\n\r\n- Added: Status element for indicating embedding queue for changed notes\r\n	- click to begin embedding otherwise waits until `re_import_wait_time` has passed\r\n- Fixed: Smart Environment: only changed blocks should re-embed when the note is modified\r\n	- Adds block has check to parse_blocks to prevent `queue_embed` from being called on blocks that haven\'t changed\r\n- Fixed: Release notes should open in a new tab instead of relpacing the current tab\r\n- Moved: Smart Plugins access to the obsidian-smart-env module\r\n\r\n## patch `v3.0.46`\r\n\r\n- Added: Smart Chat: Include relevance score for item in context tree if retrieved from a lookup\r\n	- allows users to see how relevant the item is to the current chat context\r\n- Added: Snowflake Arctic Embed models to the built-in embedding adapter (transformers)\r\n	- Snowflake/snowflake-arctic-embed-xs\r\n	- Snowflake/snowflake-arctic-embed-s\r\n	- Snowflake/snowflake-arctic-embed-m\r\n- Added: Report a bug and Request a feature buttons to the settings\r\n- Fixed: Smart Context: Tree should not split paths with slashes or hashtags within wikilinks\r\n	- ex. `[[some/path.md#subpath]]` should not be split into `some/path.md` and `subpath`\r\n- Improved: Smart Chat: Prevent trying to use folder scope in lookup when the folder provided by the AI does not exist\r\n\r\n## patch `v3.0.47`\r\n\r\n- Added: Hide connections in connections view\r\n	- Right-click on a connection result to open the new context menu\r\n	- Select "Hide" to hide the connection result\r\n	- Select "Unhide All" to unhide all hidden connections for the current item\r\n- Updated: Smart Contexts to use new ContextItem architecture\r\n	- The new architecture allows for more flexibility and better performance\r\n\r\n## patch `v3.0.50`\r\n\r\n- Added: Smart Chat: Latest OpenAI chat models (removed incompatible models)\r\n	- o3 and o4 class models now available in the settingsa\r\n\r\n## patch `v3.0.51`\r\n\r\n- Fixed: Connections view: Include/Exclude filters should allow multiple comma-separated values\r\n\r\n## patch `v3.0.52`\r\n\r\n- Fixed: Initial import should not embed blocks where `should_embed` is false\r\n  - see #1077 for details\r\n	- improves performance and decreases embedding time by reducing total number of blocks\r\n	- may require "Clear sources data" and "Reload sources" to be run in the settings to take effect\r\n\r\n## patch `v3.0.53`\r\n\r\n- Improved: Smart Chat: opening logic (prevent splitting sidebar)\r\n	- now opens in new tab in main workspace by default\r\n	- tab may still be dragged to the sidebar\r\n- Fixed: Smart Chat: Context selector should open when Smart Context plugin is not installed\r\n	- should now open the context selector modal instead of throwing an error\r\n\r\n## patch `v3.0.54`\r\n\r\n- Fixed: Smart Chat: Context selector: "Done" button should not cause crash\r\n- Added discussion template for Smart Connections workflows and button to open it\r\n	- encourages users to share their workflows with the community\r\n	- button opens the discussion template in a new tab\r\n	- discussion template includes instructions for sharing workflows\r\n\r\n## patch `v3.0.55`\r\n\r\n- Fixed: Smart Chat `@` should open context selector modal on subsequent messages\r\n\r\n## patch `v3.0.56`\r\n\r\n- Added: Smart Chat: Improved message link interactions\r\n  - hover-preview: hold cmd/ctrl while hovering to preview the link\r\n	- drag: click and hold the link, dragging it to create a link in the active note, or dragging to the chat window to add as context\r\n	- click: hold cmd/ctrl while clicking to open the link in a new tab, cmd/ctrl+alt click to open in split view\r\n- Fixed: Smart Chat: new threads should save after the first message\r\n\r\n## patch `v3.0.57`\r\n\r\n- Improved: Smart Chat: date format in default thread name\r\n- Fixed: Smart Chat: message copy button should copy message to the clipboard\r\n\r\n## patch `v3.0.58`\n\r\n- Improved: Smart Connections dynamic codeblock:  filter options passed to connections and lookup components; adjust styles for better layout\r\n- Fixed: Smart Chat: should always have a `current_completion` instance (prevent failing to send subsequent messages)';
 
 // src/views/release_notes_view.js
 var ReleaseNotesView = class _ReleaseNotesView extends import_obsidian54.ItemView {
@@ -37829,11 +37870,36 @@ ${message ? "# " + message + "\n" : ""}${ignore}`);
   async render_code_block(contents, container, ctx) {
     container.empty();
     container.createEl("span", { text: "Loading\u2026" });
+    await SmartEnv2.wait_for({ loaded: true });
+    const content_lines = [];
+    const filter = {};
     if (contents.trim().length) {
+      const lines = contents.split("\n").map((line) => line.trim()).filter((line) => line.length);
+      for (const line of lines) {
+        if (line.startsWith("include:")) {
+          const value = line.replace("include:", "").trim();
+          if (value) filter.key_includes_any = value.split(",").map((v) => v.trim());
+          continue;
+        }
+        if (line.startsWith("does not end with:")) {
+          const value = line.replace("does not end with:", "").trim();
+          if (value) filter.exclude_key_ends_with_any = value.split(",").map((v) => v.trim());
+          continue;
+        }
+        if (line.startsWith("limit:")) {
+          const value = line.replace("limit:", "").trim();
+          if (value) filter.limit = parseInt(value);
+          continue;
+        }
+        content_lines.push(line);
+      }
+    }
+    if (content_lines.length) {
+      contents = content_lines.join("\n");
       const frag2 = await this.env.render_component(
         "lookup",
         this.env.smart_sources,
-        { attribution: this.attribution, query: contents }
+        { attribution: this.attribution, query: contents, filter }
       );
       container.empty();
       container.appendChild(frag2);
@@ -37848,7 +37914,7 @@ ${message ? "# " + message + "\n" : ""}${ignore}`);
     const frag = await this.env.render_component(
       "connections",
       entity,
-      { attribution: this.attribution }
+      { attribution: this.attribution, filter }
     );
     container.empty();
     container.appendChild(frag);
