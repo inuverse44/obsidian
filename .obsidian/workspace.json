@@ -50,8 +50,7 @@
               "title": "Site Reliability Engineering - HOW GOOGLE RUNS PRODUCTION SYSTEMS -"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "a082f7a88a6b5534",
@@ -297,10 +296,10 @@
       "obsidian-kindle-plugin:Sync your Kindle highlights": false
     }
   },
-  "active": "3578a01588fb577b",
+  "active": "0b69843b804cec75",
   "lastOpenFiles": [
-    "11-inbox-book/Site Reliability Engineering - HOW GOOGLE RUNS PRODUCTION SYSTEMS -.md",
     "2025-07-15.md",
+    "11-inbox-book/Site Reliability Engineering - HOW GOOGLE RUNS PRODUCTION SYSTEMS -.md",
     "11-inbox-book/実践OpenTelemetry.md",
     "10-inbox/出会ったgcloudコマンド.md",
     "00-daily/2025-07-14.md",
