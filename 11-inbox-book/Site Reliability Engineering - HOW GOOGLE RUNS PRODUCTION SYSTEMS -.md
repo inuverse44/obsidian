@@ -38,6 +38,14 @@ aliases:
 開発チームと運用チームは通常確かに分かれているね。
 
 
+>The sysadmin approach and the accompanying development/ops split has a number of disadvantages and pitfalls. These fall broadly into two categories: direct costs and indirect costs.
+>(p4)
+
+開発・運用を分離するといくつか不利益や罠が潜んでいる。
+２つに分類される：直接的なコストと間接的なコスト。
+
+
+
 
 # 単語
 >Ben Treynor Sloss, the senior VP overseeing technical operations at Google—and the originator of the term “Site Reliability Engineering”—provides his view on what SRE means, how it works, and how it compares to other ways of doing things in the industry, in Chapter 1.
