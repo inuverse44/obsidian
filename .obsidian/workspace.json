@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11-inbox-book/実践OpenTelemetry.md",
+                "file": "20-permanent/Shiniseチームconfig.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "実践OpenTelemetry"
+              "title": "Shiniseチームconfig"
             }
           },
           {
@@ -49,8 +49,7 @@
               "title": "2025-07-16"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "b9a63dcb8340326f",
@@ -66,6 +65,18 @@
               },
               "icon": "lucide-file",
               "title": "Data visualization with Lets-Plot for Kotlin | Kotlin Documentation"
+            }
+          },
+          {
+            "id": "6f3563eede880a3d",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://www.weblio.jp/content/%E7%B5%8C%E6%99%82%E7%9A%84"
+              },
+              "icon": "lucide-file",
+              "title": "「経時的(けいじてき)」の意味や使い方 わかりやすく解説 Weblio辞書"
             }
           }
         ]
@@ -245,13 +256,13 @@
       "obsidian-kindle-plugin:Sync your Kindle highlights": false
     }
   },
-  "active": "9dd6ba2b36ab1e25",
+  "active": "d013e5bfde01e330",
   "lastOpenFiles": [
-    "10-inbox/スパン時系列データの相関分析による高度なObservability.md",
-    "10-inbox/Observability.md",
-    "11-inbox-book/Site Reliability Engineering - HOW GOOGLE RUNS PRODUCTION SYSTEMS -.md",
-    "11-inbox-book/実践OpenTelemetry.md",
     "00-daily/2025-07-16.md",
+    "10-inbox/スパン時系列データの相関分析による高度なObservability.md",
+    "11-inbox-book/実践OpenTelemetry.md",
+    "11-inbox-book/Site Reliability Engineering - HOW GOOGLE RUNS PRODUCTION SYSTEMS -.md",
+    "10-inbox/Observability.md",
     "スパン時系列データの相関分析による高度なObservability.md",
     "a.md",
     "00-daily/2025-07-14.md",
