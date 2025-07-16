@@ -6,6 +6,7 @@
       {
         "id": "7f8a12a0b27dbb99",
         "type": "tabs",
+        "dimension": 63.847203274215545,
         "children": [
           {
             "id": "d013e5bfde01e330",
@@ -55,6 +56,7 @@
       {
         "id": "b9a63dcb8340326f",
         "type": "tabs",
+        "dimension": 36.15279672578445,
         "children": [
           {
             "id": "8626c6c383b6a70c",
@@ -62,10 +64,10 @@
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "https://kotlinlang.org/docs/lets-plot.html"
+                "url": "https://lets-plot.org/kotlin/charts.html#legends-and-guides"
               },
               "icon": "lucide-file",
-              "title": "Data visualization with Lets-Plot for Kotlin | Kotlin Documentation"
+              "title": "Charts | Lets-Plot for Kotlin"
             }
           },
           {
