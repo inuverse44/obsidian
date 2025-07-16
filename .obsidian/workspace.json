@@ -6,7 +6,6 @@
       {
         "id": "7f8a12a0b27dbb99",
         "type": "tabs",
-        "dimension": 63.847203274215545,
         "children": [
           {
             "id": "d013e5bfde01e330",
@@ -49,40 +48,23 @@
               "icon": "lucide-file",
               "title": "2025-07-16"
             }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "b9a63dcb8340326f",
-        "type": "tabs",
-        "dimension": 36.15279672578445,
-        "children": [
-          {
-            "id": "8626c6c383b6a70c",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://lets-plot.org/kotlin/charts.html#legends-and-guides"
-              },
-              "icon": "lucide-file",
-              "title": "Charts | Lets-Plot for Kotlin"
-            }
           },
           {
-            "id": "6f3563eede880a3d",
+            "id": "11f3378b1a02eb26",
             "type": "leaf",
             "state": {
-              "type": "surfing-view",
+              "type": "markdown",
               "state": {
-                "url": "https://www.weblio.jp/content/%E7%B5%8C%E6%99%82%E7%9A%84"
+                "file": "2025-08からの目標設定.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "「経時的(けいじてき)」の意味や使い方 わかりやすく解説 Weblio辞書"
+              "title": "2025-08からの目標設定"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -139,7 +121,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "4fe5bf4a1136af91",
@@ -259,9 +242,10 @@
       "obsidian-kindle-plugin:Sync your Kindle highlights": false
     }
   },
-  "active": "8626c6c383b6a70c",
+  "active": "11f3378b1a02eb26",
   "lastOpenFiles": [
     "00-daily/2025-07-16.md",
+    "2025-08からの目標設定.md",
     "20-permanent/Shiniseチームconfig.md",
     "10-inbox/スパン時系列データの相関分析による高度なObservability.md",
     "11-inbox-book/実践OpenTelemetry.md",
@@ -286,7 +270,6 @@
     "10-inbox/連星アルビレオについて科学館で聞いた話.md",
     "10-inbox/Professional Cloud Architect問題解説.md",
     "10-inbox/コンテキストウィンドウを考えないとLLMの精度が落ちる話.md",
-    "00-daily/2025-07-10.md",
     "50-resource/スクリーンショット 2025-07-11 23.18.55.png",
     "50-resource/スクリーンショット 2025-07-11 18.44.04.png",
     "50-resource/スクリーンショット 2025-07-11 18.15.16.png",
