@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-07-17.md",
+                "file": "20-permanent/生成消滅演算子とエネルギー準位.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-17"
+              "title": "生成消滅演算子とエネルギー準位"
             }
           }
         ],
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-daily/2025-07-14.md",
+                "file": "20-permanent/生成消滅演算子とエネルギー準位.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-07-14のアウトライン"
+              "title": "生成消滅演算子とエネルギー準位のアウトライン"
             }
           },
           {
@@ -233,8 +233,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 235.5,
-    "collapsed": true
+    "width": 235.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -257,12 +256,14 @@
   },
   "active": "df578669dc9a952a",
   "lastOpenFiles": [
+    "20-permanent/生成消滅演算子の導入.md",
+    "20-permanent/生成消滅演算子とエネルギー準位.md",
+    "11-inbox-book/実践OpenTelemetry.md",
+    "00-daily/2025-07-17.md",
     "2025-08からの目標設定.md",
-    "2025-07-17.md",
     "00-daily/2025-07-16.md",
     "20-permanent/Shiniseチームconfig.md",
     "10-inbox/スパン時系列データの相関分析による高度なObservability.md",
-    "11-inbox-book/実践OpenTelemetry.md",
     "11-inbox-book/Site Reliability Engineering - HOW GOOGLE RUNS PRODUCTION SYSTEMS -.md",
     "10-inbox/Observability.md",
     "スパン時系列データの相関分析による高度なObservability.md",
@@ -281,8 +282,6 @@
     "10-inbox/Gradleのバージョン管理方法ベストプラクティス.md",
     "10-inbox/デルタ関数のフーリエ変換.md",
     "10-inbox/Dockerのベストプラクティス翻訳.md",
-    "10-inbox/連星アルビレオについて科学館で聞いた話.md",
-    "10-inbox/Professional Cloud Architect問題解説.md",
     "50-resource/スクリーンショット 2025-07-11 23.18.55.png",
     "50-resource/スクリーンショット 2025-07-11 18.44.04.png",
     "50-resource/スクリーンショット 2025-07-11 18.15.16.png",
