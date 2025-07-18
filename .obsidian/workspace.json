@@ -69,29 +69,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "絵で見てわかるITインフラの仕組み.md",
+                "file": "10-inbox/Dockerのベストプラクティス翻訳.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "絵で見てわかるITインフラの仕組み"
-            }
-          },
-          {
-            "id": "f549f02975ea13ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-daily/2025-07-16.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-07-16"
+              "title": "Dockerのベストプラクティス翻訳"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -164,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-daily/2025-07-04.md",
+                "file": "10-inbox/Dockerのベストプラクティス翻訳.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +161,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-07-04へのバックリンク"
+              "title": "Dockerのベストプラクティス翻訳へのバックリンク"
             }
           },
           {
@@ -241,13 +228,11 @@
               "title": "Smart connections visualizer"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 235.5,
-    "collapsed": true
+    "width": 235.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -268,35 +253,35 @@
       "obsidian-kindle-plugin:Sync your Kindle highlights": false
     }
   },
-  "active": "d013e5bfde01e330",
+  "active": "4a37b0f35ef90afd",
   "lastOpenFiles": [
+    "10-inbox/スパン時系列データの相関分析による高度なObservability.md",
+    "10-inbox/Software Observabilityと数学的考察.md",
+    "10-inbox/出会ったLinuxコマンド一覧.md",
+    "10-inbox/出会ったgcloudコマンド.md",
+    "10-inbox/GitHubで認証通らない時.md",
+    "10-inbox/デルタ関数のフーリエ変換.md",
+    "10-inbox/Gradleのバージョン管理方法ベストプラクティス.md",
+    "20-permanent/GKE kubectlのForbiddenエラー対応手順.md",
+    "10-inbox/2025-08からの目標設定.md",
+    "00-daily/2025-07-18.md",
+    "00-daily/2025-07-14.md",
+    "11-inbox-book/絵で見てわかるITインフラの仕組み.md",
+    "20-permanent/ソフトウェアオブザーバビリティと時系列解析の交差点に関する包括的レポート：基礎理論から研究の最前線まで.md",
+    "50-resource/all_spans_violin_plot.jpeg",
+    "11-inbox-book/実践OpenTelemetry.md",
     "01-weekly/2025-W29 Weekly Review.md",
     "20-permanent/Shiniseチームconfig.md",
     "20-permanent/連星アルビレオについて科学館で聞いた話.md",
     "20-permanent/アルビレオAの視線速度変化から探る新たな伴星.md",
     "00-daily/2025-07-16.md",
     "00-daily/2025-07-15.md",
-    "all_spans_violin_plot.jpeg",
-    "00-daily/2025-07-14.md",
-    "00-daily/2025-07-18.md",
     "01-weekly/2025-W28 Weekly Review.md",
-    "絵で見てわかるITインフラの仕組み.md",
     "11-inbox-book/Site Reliability Engineering - HOW GOOGLE RUNS PRODUCTION SYSTEMS -.md",
-    "10-inbox/Software Observabilityと数学的考察.md",
-    "11-inbox-book/実践OpenTelemetry.md",
-    "2025-08からの目標設定.md",
     "20-permanent/生成消滅演算子とエネルギー準位.md",
     "00-daily/2025-07-17.md",
-    "10-inbox/スパン時系列データの相関分析による高度なObservability.md",
-    "10-inbox/GKE kubectlのForbiddenエラー対応手順.md",
     "GKE kubectlのForbiddenエラー対応手順.md",
     "a.md",
-    "20-permanent/生成消滅演算子の導入.md",
-    "スパン時系列データの相関分析による高度なObservability.md",
-    "12-inbox-kindle-highlight/Carroll-The Bullet Journal Method.md",
-    "12-inbox-kindle-highlight/裕介-［改訂新版］プロになるためのWeb技術入門.md",
-    "12-inbox-kindle-highlight/山本義隆-重力と力学的世界　上　――古典としての古典力学.md",
-    "10-inbox/出会ったgcloudコマンド.md",
     "50-resource/スクリーンショット 2025-07-11 23.18.55.png",
     "50-resource/スクリーンショット 2025-07-11 18.44.04.png",
     "50-resource/スクリーンショット 2025-07-11 18.15.16.png",

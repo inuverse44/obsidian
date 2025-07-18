@@ -1,12 +1,17 @@
 ---
-template: Inbox
+template: permanent
 title: GKE kubectlのForbiddenエラー対応手順
 date: 2025-07-17
 source: Geminiとの会話
-tags: [GKE, kubectl, GCP, TroubleShooting]
-status: pending
+tags:
+  - GKE
+  - kubectl
+  - GCP
+  - TroubleShooting
+status: archived
 priority: high
-aliases: [GKE 権限エラー]
+aliases:
+  - GKE 権限エラー
 ---
 
 # 概要
