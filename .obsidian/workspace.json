@@ -4,12 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7f8a12a0b27dbb99",
+        "id": "814cdd022b49d11b",
         "type": "tabs",
-        "dimension": 45.73829531812726,
         "children": [
           {
-            "id": "0b69843b804cec75",
+            "id": "8daf14ca8ff21dd3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,104 +20,8 @@
               "icon": "lucide-file",
               "title": "実践OpenTelemetry"
             }
-          },
-          {
-            "id": "3578a01588fb577b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2025-07-15.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-07-15"
-            }
-          },
-          {
-            "id": "9dd6ba2b36ab1e25",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "11-inbox-book/Site Reliability Engineering - HOW GOOGLE RUNS PRODUCTION SYSTEMS -.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Site Reliability Engineering - HOW GOOGLE RUNS PRODUCTION SYSTEMS -"
-            }
           }
         ]
-      },
-      {
-        "id": "a082f7a88a6b5534",
-        "type": "tabs",
-        "dimension": 54.26170468187274,
-        "children": [
-          {
-            "id": "e2023f076094512d",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://qiita.com/melhts/items/e89bbbd036659f845b9c"
-              },
-              "icon": "lucide-file",
-              "title": "初心者がObservabilityの世界を探索してみた：ツール調査まとめ #OSS - Qiita"
-            }
-          },
-          {
-            "id": "197b23bc6054da28",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://www.google.com/search?q=grafana%20prometheus%20%E9%80%A3%E6%90%BA"
-              },
-              "icon": "lucide-file",
-              "title": "grafana prometheus 連携 - Google 検索"
-            }
-          },
-          {
-            "id": "d494644ef7f9d1e4",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://gemini.google.com/u/1/app/677b4ee648a97016?hl=ja"
-              },
-              "icon": "lucide-file",
-              "title": "Google Gemini"
-            }
-          },
-          {
-            "id": "e61363f16b384347",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "http://localhost:3000/datasources/edit/a87c1d6c-25a8-4d8c-9b71-0c4a76d9c12b"
-              },
-              "icon": "lucide-file",
-              "title": "Prometheus - Data sources - Administration - Grafana"
-            }
-          },
-          {
-            "id": "788c793467d31b16",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "http://localhost:9090/targets?search="
-              },
-              "icon": "lucide-file",
-              "title": "Prometheus Time Series Collection and Processing Server"
-            }
-          }
-        ],
-        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -137,8 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTime",
-                "autoReveal": false
+                "sortOrder": "alphabetical",
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "ファイルエクスプローラ"
@@ -175,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "4fe5bf4a1136af91",
@@ -192,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-daily/2025-07-04.md",
+                "file": "12-inbox-kindle-highlight/吉積礼敏-GCPの教科書.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-07-04へのバックリンク"
+              "title": "吉積礼敏-GCPの教科書へのバックリンク"
             }
           },
           {
@@ -211,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "12-inbox-kindle-highlight/吉積礼敏-GCPの教科書.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Welcomeからのアウトゴーイングリンク"
+              "title": "吉積礼敏-GCPの教科書からのアウトゴーイングリンク"
             }
           },
           {
@@ -240,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-daily/2025-07-14.md",
+                "file": "11-inbox-book/実践OpenTelemetry.md",
                 "followCursor": false,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-07-14のアウトライン"
+              "title": "実践OpenTelemetryのアウトライン"
             }
           },
           {
@@ -255,8 +157,8 @@
             "state": {
               "type": "smart-connections-view",
               "state": {},
-              "icon": "smart-connections",
-              "title": "Smart Connections"
+              "icon": "lucide-file",
+              "title": "アクティブでなくなったプラグイン"
             }
           },
           {
@@ -265,8 +167,8 @@
             "state": {
               "type": "smart-connections-visualizer",
               "state": {},
-              "icon": "git-fork",
-              "title": "Smart connections visualizer"
+              "icon": "lucide-file",
+              "title": "アクティブでなくなったプラグイン"
             }
           }
         ],
@@ -274,8 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 235.5,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -296,54 +197,54 @@
       "obsidian-kindle-plugin:Sync your Kindle highlights": false
     }
   },
-  "active": "0b69843b804cec75",
+  "active": "8daf14ca8ff21dd3",
   "lastOpenFiles": [
+    "30-projects/MOC.md",
     "2025-07-15.md",
     "11-inbox-book/Site Reliability Engineering - HOW GOOGLE RUNS PRODUCTION SYSTEMS -.md",
-    "11-inbox-book/実践OpenTelemetry.md",
-    "10-inbox/出会ったgcloudコマンド.md",
-    "00-daily/2025-07-14.md",
-    "12-inbox-kindle-highlight/山本義隆-重力と力学的世界　上　――古典としての古典力学.md",
     "10-inbox/Observability.md",
+    "00-daily/2025-07-14.md",
+    "30-projects/量子力学MOC.md",
+    "20-permanent/連続な固有ベクトルの内積がデルタ関数になる.md",
     "12-inbox-kindle-highlight/吉積礼敏-GCPの教科書.md",
-    "GEMINI.md",
+    "12-inbox-kindle-highlight/山本義隆-重力と力学的世界　上　――古典としての古典力学.md",
     "12-inbox-kindle-highlight/Swift-Gullivers Travels.md",
-    "10-inbox/出会ったLinuxコマンド一覧.md",
-    "10-inbox/GitHubで認証通らない時.md",
-    "10-inbox/Gradleのバージョン管理方法ベストプラクティス.md",
-    "10-inbox/デルタ関数のフーリエ変換.md",
-    "10-inbox/Dockerのベストプラクティス翻訳.md",
+    "12-inbox-kindle-highlight/Georgi-Lie Algebras In Particle Physics.md",
+    "12-inbox-kindle-highlight/Carroll-The Bullet Journal Method.md",
+    "12-inbox-kindle-highlight/裕介-［改訂新版］プロになるためのWeb技術入門.md",
+    "11-inbox-book/実践OpenTelemetry.md",
     "10-inbox/連星アルビレオについて科学館で聞いた話.md",
-    "10-inbox/Professional Cloud Architect問題解説.md",
-    "10-inbox/コンテキストウィンドウを考えないとLLMの精度が落ちる話.md",
-    "00-daily/2025-07-10.md",
     "00-daily/2025-07-11.md",
-    "00-daily/2025-07-09.md",
+    "10-inbox/GitHubで認証通らない時.md",
+    "20-permanent/GCPの沼：限定公開のGoogleアクセス(PGA)とEgress全拒否ファイアウォールが引き起こすタイムアウト地獄.md",
+    "20-permanent/【PCA認定試験】Cloud SQLとSpanner、BigtableとCAP定理と.md",
+    "10-inbox/Dockerのベストプラクティス翻訳.md",
+    "無題のファイル.canvas",
+    "12-inbox-kindle-highlight",
+    "20-permanent/待ち行列理論で見るGKEのポッド数最適化.md",
     "00-daily/2025-07-08.md",
     "00-daily/2025-07-07.md",
-    "12-inbox-kindle-highlight/裕介-［改訂新版］プロになるためのWeb技術入門.md",
-    "20-permanent/Shiniseチームconfig.md",
-    "11-inbox-book/20世紀科学論文集　現代宇宙論の誕生.md",
+    "00-daily/2025-07-10.md",
+    "20-permanent/K8sにおけるPostgreSQL接続エラーのトラブルシューティングプロセス.md",
+    "01-weekly/2025-W28 Weekly Review.md",
+    "50-resource/スクリーンショット 2025-07-11 18.15.16.png",
+    "50-resource/hukuokjashikagakukan.jpg",
+    "50-resource/スクリーンショット 2025-07-11 14.21.26.png",
+    "50-resource/Pasted image 20250711152459.png",
     "50-resource/スクリーンショット 2025-07-11 23.18.55.png",
     "50-resource/スクリーンショット 2025-07-11 18.44.04.png",
-    "50-resource/スクリーンショット 2025-07-11 18.15.16.png",
     "50-resource/スクリーンショット 2025-07-11 18.13.10.png",
-    "50-resource/スクリーンショット 2025-07-11 14.21.26.png",
-    "50-resource/hukuokjashikagakukan.jpg",
     "50-resource/Pasted image 20250711162954.png",
-    "50-resource/Pasted image 20250711152459.png",
     "50-resource/Pasted image 20250711151923.png",
-    "12-inbox-kindle-highlight",
-    "スクリーンショット 2025-07-11 23.18.55.png",
-    "無題のフォルダ",
-    "50-resource",
+    "50-resource/スクリーンショット 2025-07-07 15.02.56.png",
     "11-inbox-book",
+    "50-resource",
     "test",
     "30-projects",
     "40-templates",
-    "無題のファイル.canvas",
     "20-permanent",
     "10-inbox",
-    "01-weekly"
+    "01-weekly",
+    "00-daily"
   ]
 }
