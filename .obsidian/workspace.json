@@ -102,7 +102,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -223,13 +223,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "絵で見てわかるITインフラの仕組み.md",
+                "file": "00-daily/2025-07-18.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "絵で見てわかるITインフラの仕組みのアウトライン"
+              "title": "2025-07-18のアウトライン"
             }
           },
           {
@@ -279,14 +279,14 @@
       "obsidian-kindle-plugin:Sync your Kindle highlights": false
     }
   },
-  "active": "4a37b0f35ef90afd",
+  "active": "65628c2db190c569",
   "lastOpenFiles": [
+    "11-inbox-book/Site Reliability Engineering - HOW GOOGLE RUNS PRODUCTION SYSTEMS -.md",
     "絵で見てわかるITインフラの仕組み.md",
     "2025-08からの目標設定.md",
     "20-permanent/生成消滅演算子とエネルギー準位.md",
     "00-daily/2025-07-18.md",
     "00-daily/2025-07-16.md",
-    "11-inbox-book/Site Reliability Engineering - HOW GOOGLE RUNS PRODUCTION SYSTEMS -.md",
     "10-inbox/Software Observabilityと数学的考察.md",
     "00-daily/2025-07-17.md",
     "10-inbox/スパン時系列データの相関分析による高度なObservability.md",
