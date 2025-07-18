@@ -14,7 +14,7 @@ kindle-sync:
   title: GCPの教科書
   author: 吉積礼敏
   asin: B07S1LG1Y1
-  lastAnnotatedDate: '2025-07-14'
+  lastAnnotatedDate: '2025-07-17'
   bookImageUrl: 'https://m.media-amazon.com/images/I/81JD1EjroPL._SY160.jpg'
   highlightsCount: 12
 ---
@@ -65,5 +65,9 @@ Datastoreでは、データ保存の最小単位をエンティティと呼び�
 
 ---
 トランザクションは楽観的排他をもって成立します。 — location: [2475](kindle://book?action=open&asin=B07S1LG1Y1&location=2475) ^ref-65437
+
+---
+
+Deployment Managerは構成管理ツールです。データ形式（YAML／Jinja）、プログラミング言語（Python、Jinja2（Python用のテンプレートエンジン））を用いて、GCPのネットワーク構成、GCEのインスタンス、GKEのコンテナを構築することができるものです。いわゆるInfrastructureas Code（IaC）と言われるもののGCP専用のサービスです。 — location: [2658](kindle://book?action=open&asin=B07S1LG1Y1&location=2658) ^ref-14854
 
 ---
